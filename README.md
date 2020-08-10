@@ -1,4 +1,4 @@
-# Catatan Belajar Guweeh :game_die:  :shipit:
+# Catatan Belajar Guweeh :turtle:
 
 ## Mukadimah
 Assalamualaikum, repo dibuat agar saya *ga* lupa.

@@ -1,7 +1,7 @@
 # Catatan Belajar Saya
 
 ## Muqadimah
-Assalamualaikum, repo dibuat biar *ga* lupa.
+Assalamualaikum, repo dibuat biar *ga'* lupa.
 
 - [Basic]()
 - [Tools]()

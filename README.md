@@ -1,4 +1,4 @@
-# Catatan Belajar Guweeh :alien:
+# Catatan Belajar Guweeh :cyclone:
 
 ## Mukadimah
 Assalamualaikum, repo dibuat agar saya *ga* lupa.

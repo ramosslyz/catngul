@@ -1,4 +1,8 @@
-Assalamaulaikum, ini adalah catatan pribadi.
+# Catatan Saya
+
+## Muqadimah
+Ini adalah catatan belajar saya (agar tidak lupa).
+
 - Basic
 - Tools
 - Vulnerability

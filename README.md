@@ -4,6 +4,6 @@
 Assalamualaikum, repo dibuat biar ga lupa.
 
 - [Basic]()
-- [Tools] ()
-- [Vulnerability] ()
+- [Tools]()
+- [Vulnerability]()
 

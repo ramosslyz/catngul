@@ -1,6 +1,6 @@
-# Catatan Belajar Guweeh
+# Catatan Belajar Guweeh :game_die:
 
-## Muqadimah
+## Mukadimah
 Assalamualaikum, repo dibuat agar saya *ga* lupa.
 
 - [Basic]()
@@ -8,3 +8,4 @@ Assalamualaikum, repo dibuat agar saya *ga* lupa.
 - [Vulnerability]()
 - [Coding]()
 
+## 

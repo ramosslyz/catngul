@@ -1,9 +1,9 @@
 # Catatan Belajar Saya
 
 ## Muqadimah
-Assalamualaikum, biar tidak lupa.
+Assalamualaikum, repo dibuat biar ga lupa.
 
 - [Basic]()
-- Tools ()
-- Vulnerability ()
+- [Tools] ()
+- [Vulnerability] ()
 

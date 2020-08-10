@@ -1,9 +1,9 @@
-# Catatan Saya
+# Catatan Belajar Saya
 
 ## Muqadimah
-Ini adalah catatan belajar saya (agar tidak lupa).
+Assalamualaikum, biar tidak lupa.
 
-- Basic
-- Tools
-- Vulnerability
+- [Basic]()
+- Tools ()
+- Vulnerability ()
 

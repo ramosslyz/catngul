@@ -6,8 +6,8 @@ online resource:
 ## XXE
 Sebelum memahami XXE, kita harus memiliki pengetahuan dasar XML, DTD dan entity. Tools yang digunakan Burpsuite, lebih mantap lagi jika menggunakan Burp Collaborator (*berbayar*).
 - Detection
-  - [Cari](https://christian-schneider.net/GenericXxeDetection.html) aplikasi yang mengirimkan data dalam format XML
-  - Intercept web page, lalu lihat request header`Content-Type: text/xml` atau `application/xml
+  - [Cari](https://christian-schneider.net/GenericXxeDetection.html) aplikasi yang mengirimkan data dalam format XML, disebut juga XML endpoint
+  - Intercept web page, lalu cari web yang request header `Content-Type`-nya `text/xml` atau `application/xml
   - Cari fitur web yang mengunakan XML, seperti RSS, SOAP
   - Cara cepat menemukan XML endpoint adalah automasi
   
@@ -25,9 +25,8 @@ Sebelum memahami XXE, kita harus memiliki pengetahuan dasar XML, DTD dan entity.
     - `<!DOCTYPE xxe SYSTEM "http://127.0.0.1:§port§/">`
     - `<!DOCTYPE xxe SYSTEM "https://127.0.0.1:§port§/">`
   - Exploiting [RSS validator](https://taind.wordpress.com/2017/12/25/root-me-xml-external-entity/)
-    - store XML payload ke server, jika tidak punya gunakn [filebin](https://filebin.net/)
+    - store XML payload ke server, jika tidak punya gunakan [filebin](https://filebin.net/)
     
-
 - Prevention
   - Disable DTD
   - Disable entity saja

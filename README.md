@@ -8,4 +8,5 @@ Assalamualaikum, repo dibuat agar saya *tidak* lupa.
 - [Tools](https://github.com/acvn/b3lajar/blob/master/tool.md)
 - [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln.md)
 - [Coding](https://github.com/acvn/b3lajar/blob/master/code.md)
+- [Linux](https://github.com/acvn/b3lajar/blob/master/linux.md)
 

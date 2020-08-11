@@ -3,7 +3,7 @@
 ## Mukadimah
 Assalamualaikum, repo dibuat agar saya *tidak* lupa.
 
-- [Basic]()
+- [Network]()
 - [Tools]()
 - [Vulnerability]()
 - [Coding]()

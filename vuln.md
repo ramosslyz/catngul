@@ -8,8 +8,8 @@ Sebelum memahami XXE, kita harus memiliki pengetahuan dasar XML, DTD dan entity.
 - Detection
   - [Cari](https://christian-schneider.net/GenericXxeDetection.html) aplikasi yang mengirimkan data dalam format XML
   - Intercept web page, lalu lihat request header`Content-Type: text/xml` atau `application/xml
-  - Cara cepat menemukan XML endpoint adalah automasi
   - Cari fitur web yang mengunakan XML, seperti RSS, SOAP
+  - Cara cepat menemukan XML endpoint adalah automasi
   
 - Exploitation
   - Retrieve Files
@@ -19,10 +19,14 @@ Sebelum memahami XXE, kita harus memiliki pengetahuan dasar XML, DTD dan entity.
     - Sama seperti cara di atas. Tapi jika sebelumnya menggunakan `file`, untuk exploitasi ini menggunakan `http` dilanjutkan dengan ip server
     - `<!DOCTYPE foo [ <!ENTITY xxe SYSTEM “http://1”> ]>`
   - Jika tidak bisa modifikasi !DOCTYPE, gunakan `XInclude`
+    - `<foo xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include parse="text" href="file:///etc/passwd"/></foo>`
   - Test local machine port (gunakan burp intruder)
     - brute port dari ip local, lalu cek bergantian antara http dan https
-    - `<!DOCTYPE data SYSTEM "http://127.0.0.1:§port§/"`
-    - `<!DOCTYPE data SYSTEM "https://127.0.0.1:§port§/"` 
+    - `<!DOCTYPE xxe SYSTEM "http://127.0.0.1:§port§/">`
+    - `<!DOCTYPE xxe SYSTEM "https://127.0.0.1:§port§/">`
+  - Exploiting [RSS validator](https://taind.wordpress.com/2017/12/25/root-me-xml-external-entity/)
+    - store XML payload ke server, jika tidak punya gunakn [filebin](https://filebin.net/)
+    
 
 - Prevention
   - Disable DTD

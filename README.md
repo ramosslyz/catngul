@@ -1,4 +1,4 @@
-# Catatan Belajar
+# Catatan Belajar :rocket:
 
 ## Mukadimah
 Assalamualaikum, repo dibuat agar saya *tidak* lupa.

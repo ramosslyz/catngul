@@ -1,5 +1,7 @@
 # Catatan Belajar :rocket:
 
+![https _hypebeast com_image_2020_07_nasa-space-exploration-guidelines-1](https://user-images.githubusercontent.com/52058660/89849631-14093c80-dbb3-11ea-9e04-a67d5758b904.jpg)
+
 ## Mukadimah
 Assalamualaikum, repo dibuat agar saya *tidak* lupa.
 

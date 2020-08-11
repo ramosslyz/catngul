@@ -13,5 +13,5 @@ materi-materi.
 - [Coding](https://github.com/acvn/b3lajar/blob/master/code.md)
 - [Linux](https://github.com/acvn/b3lajar/blob/master/linux.md)
 
-## Ask me!
+## Ask Me!
 acvn on [Twitter](https://twitter.com/aldi__satria)

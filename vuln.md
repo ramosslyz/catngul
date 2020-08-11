@@ -8,9 +8,8 @@ Sebelum memahami XXE, kita harus memiliki pengetahuan dasar XML, DTD dan entity.
 - Detection
   - Look for applications that uses an XML format to transmit data between the browser and the server
   
-- Exploit
-  - Inject payload ke bagian !DOCTYPE
-  - [xxe-injection-payload-list](https://github.com/payloadbox/xxe-injection-payload-list) - by Payload Box 
+- Exploitation
+  - Inject [payload](https://github.com/payloadbox/xxe-injection-payload-list) ke bagian !DOCTYPE
   - Jika tidak bisa modifikasi !DOCTYPE, gunakan `XInclude`
 
 - Prevention

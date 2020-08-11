@@ -4,12 +4,12 @@ online resource:
 ---
 
 ## XXE
-Untuk memahami XXE anda harus memiliki pengetahuan dasar XML, DTD dan entity. Tools yang digunakan untuk adalah Burpsuite, lebih mantap lagi jika menggunakan Burp Collaborator (*berbayar*).
+Sebelum memahami XXE, kita harus memiliki pengetahuan dasar XML, DTD dan entity. Tools yang digunakan Burpsuite, lebih mantap lagi jika menggunakan Burp Collaborator (*berbayar*).
 - Detection
-  - Look for applications that uses an XML format to transmit data between the browser and the server.
+  - Look for applications that uses an XML format to transmit data between the browser and the server
   
 - Exploit
-  - Inject payload ke bagian !DOCTYPE. 
+  - Inject payload ke bagian !DOCTYPE
   - [xxe-injection-payload-list](https://github.com/payloadbox/xxe-injection-payload-list) - by Payload Box 
   - Jika tidak bisa modifikasi !DOCTYPE, gunakan `XInclude`
 

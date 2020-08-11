@@ -1,11 +1,12 @@
 # Vulnerability
-- XXE
-- Subdomain Takeover
-- SQL Injection
-- XSS
 
 ## XXE
+Detection
+- Look for applications that uses an XML format to transmit data between the browser and the server.
+  
+Exploit
 
+Prevention
 
 ## Subdomain Takeover
 

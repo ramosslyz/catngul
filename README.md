@@ -1,4 +1,4 @@
-# Catatan Belajar :cake:
+# Catatan Belajar
 
 ## Mukadimah
 Assalamualaikum, repo dibuat agar saya *tidak* lupa.

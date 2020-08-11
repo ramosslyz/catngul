@@ -10,3 +10,5 @@ Assalamualaikum, repo dibuat agar saya *tidak* lupa.
 - [Coding](https://github.com/acvn/b3lajar/blob/master/code.md)
 - [Linux](https://github.com/acvn/b3lajar/blob/master/linux.md)
 
+## Tanya Saya
+:bird:[@aldi__satria](https://twitter.com/aldi__satria)

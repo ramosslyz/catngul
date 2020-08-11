@@ -1,12 +1,14 @@
 # Vulnerability
 
 ## XXE
-Detection
-- Look for applications that uses an XML format to transmit data between the browser and the server.
+- Detection
+  - Look for applications that uses an XML format to transmit data between the browser and the server.
   
-Exploit
+- Exploit
 
-Prevention
+- Prevention
+
+- Online Resources
 
 ## Subdomain Takeover
 

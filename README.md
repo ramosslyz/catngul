@@ -1,4 +1,4 @@
-# Catatan Belajar :fish_cake:
+# Catatan Belajar :cake:
 
 ## Mukadimah
 Assalamualaikum, repo dibuat agar saya *tidak* lupa.

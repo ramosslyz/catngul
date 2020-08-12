@@ -6,14 +6,14 @@
 Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa.
 
 ## Table Of Contents
-1.materi-materi.
-  - [Network](https://github.com/acvn/b3lajar/blob/master/network.md)
-  - [Reconnaissance](https://github.com/acvn/b3lajar/blob/master/tool.md)
-  - [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln.md)
-  - [Coding](https://github.com/acvn/b3lajar/blob/master/code.md)
-  - [Linux](https://github.com/acvn/b3lajar/blob/master/linux.md)
- 
- 2. Worth to follow
+1. materi-materi.
+   - [Network](https://github.com/acvn/b3lajar/blob/master/network.md)
+   - [Reconnaissance](https://github.com/acvn/b3lajar/blob/master/tool.md)
+   - [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln.md)
+   - [Coding](https://github.com/acvn/b3lajar/blob/master/code.md)
+   - [Linux](https://github.com/acvn/b3lajar/blob/master/linux.md)
+   
+2. Worth to follow
 
 ## Ask Me!
 acvn on [Twitter](https://twitter.com/aldi__satria)

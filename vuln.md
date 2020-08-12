@@ -46,7 +46,7 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
       POST /action HTTP/1.0
       Content-Type: application/x-www-form-urlencoded
       Content-Length: 7
-      foo=bar`<br/>
+      foo=bar
       ```
     dimodif<br/>
       ```    

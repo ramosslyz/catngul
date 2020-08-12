@@ -48,7 +48,7 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
       Content-Length: 7
       foo=bar
       ```
-    dimodif<br/>
+    dimodif dong
       ```    
       POST /action HTTP/1.0
       Content-Type: text/xml

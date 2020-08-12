@@ -10,7 +10,7 @@ Online resource:
 Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan entity. Tools yang digunakan adalah Burpsuite, lebih mantap lagi jika menggunakan Burp Collaborator (*berbayar*).
 - **Detection**
   - [Cari](https://christian-schneider.net/GenericXxeDetection.html) aplikasi yang mengirimkan data dalam format XML (XML endpoint)
-  - Intercept web page, lalu cari web yang request header `Content-Type`-nya `text/xml` atau `application/xml`
+  - Cari web page yang request header `Content-Type`-nya adalah `text/xml` atau `application/xml`
   - Cari web service yang mengunakan XML seperti RSS, SOAP
   - Cara cepat menemukan XML endpoint adalah automasi
   

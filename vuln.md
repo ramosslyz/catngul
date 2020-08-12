@@ -1,20 +1,13 @@
-# VULNERABILITY :beetle:
+# XSS :beetle:
 
-<p align="center"><img src="https://user-images.githubusercontent.com/52058660/89898222-85c0a500-dc0a-11ea-9eca-815238a55a38.jpg" width="500"></p>
-
-Online resource:
-- [bugbounty-cheatsheet](https://github.com/EdOverflow/bugbounty-cheatsheet) - by EdOverflow
----
-
-## XXE
 Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan entity. Tools yang digunakan adalah Burpsuite, lebih mantap lagi jika menggunakan Burp Collaborator (*berbayar*).
-- **Detection**
+## Detection
   - [Cari](https://christian-schneider.net/GenericXxeDetection.html) aplikasi yang mengirimkan data dalam format XML (XML endpoint)
   - Cari web page yang request header `Content-Type`-nya adalah `text/xml` atau `application/xml`
   - Cari web service yang mengunakan XML seperti RSS, SOAP
   - Cara cepat menemukan XML endpoint adalah automasi
   
-- **Exploitation**
+## Exploitation
   - Retrieve Files. Inject [payload](https://github.com/payloadbox/xxe-injection-payload-list) ke bagian `!DOCTYPE`
     ```
     <!DOCTYPE foo [ <!ENTITY xxe SYSTEM “file:///etc/passwd”> ]>
@@ -55,18 +48,10 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
       Content-Length: 52
       <?xml version="1.0" encoding="UTF-8"?><foo>bar</foo>
       ```    
-- **Prevention**
+## Prevention**
   - Disable DTD
   - Disable entity saja
 
-- **Online Resource**
-  - 
----
-## Subdomain Takeover
+## Online Resource**
 
----
-## SQL Injection
-
----
-## XSS
 

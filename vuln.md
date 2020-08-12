@@ -1,4 +1,4 @@
-# XSS :beetle:
+# XXE
 
 Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan entity. Tools yang digunakan adalah Burpsuite, lebih mantap lagi jika menggunakan Burp Collaborator (*berbayar*).
 ## Detection

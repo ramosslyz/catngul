@@ -23,6 +23,7 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa.
    - [Hacktrics](https://book.hacktricks.xyz/)
    - [Vulnhub Resources](https://www.vulnhub.com/resources/)
    - [Resources-for-Beginner-Bug-Bounty-Hunters](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters)
+   - [Awesome Reference](https://github.com/agussetyar/awesome-reference)
    
 ## Ask Me!
 acvn on [Twitter](https://twitter.com/aldi__satria)

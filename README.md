@@ -6,20 +6,11 @@
 Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa.
 
 ## Table Of Contents
-1. Materi-materi
-   - [Network](https://github.com/acvn/b3lajar/blob/master/network.md)
-   - [Reconnaissance](https://github.com/acvn/b3lajar/blob/master/tool.md)
-   - [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln)
-   - [Coding](https://github.com/acvn/b3lajar/blob/master/code.md)
-   - [Linux](https://github.com/acvn/b3lajar/blob/master/linux.md)
-  
-2. Tools
+1. [Reconnaissance](https://github.com/acvn/b3lajar/blob/master/tool.md)
 
-3. Youtube Channels
+2. [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln)
 
-4. Books
-
-5. Online Resources
+3. Online Resources
    - [Hacktrics](https://book.hacktricks.xyz/)
    - [Vulnhub Resources](https://www.vulnhub.com/resources/)
    - [Resources-for-Beginner-Bug-Bounty-Hunters](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters)

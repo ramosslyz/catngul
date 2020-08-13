@@ -54,15 +54,16 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
     ```
   - Exploiting [RSS validator](https://taind.wordpress.com/2017/12/25/root-me-xml-external-entity/). jika tidak punya server sendiri untuk upload file XML, gunakan [filebin](https://filebin.net/)
 
-## Prevention**
+## Prevention
   - Disable DTD
   - Disable entity saja
   - Dissable XInclude
   
 ## Tips and Trics
   - Switch `content-type` menjadi `text/xml` atau `application/xml` lalu analisa respon errornya
+  - Gunakan Burp Collaborator untuk detect blind XXE
 
-## Online Resource**
+## Online Resource
   - [Blind XXE - Hunting in the Dark](https://blog.zsec.uk/blind-xxe-learning/) - Blind XXE explanation
   - [XML External Entities ft. JohnHammond](https://www.youtube.com/watch?v=gjm6VHZa_8s&t=497s) - Simple XXE explanation
   - [From blind XXE to root-level file read access](https://honoki.net/2018/12/12/from-blind-xxe-to-root-level-file-read-access/) - Blind XXE writeup 

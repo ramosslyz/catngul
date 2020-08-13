@@ -16,7 +16,7 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
     ```
   - Exploiting to perform Server Side Request Forgery (SSRF). Sama seperti cara di atas tapi protokol yang digunakan adalah `http` dilanjutkan dengan ip server target
     ```
-    <!DOCTYPE foo [ <!ENTITY xxe SYSTEM “http://1”> ]>
+    <!DOCTYPE foo [ <!ENTITY xxe SYSTEM “http://XXX.XXX.XXX.XXX”> ]>
     ```
   - Gunakan `XInclude` jika tidak bisa memodifikasi `!DOCTYPE`. Harap baca SOAP dan XML namespace untuk pemahaman lebih lanjut. 
     ```
@@ -58,7 +58,12 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
   - Disable DTD
   - Disable entity saja
   - Dissable XInclude
+  
+## Tips and Trics
+  - Switch `content-type` menjadi `text/xml` atau `application/xml` lalu analisa respon errornya
 
 ## Online Resource**
-
+  - [Blind XXE - Hunting in the Dark](https://blog.zsec.uk/blind-xxe-learning/) - Blind XXE explanation
+  - [XML External Entities ft. JohnHammond](https://www.youtube.com/watch?v=gjm6VHZa_8s&t=497s) - Simple XXE explanation
+  - [From blind XXE to root-level file read access](https://honoki.net/2018/12/12/from-blind-xxe-to-root-level-file-read-access/) - Blind XXE writeup 
 

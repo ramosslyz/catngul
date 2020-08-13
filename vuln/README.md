@@ -4,8 +4,5 @@
 
 ## Table of Contens
   - [XXE](https://github.com/acvn/b3lajar/blob/master/vuln/xxe.md)
-  - Subdomain Takeover
-  - XSS
-  - SQL Injection
 
 ## Online Resource

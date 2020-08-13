@@ -62,6 +62,7 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
 ## Tips and Trics
   - Switch `content-type` menjadi `text/xml` atau `application/xml` lalu analisa respon errornya
   - Gunakan Burp Collaborator untuk detect blind XXE
+  - Cari API endpoint
 
 ## Online Resource
   - [Blind XXE - Hunting in the Dark](https://blog.zsec.uk/blind-xxe-learning/) - Blind XXE explanation

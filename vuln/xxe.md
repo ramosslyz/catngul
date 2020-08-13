@@ -30,6 +30,9 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
     <text font-size="16" x="0" y="16">&xxe;</text>
     </svg>
     ```
+  - *Blind XXE vulnerabilities arise where the application is vulnerable to XXE injection but does not return the values of any defined external entities within its responses*. Sangat manjur jika menggunakan Burp Collaborator.
+  
+
   - Modifikasi `content-type` pada POST request header.  Ketika respons adalah `200 OK` dan menghasilkan nilai yang sama, maka kita bisa menyelipkan payload pada requesnya
       ```
       POST /action HTTP/1.0
@@ -54,6 +57,7 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
 ## Prevention**
   - Disable DTD
   - Disable entity saja
+  - Dissable XInclude
 
 ## Online Resource**
 

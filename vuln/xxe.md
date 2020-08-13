@@ -1,7 +1,5 @@
 # XXE :kiss:
 
-<p align="center"><img src="https://user-images.githubusercontent.com/52058660/90031186-25536580-dce7-11ea-9da9-dcc9b4473bf7.jpg" width="500"></p>
-
 Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan entity. Tools yang digunakan adalah Burpsuite, lebih mantap lagi jika menggunakan Burp Collaborator (*berbayar*).
 ## Detection
   - [Cari](https://christian-schneider.net/GenericXxeDetection.html) aplikasi yang mengirimkan data dalam format XML (XML endpoint)

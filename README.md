@@ -12,7 +12,7 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa.
    - [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln)
    - [Coding](https://github.com/acvn/b3lajar/blob/master/code.md)
    - [Linux](https://github.com/acvn/b3lajar/blob/master/linux.md)
-   
+  
 2. Worth to follow
 
 3. Youtube Channels

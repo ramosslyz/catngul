@@ -9,7 +9,7 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa.
 1. Materi-materi
    - [Network](https://github.com/acvn/b3lajar/blob/master/network.md)
    - [Reconnaissance](https://github.com/acvn/b3lajar/blob/master/tool.md)
-   - [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln.md)
+   - [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln)
    - [Coding](https://github.com/acvn/b3lajar/blob/master/code.md)
    - [Linux](https://github.com/acvn/b3lajar/blob/master/linux.md)
    

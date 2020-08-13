@@ -67,4 +67,5 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
   - [Blind XXE - Hunting in the Dark](https://blog.zsec.uk/blind-xxe-learning/) - Blind XXE explanation
   - [XML External Entities ft. JohnHammond](https://www.youtube.com/watch?v=gjm6VHZa_8s&t=497s) - Simple XXE explanation
   - [From blind XXE to root-level file read access](https://honoki.net/2018/12/12/from-blind-xxe-to-root-level-file-read-access/) - Blind XXE writeup 
+  - [Vulnhub XXE Lab](https://www.vulnhub.com/entry/xxe-lab-1,254/) - by Haboob team
 

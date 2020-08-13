@@ -21,7 +21,7 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa.
 
 5. Online Resources
    - [hacktrics](https://book.hacktricks.xyz/) - pentest tutorial
-   - [honoki](https://honoki.net/) - Bugbounty writeup by Pieter Hiele
+
    
 ## Ask Me!
 acvn on [Twitter](https://twitter.com/aldi__satria)

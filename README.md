@@ -13,7 +13,7 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa.
    - [Coding](https://github.com/acvn/b3lajar/blob/master/code.md)
    - [Linux](https://github.com/acvn/b3lajar/blob/master/linux.md)
   
-2. Worth to follow
+2. Tools
 
 3. Youtube Channels
 

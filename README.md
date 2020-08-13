@@ -9,12 +9,6 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa.
 1. [Reconnaissance](https://github.com/acvn/b3lajar/blob/master/tool.md)
 
 2. [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln)
-
-3. Online Resources
-   - [Hacktrics](https://book.hacktricks.xyz/)
-   - [Vulnhub Resources](https://www.vulnhub.com/resources/)
-   - [Resources-for-Beginner-Bug-Bounty-Hunters](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters)
-   - [Awesome Reference](https://github.com/agussetyar/awesome-reference)
    
 ## Ask Me!
 acvn on [Twitter](https://twitter.com/aldi__satria)

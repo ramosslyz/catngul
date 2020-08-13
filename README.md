@@ -20,9 +20,9 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa.
 4. Books
 
 5. Online Resources
-   - [hacktrics](https://book.hacktricks.xyz/) - Pentesting resources
-   - [Resources](https://www.vulnhub.com/resources/) - by Vulnhub
-   - [Resources-for-Beginner-Bug-Bounty-Hunters](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters) - by Nahamsec
+   - [Hacktrics](https://book.hacktricks.xyz/)
+   - [Vulnhub Resources](https://www.vulnhub.com/resources/)
+   - [Resources-for-Beginner-Bug-Bounty-Hunters](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters)
    
 ## Ask Me!
 acvn on [Twitter](https://twitter.com/aldi__satria)

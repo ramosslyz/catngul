@@ -10,6 +10,10 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
   - Cari file upload function
   - Cara cepat menemukan XML endpoint adalah automasi
   
+## Tools
+  - Burpsuite
+  - [xxeserve](https://github.com/joernchen/xxeserve)
+  
 ## Exploitation
   - Retrieve Files. Inject [payload](https://github.com/payloadbox/xxe-injection-payload-list) ke bagian `!DOCTYPE`
     ```

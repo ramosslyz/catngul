@@ -6,7 +6,7 @@
 Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa.
 
 ## Table Of Contents
-1. [Reconnaissance](https://github.com/acvn/b3lajar/blob/master/tool.md)
+1. [Reconnaissance](https://github.com/acvn/b3lajar/tree/master/recon)
 
 2. [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln)
    

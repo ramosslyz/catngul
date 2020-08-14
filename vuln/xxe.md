@@ -7,6 +7,7 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
   - [Cari](https://christian-schneider.net/GenericXxeDetection.html) aplikasi yang mengirimkan data dalam format XML (XML endpoint)
   - Cari web page yang request header `Content-Type`-nya adalah `text/xml` atau `application/xml`
   - Cari web service yang mengunakan XML seperti RSS, SOAP
+  - Cari file upload function
   - Cara cepat menemukan XML endpoint adalah automasi
   
 ## Exploitation
@@ -61,8 +62,9 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
   
 ## Tips and Trics
   - Switch `content-type` menjadi `text/xml` atau `application/xml` lalu analisa respon errornya
-  - Gunakan Burp Collaborator untuk detect blind XXE
+  - Gunakan Burp Collaborator untuk detect blind XXE atau, gunakan remote server untuk mendeteksi blind XEE
   - Cari API endpoint
+  - G
 
 ## Lab
   - [Portswigger Web Security Academy - XXE injection](https://portswigger.net/web-security/xxe)
@@ -72,5 +74,11 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
   - [Blind XXE - Hunting in the Dark](https://blog.zsec.uk/blind-xxe-learning/)
   - [XML External Entities ft. JohnHammond](https://www.youtube.com/watch?v=gjm6VHZa_8s&t=497s)
   - [From blind XXE to root-level file read access](https://honoki.net/2018/12/12/from-blind-xxe-to-root-level-file-read-access/)
+  - [How we got read access on Google’s production servers](https://blog.detectify.com/2014/04/11/how-we-got-read-access-on-googles-production-servers/)
+  - [Identifying Xml eXternal Entity vulnerability (XXE)](https://blog.h3xstream.com/2014/06/identifying-xml-external-entity.html)
+  - [List of XML markup languages](https://en.wikipedia.org/wiki/List_of_XML_markup_languages) - Daftar file berbasis XML
+  - (Finding and Exploiting XXE – XML External Entities Injection)[https://resources.infosecinstitute.com/finding-and-exploiting-xxe-xml-external-entities-injection/#gref] - Cara menemukan xxe vulnerability
+  - (Generic XXE Detection)[https://christian-schneider.net/GenericXxeDetection.html]
+  - [Advice From A Researcher: Hunting XXE For Fun and Profit](https://www.bugcrowd.com/blog/advice-from-a-bug-hunter-xxe/)
 
 

@@ -77,7 +77,7 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
   - [How we got read access on Google’s production servers](https://blog.detectify.com/2014/04/11/how-we-got-read-access-on-googles-production-servers/)
   - [Identifying Xml eXternal Entity vulnerability (XXE)](https://blog.h3xstream.com/2014/06/identifying-xml-external-entity.html)
   - [List of XML markup languages](https://en.wikipedia.org/wiki/List_of_XML_markup_languages) - Daftar file berbasis XML
-  - (Finding and Exploiting XXE – XML External Entities Injection)[https://resources.infosecinstitute.com/finding-and-exploiting-xxe-xml-external-entities-injection/#gref] - Cara menemukan xxe vulnerability
+  - [Finding and Exploiting XXE – XML External Entities Injection](https://resources.infosecinstitute.com/finding-and-exploiting-xxe-xml-external-entities-injection/#gref)
   - (Generic XXE Detection)[https://christian-schneider.net/GenericXxeDetection.html]
   - [Advice From A Researcher: Hunting XXE For Fun and Profit](https://www.bugcrowd.com/blog/advice-from-a-bug-hunter-xxe/)
 

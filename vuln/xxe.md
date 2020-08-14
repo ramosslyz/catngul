@@ -66,7 +66,7 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
 
 ## Lab
   - [Portswigger Web Security Academy - XXE injection](https://portswigger.net/web-security/xxe)
-  - [Vulnhub - XXE Lab](https://www.vulnhub.com/entry/xxe-lab-1,254/)
+  - [Vulnhub - XXE Lab: 1](https://www.vulnhub.com/entry/xxe-lab-1,254/)
 
 ## Online Resource
   - [Blind XXE - Hunting in the Dark](https://blog.zsec.uk/blind-xxe-learning/)

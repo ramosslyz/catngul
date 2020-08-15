@@ -68,11 +68,11 @@ Sebelum memahami XXE, maka kita harus memiliki pengetahuan dasar XML, DTD dan en
   - Switch `content-type` menjadi `text/xml` atau `application/xml` lalu analisa respon errornya
   - Gunakan Burp Collaborator untuk detect blind XXE atau, gunakan remote server untuk mendeteksi blind XEE
   - Cari API endpoint
-  - G
 
 ## Lab
   - [Portswigger Web Security Academy - XXE injection](https://portswigger.net/web-security/xxe)
   - [Vulnhub - XXE Lab: 1](https://www.vulnhub.com/entry/xxe-lab-1,254/)
+  - [Play XML Entities](https://pentesterlab.com/exercises/play_xxe/course)
 
 ## Online Resource
   - [Blind XXE - Hunting in the Dark](https://blog.zsec.uk/blind-xxe-learning/)

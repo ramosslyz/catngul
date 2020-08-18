@@ -1,7 +1,5 @@
 # XXE :kiss:
 
-<p align="center"><img src="https://user-images.githubusercontent.com/52058660/90031186-25536580-dce7-11ea-9da9-dcc9b4473bf7.jpg" width="500"></p>
-
 ## Detection
   - [Aplikasi](https://christian-schneider.net/GenericXxeDetection.html) yang mengirimkan data dalam format XML (XML endpoint)
   - Webpage yang request header `Content-Type`-nya adalah `text/xml` atau `application/xml`

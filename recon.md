@@ -2,7 +2,7 @@
 
 ## Subdomain Enumeration
 - Online Resource</br>
-[<img src="https://user-images.githubusercontent.com/52058660/90480317-43dbb580-e15a-11ea-863d-f783f7f4236f.png">](https://0xpatrik.com/subdomain-enumeration-2019/) - By Patrik Hudak
+[<p align="center"><img src="https://user-images.githubusercontent.com/52058660/90480317-43dbb580-e15a-11ea-863d-f783f7f4236f.png" width="800"></p>](https://0xpatrik.com/subdomain-enumeration-2019/)
 
 - Tools
   - Amass - My primary subdomain enumeration tools

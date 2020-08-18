@@ -8,14 +8,20 @@
   - Subfinder
   - Project Sonar
   - Brute with commonspeak2 wordlist
+  - Massdns
+  - Altdns
 
 ## Port Scanning
 - Tools
-  - nmap
-  - masscan
+  - Nmap
+  - Masscan
   
 ## API Enumeration
 - Videos Resource
   - [How To Do Recon: API Enumeration](https://www.youtube.com/watch?v=fvcKwUS4PTE&t=267s) - by InsiderPhD
+  
+## Screen Shooter
+- Tools
+  - Eyeofwitness
 
 

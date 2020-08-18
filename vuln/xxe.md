@@ -8,10 +8,6 @@
   - Web service yang mengunakan XML seperti RSS, SOAP
   - File upload function
   
-## Tools
-  - Burpsuite
-  - [xxeserve](https://github.com/joernchen/xxeserve)
-  
 ## Exploitation
   - Retrieve Files. Inject [payload](https://github.com/payloadbox/xxe-injection-payload-list) ke bagian `!DOCTYPE`
     ```
@@ -64,10 +60,11 @@
   
 ## Tips and Trics
   - Cara cepat menemukan XML endpoint adalah automasi
-  - Switch `content-type` menjadi `text/xml` atau `application/xml` lalu analisa respon errornya
   - Gunakan Burp Collaborator untuk detect blind XXE atau, gunakan remote server untuk mendeteksi blind XEE
+  - [xxeserve](https://github.com/joernchen/xxeserve), burpcollaborator alternatif
+  - Gunakan webrick sebagai simple server
   - Cari API endpoint
-  - Umumnya web request xml menggunakan `Content-Type: application/x-www-form-urlencoded` coba modifikasi menjadi `text/xml` atau `application/xml`
+  - Umumnya web request xml menggunakan `Content-Type: application/x-www-form-urlencoded`, modifikasi menjadi `text/xml` atau `application/xml`lalu analisa responnya
 
 ## Lab
   - [Portswigger Web Security Academy - XXE injection](https://portswigger.net/web-security/xxe)

@@ -2,6 +2,7 @@
 
 ## Subdomain Enumeration
 <img src="https://user-images.githubusercontent.com/52058660/90480317-43dbb580-e15a-11ea-863d-f783f7f4236f.png">
+
 - Tools
   - Amass - My primary subdomain enumeration tools
   - Subfinder - seceond choice
@@ -11,7 +12,7 @@
   - Massdns - DNS resolver
   - Altdns - 
 - Online Resource</br>
-  [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/) - By Patrik Hudak</br>
+  [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/) - By Patrik Hudak
 
 ## Port Scanning
 - Tools

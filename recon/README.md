@@ -24,4 +24,6 @@
 - Tools
   - Eyeofwitness
 
+## Time Management
+- [TomatoTimer](https://tomato-timer.com/) - Pomodor technique
 

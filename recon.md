@@ -12,6 +12,14 @@
   - Traditional brutforce with commonspeak2 wordlist
   - Massdns - DNS resolver
   - Altdns - 
+  - Gobuster - Traditional bruteforce
+    
+## Path Discovery
+  - Dirsearch
+  - Dirb
+  - Dirbuster
+  - Gau
+  - Gobuster
 
 ## Port Scanning
 - Tools
@@ -26,6 +34,6 @@
 - Tools
   - Eyeofwitness
 
-## Time Management
-- [TomatoTimer](https://tomato-timer.com/) - Pomodor technique
+## Time Management</br>
+  [TomatoTimer](https://tomato-timer.com/) - Pomodoro technique
 

@@ -13,8 +13,6 @@
   - Massdns - DNS resolver
   - Altdns - 
 
-  [Subdomain Enumeration: 2019 Workflow]
-
 ## Port Scanning
 - Tools
   - Nmap

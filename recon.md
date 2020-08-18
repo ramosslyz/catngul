@@ -4,36 +4,36 @@
 - Online Resource</br>
 [<p align="center"><img src="https://user-images.githubusercontent.com/52058660/90480317-43dbb580-e15a-11ea-863d-f783f7f4236f.png" width="800"></p>](https://0xpatrik.com/subdomain-enumeration-2019/)
 
-- Tools
-  - Amass - My primary subdomain enumeration tools
-  - Subfinder - seceond choice
-  - Sublist3r - third choice
-  - Project Sonar - Subdomains from Rapid7 FDNS
-  - Traditional brutforce with commonspeak2 wordlist
-  - Massdns - DNS resolver
-  - Altdns - 
-  - Gobuster - Traditional bruteforce
+- Amass - My primary subdomain enumeration tools
+- Subfinder - seceond choice
+- Sublist3r - third choice
+- Project Sonar - Subdomains from Rapid7 FDNS
+- Massdns - DNS resolver
+- Altdns - 
+- Gobuster - Traditional bruteforce
     
 ## Path Discovery
-  - Dirsearch
-  - Dirb
-  - Dirbuster
-  - Gau
-  - Gobuster
+- Dirsearch
+- Dirb
+- Dirbuster
+- Gau
+- Gobuster
 
 ## Port Scanning
-- Tools
-  - Nmap
-  - Masscan
-  
+- Nmap
+- Masscan
+
+## Wordlist
+- Seclist
+- Fuzzdb
+- Commonspeak2 - Nice for subdomain
+    
 ## API Enumeration
-- Videos Resource
-  - [How To Do Recon: API Enumeration](https://www.youtube.com/watch?v=fvcKwUS4PTE&t=267s) - by InsiderPhD
+[How To Do Recon: API Enumeration](https://www.youtube.com/watch?v=fvcKwUS4PTE&t=267s) - by InsiderPhD
   
 ## Screen Shooter
-- Tools
-  - Eyeofwitness
+Eyeofwitness
 
 ## Time Management</br>
-  [TomatoTimer](https://tomato-timer.com/) - Pomodoro technique
+[TomatoTimer](https://tomato-timer.com/) - Pomodoro technique
 

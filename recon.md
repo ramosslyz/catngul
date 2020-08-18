@@ -2,12 +2,17 @@
 
 ## Subdomain Enumeration
 - Tools
-  - Amass
-  - Subfinder
-  - Project Sonar
-  - Brute with commonspeak2 wordlist
-  - Massdns
-  - Altdns
+  - Amass - My primary subdomain enumeration tools
+  - Subfinder - seceond choice
+  - Sublist3r - third choice
+  - Project Sonar - Subdomains from Rapid7 FDNS
+  - Traditional brutforce with commonspeak2 wordlist
+  - Massdns - DNS resolver
+  - Altdns - 
+- Online Resource</br>
+  [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/) - By Patrik Hudak</br>
+  <img src="https://user-images.githubusercontent.com/52058660/90480317-43dbb580-e15a-11ea-863d-f783f7f4236f.png">
+
 
 ## Port Scanning
 - Tools

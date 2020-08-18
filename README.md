@@ -7,7 +7,7 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa.
 
 ## Table Of Contents
 1. [Basic Knowledge](https://github.com/acvn/b3lajar/tree/master/basic.md)
-2. [Reconnaissance](https://github.com/acvn/b3lajar/tree/master/recon)
+2. [Reconnaissance](https://github.com/acvn/b3lajar/tree/master/recon.md)
 3. [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln)
    
 ## Ask Me!

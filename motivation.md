@@ -1,3 +1,3 @@
 ## MOTIVATION
 
-- [How to Stop Learning and Start Hacking!](https://www.youtube.com/watch?v=etP1hgJXijw)
+- [InsiderPhD](https://www.youtube.com/channel/UCPiN9NPjIer8Do9gUFxKv7A) - everything on this channel is really pure gems for beginner

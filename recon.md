@@ -14,6 +14,7 @@
     
 ## Path Discovery
 - Dirsearch
+> python3 dirsearch.py -u http://docker.hackthebox.eu:31879/ -e .asp, .aspx, .jsp, .php, .csv, .doc, .docx, .xls, .xlsx, .ppt, .pptx, .pdf, .bak, .conf, .config, .old, .sql, .jar, .rar, .zip, .tar, .tar.gz, .apk, .ipa, .cgi, .do, .htm, .html, .js, .json, .rb, .xml, .yml, .svn, .git
 - Dirb
 - Dirbuster
 - Gau

@@ -7,9 +7,9 @@
 - Amass - My primary subdomain enumeration tools
 - Subfinder - seceond choice
 - Sublist3r - third choice
-- Project Sonar - Subdomains from Rapid7 FDNS
+- [Project Sonar Forward DNS](https://opendata.rapid7.com/sonar.fdns_v2/) - Subdomains from Rapid7 FDNS
 - Massdns - DNS resolver
-- Altdns - 
+- Altdns - permutasi
 - Gobuster - Traditional bruteforce
     
 ## Path Discovery

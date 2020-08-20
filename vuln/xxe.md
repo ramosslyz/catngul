@@ -79,5 +79,5 @@
   - [Finding and Exploiting XXE – XML External Entities Injection](https://resources.infosecinstitute.com/finding-and-exploiting-xxe-xml-external-entities-injection/#gref)
   - [Generic XXE Detection](https://christian-schneider.net/GenericXxeDetection.html)
   - [Advice From A Researcher: Hunting XXE For Fun and Profit](https://www.bugcrowd.com/blog/advice-from-a-bug-hunter-xxe/)
-
+  - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20Injection) - XXE Injection
 

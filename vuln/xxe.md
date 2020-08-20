@@ -1,10 +1,17 @@
 # XXE :kiss:
 
 ## Detection
-  - [Aplikasi](https://christian-schneider.net/GenericXxeDetection.html) yang mengirimkan data dalam format XML (XML endpoint)
-  - Webpage yang request header `Content-Type`-nya adalah `text/xml` atau `application/xml`
-  - Web service yang mengunakan XML seperti RSS, SOAP
-  - File upload function
+- Yang umum
+  - XML file upload
+  - XML input field
+  - XML based API's (SOAP)
+  - XML based files (RSS, SVG)
+- Tidak Umum
+  - MS Office files (docs, xlsx, etc.)
+  - SAML-based SSO
+  - VoiceXML in IVR systems
+  - Online Map Editors using KML
+ 
   
 ## Exploitation
   - Retrieve Files. Inject [payload](https://github.com/payloadbox/xxe-injection-payload-list) ke bagian `!DOCTYPE`

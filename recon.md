@@ -8,13 +8,18 @@
 - Subfinder - seceond choice
 - Sublist3r - third choice
 - [Project Sonar Forward DNS](https://opendata.rapid7.com/sonar.fdns_v2/) - Subdomains from Rapid7 FDNS
+  ```
+  zcat uhuy.gz | grep -F '.uhuy.com"' | jq -r .name | grep '.uhuy.com$' | sort | uniq
+  ```
 - Massdns - DNS resolver
 - Altdns - permutasi
 - Gobuster - Traditional bruteforce
     
 ## Path Discovery
 - Dirsearch</br>
-  `python3 dirsearch.py -u http://docker.contoh.eu:666/ -e .asp, .aspx, .jsp, .php, .csv, .doc, .docx, .xls, .xlsx, .ppt, .pptx, .pdf, .bak, .conf, .config, .old, .sql, .jar, .rar, .zip, .tar, .tar.gz, .apk, .ipa, .cgi, .do, .htm, .html, .js, .json, .rb, .xml, .yml, .svn, .git`
+  ```
+  python3 dirsearch.py -u http://uhuy.com:666/ -e .asp, .aspx, .jsp, .php, .csv, .doc, .docx, .xls, .xlsx, .ppt, .pptx, .pdf, .bak, .conf, .config, .old, .sql, .jar, .rar, .zip, .tar, .tar.gz, .apk, .ipa, .cgi, .do, .htm, .html, .js, .json, .rb, .xml, .yml, .svn, .git
+  ```
 - Dirb
 - Dirbuster
 - Gau

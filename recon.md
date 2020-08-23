@@ -22,7 +22,7 @@
   ```
 - [Altdns](https://github.com/infosec-au/altdns) - permutasian subdomain
   ```
-  __main__.py -i domain.txt -o output.txt -w ../words.txt
+  python __main__.py -i domain.txt -o output.txt -w ../words.txt
   ```
 
     

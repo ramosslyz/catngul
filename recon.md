@@ -12,9 +12,12 @@
 - Sublist3r - third choice
 - [Project Sonar Forward DNS](https://opendata.rapid7.com/sonar.fdns_v2/) - Subdomains from Rapid7 FDNS
   ```
-  zcat uhuy.gz | grep -F '.uhuy.com"' | jq -r .name | grep '.uhuy.com$' | sort | uniq
+  zcat data-sonar.gz | grep -F '.uhuy.com"' | jq -r .name | grep '.uhuy.com$' | sort | uniq
   ```
 - Massdns - DNS resolver
+  ```
+  massdns -r ../lists/resolvers.txt -t A domain.txt -w output.txt -s 15000 -o S --flush
+  ```
 - Altdns - permutasi
 - Gobuster - Traditional bruteforce
     

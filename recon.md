@@ -10,16 +10,21 @@
 - Amass - My primary subdomain enumeration tools
 - Subfinder - seceond choice
 - Sublist3r - third choice
+- Gobuster - Traditional bruteforce
 - [Project Sonar Forward DNS](https://opendata.rapid7.com/sonar.fdns_v2/) - Subdomains from Rapid7 FDNS
   ```
   zcat data-sonar.gz | grep -F '.uhuy.com"' | jq -r .name | grep '.uhuy.com$' | sort | uniq
   ```
+- Httprobe - DNS resolver
 - Massdns - DNS resolver
   ```
   massdns -r ../lists/resolvers.txt -t A domain.txt -w output.txt -s 15000 -o S --flush
   ```
-- Altdns - permutasi
-- Gobuster - Traditional bruteforce
+- [Altdns](https://github.com/infosec-au/altdns) - permutasian subdomain
+  ```
+  __main__.py -i domain.txt -o output.txt -w ../words.txt
+  ```
+
     
 ## Path Discovery
 

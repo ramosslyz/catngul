@@ -58,9 +58,15 @@ sudo nmap -Pn -f -sV -p 80 10.10.10.x
 ## Screen Shooter
 [Eyeofwitness](https://github.com/FortyNorthSecurity/EyeWitness)
 
+## Company Information
+[crunchbase](https://www.crunchbase.com) - info akuisisi
+
+## ASN Enumeration
+[bgp.he.net](https://bgp.he.net)
+
 ## Time Management</br>
 [TomatoTimer](https://tomato-timer.com/) - Pomodoro technique
 
 ## OTHERS
-[How To Shot Web - Jason Haddix's talk from DEFCON23](https://www.youtube.com/watch?v=VtFuAH19Qz0) - By Jason Haddix
-
+- [How To Shot Web - Jason Haddix's talk from DEFCON23](https://www.youtube.com/watch?v=VtFuAH19Qz0) - By Jason Haddix
+- [The Bug Hunter’s Methodology Jason Haddix @jhaddix](https://www.youtube.com/watch?v=gIz_yn0Uvb8) - TBHM v4.02

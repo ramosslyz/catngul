@@ -20,8 +20,7 @@
   ```
   python __main__.py -i domain.txt -o output.txt -w ../words.txt
   ```
-- Online Resources
-  - [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/) - By Patrik Hudak
+- [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/) - By Patrik Hudak
   
 ## Path Discovery
 
@@ -45,8 +44,7 @@ masscan -p1-65535,U:1-65535 10.10.10.x --rate=1000 -e tun0
 ```
 sudo nmap -Pn -f -sV -p 80 10.10.10.x
 ```
-- Online Resources
-  - [Quick Port Scan Tip](https://forum.hackthebox.eu/discussion/927/quick-port-scan-tip) - Hack The Box Forum
+- [Quick Port Scan Tip](https://forum.hackthebox.eu/discussion/927/quick-port-scan-tip) - Hack The Box Forum
 
 ## Wordlist
 - [SecLists](https://github.com/danielmiessler/SecLists)
@@ -64,5 +62,5 @@ sudo nmap -Pn -f -sV -p 80 10.10.10.x
 [TomatoTimer](https://tomato-timer.com/) - Pomodoro technique
 
 ## OTHERS
-- [How To Shot Web - Jason Haddix's talk from DEFCON23](https://www.youtube.com/watch?v=VtFuAH19Qz0) - By Jason Haddix
+[How To Shot Web - Jason Haddix's talk from DEFCON23](https://www.youtube.com/watch?v=VtFuAH19Qz0) - By Jason Haddix
 

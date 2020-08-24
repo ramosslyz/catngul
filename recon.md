@@ -1,9 +1,5 @@
 # RECONNAISSANCE :crystal_ball:
 
-## Online Resources
-- [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/) - By Patrik Hudak
-- [How To Shot Web - Jason Haddix's talk from DEFCON23](https://www.youtube.com/watch?v=VtFuAH19Qz0) - By Jason Haddix
-
 ## Subdomain Enumeration
 <p align="center"><img src="https://user-images.githubusercontent.com/52058660/90480317-43dbb580-e15a-11ea-863d-f783f7f4236f.png" width="800"></p>
 
@@ -24,8 +20,9 @@
   ```
   python __main__.py -i domain.txt -o output.txt -w ../words.txt
   ```
-
-    
+- Online Resources
+  - [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/) - By Patrik Hudak
+  
 ## Path Discovery
 
  <p align="center"><img src="https://user-images.githubusercontent.com/52058660/90960320-1335ac00-e4cb-11ea-8887-70130a069fe3.png" width="800"></p>
@@ -65,4 +62,7 @@ sudo nmap -Pn -f -sV -p 80 10.10.10.x
 
 ## Time Management</br>
 [TomatoTimer](https://tomato-timer.com/) - Pomodoro technique
+
+## OTHERS
+- [How To Shot Web - Jason Haddix's talk from DEFCON23](https://www.youtube.com/watch?v=VtFuAH19Qz0) - By Jason Haddix
 

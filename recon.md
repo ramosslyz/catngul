@@ -40,19 +40,28 @@
 - Gobuster
 
 ## Port Scanning
-- Nmap
 - Masscan
+```
+masscan -p1-65535,U:1-65535 10.10.10.x --rate=1000 -e tun0
+```
+- Nmap
+```
+sudo nmap -Pn -f -sV -p 80 10.10.10.x
+```
+- Online Resources
+  - [Quick Port Scan Tip](https://forum.hackthebox.eu/discussion/927/quick-port-scan-tip) - Hack The Box Forum
 
 ## Wordlist
-- Seclist
-- Fuzzdb
-- Commonspeak2 - Nice for subdomain
+- [SecLists](https://github.com/danielmiessler/SecLists)
+- [FuzzDB](https://github.com/fuzzdb-project/fuzzdb)
+- [Commonspeak2](https://github.com/assetnote/commonspeak2-wordlists) - Nice for subdomain
+- [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
     
 ## API Enumeration
 [How To Do Recon: API Enumeration](https://www.youtube.com/watch?v=fvcKwUS4PTE&t=267s) - by InsiderPhD
   
 ## Screen Shooter
-Eyeofwitness
+[Eyeofwitness](https://github.com/FortyNorthSecurity/EyeWitness)
 
 ## Time Management</br>
 [TomatoTimer](https://tomato-timer.com/) - Pomodoro technique

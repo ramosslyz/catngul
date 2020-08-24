@@ -62,7 +62,9 @@ sudo nmap -Pn -f -sV -p 80 10.10.10.x
 [crunchbase](https://www.crunchbase.com) - info akuisisi
 
 ## ASN Enumeration
-[bgp.he.net](https://bgp.he.net)
+- [bgp.he.net](https://bgp.he.net)
+- [Metabigor](https://github.com/j3ssie/metabigor)
+- [ASNLookup](https://github.com/yassineaboukir/Asnlookup)
 
 ## Time Management</br>
 [TomatoTimer](https://tomato-timer.com/) - Pomodoro technique

@@ -68,6 +68,9 @@ sudo nmap -Pn -f -sV -p 80 10.10.10.x
     - [DOMLink](https://github.com/vysecurity/DomLink)
   - IOT search engine
     - [Shodan](https://www.shodan.io/)
+  - Web Technology
+    - [Buildwith](https://pro.builtwith.com/)
+    - [Wappalyzer](https://www.wappalyzer.com/)
 
 ## Time Management</br>
 [TomatoTimer](https://tomato-timer.com/) - Pomodoro technique

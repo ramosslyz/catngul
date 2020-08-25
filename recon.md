@@ -55,7 +55,7 @@ sudo nmap -Pn -f -sV -p 80 10.10.10.x
 ## API Enumeration
 [How To Do Recon: API Enumeration](https://www.youtube.com/watch?v=fvcKwUS4PTE&t=267s) - by InsiderPhD
   
-## Screen Shooter
+## Screenshot
 [Eyeofwitness](https://github.com/FortyNorthSecurity/EyeWitness)
 
 ## Company Information
@@ -64,8 +64,6 @@ sudo nmap -Pn -f -sV -p 80 10.10.10.x
 
 ## ASN Enumeration
 - [bgp.he.net](https://bgp.he.net)
-- [Metabigor](https://github.com/j3ssie/metabigor)
-- [ASNLookup](https://github.com/yassineaboukir/Asnlookup)
 
 ## Reverse whois
 - [whoxy](https://www.whoxy.com/)

@@ -3,7 +3,7 @@
 ## Subdomain Enumeration
 <p align="center"><img src="https://user-images.githubusercontent.com/52058660/90480317-43dbb580-e15a-11ea-863d-f783f7f4236f.png" width="800"></p>
 
-- Amass - My primary subdomain enumeration tools
+- Amass enum - My primary subdomain enumeration tools
 - Subfinder - seceond choice
 - Sublist3r - third choice
 - Gobuster - Traditional bruteforce
@@ -59,12 +59,17 @@ sudo nmap -Pn -f -sV -p 80 10.10.10.x
 [Eyeofwitness](https://github.com/FortyNorthSecurity/EyeWitness)
 
 ## Company Information
-[crunchbase](https://www.crunchbase.com) - info akuisisi
+- [crunchbase](https://www.crunchbase.com) - info akuisisi
+- Amass intel - Website relation
 
 ## ASN Enumeration
 - [bgp.he.net](https://bgp.he.net)
 - [Metabigor](https://github.com/j3ssie/metabigor)
 - [ASNLookup](https://github.com/yassineaboukir/Asnlookup)
+
+## Reverse whois
+- [whoxy](https://www.whoxy.com/)
+- [DOMLink](https://github.com/vysecurity/DomLink)
 
 ## Time Management</br>
 [TomatoTimer](https://tomato-timer.com/) - Pomodoro technique

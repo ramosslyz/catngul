@@ -58,16 +58,16 @@ sudo nmap -Pn -f -sV -p 80 10.10.10.x
 ## Screenshot
 [Eyeofwitness](https://github.com/FortyNorthSecurity/EyeWitness)
 
-## Company Information
-- [crunchbase](https://www.crunchbase.com) - info akuisisi
-- Amass intel - Website relation
-
-## ASN Enumeration
-- [bgp.he.net](https://bgp.he.net)
-
-## Reverse whois
-- [whoxy](https://www.whoxy.com/)
-- [DOMLink](https://github.com/vysecurity/DomLink)
+## Mapping
+  - Company Information
+    - [crunchbase](https://www.crunchbase.com) - info akuisisi
+    - Amass intel - Website relation
+    - [bgp.he.net](https://bgp.he.net) - ASN Enumeration
+  - Reverse whois
+    - [whoxy](https://www.whoxy.com/)
+    - [DOMLink](https://github.com/vysecurity/DomLink)
+  - IOT search engine
+    - [Shodan](https://www.shodan.io/)
 
 ## Time Management</br>
 [TomatoTimer](https://tomato-timer.com/) - Pomodoro technique

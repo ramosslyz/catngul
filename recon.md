@@ -21,7 +21,22 @@
   python __main__.py -i domain.txt -o output.txt -w ../words.txt
   ```
 - [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/) - By Patrik Hudak
-  
+- 3 teknik subdomain enumerasi:
+  - Link and JS discovery
+    - Burpsuite - Crawler
+    - [GoSpider](https://github.com/jaeles-project/gospider)
+    - [Hakrawler](https://github.com/hakluke/hakrawler)
+    - [SubDomainizer](https://github.com/nsonaniya2010/SubDomainizer) - And JS Discover
+    - [Subscraper](https://github.com/Cillian-Collins/subscraper) - ada fitur recursive
+  - Scrapping
+    - [Amass enum](https://github.com/OWASP/Amass)
+    - [Subfinder v2](https://github.com/projectdiscovery/subfinder)
+    - [Github-search](https://github.com/gwen001/github-search)
+    - Shobsugo
+    - [Cloud Range](https://www.daehee.com/scan-aws-ip-ssl-certificates/)
+   - Bruteforcing
+    -
+   
 ## Path Discovery
 
  <p align="center"><img src="https://user-images.githubusercontent.com/52058660/90960320-1335ac00-e4cb-11ea-8887-70130a069fe3.png" width="800"></p>

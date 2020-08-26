@@ -3,7 +3,8 @@
 ## RECONNAISSANCE :crystal_ball:
 
 ### Subdomain Enumeration
-- [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/) - By Patrik Hudak
+- [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/) - By Patrik Hudak<br>
+<p align="center"><img src="https://user-images.githubusercontent.com/52058660/90480317-43dbb580-e15a-11ea-863d-f783f7f4236f.png" width="800"></p>
 - Link and JS discovery
   - Burpsuite - Crawler
   - [GoSpider](https://github.com/jaeles-project/gospider)
@@ -29,10 +30,7 @@
     ```
   - [Async DNS Brute](https://github.com/blark/aiodnsbrute)
   - [shuffleDNS](https://github.com/projectdiscovery/shuffledns)
-  - Brutes word list
-    - [all.txt](https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056) - By Jason Haddix
-    - [Custom Wordlist](https://www.twitch.tv/videos/649748420?t=0h28m34s) - By TomNomNom
-    - [CommonSpeak2](#Wordlist)
+  - [Subdomain wordlist](#Wordlist)
 - DNS Resolver
   - Httprobe - DNS resolver
   - Massdns - DNS resolver
@@ -69,10 +67,14 @@ sudo nmap -Pn -f -sV -p 80 10.10.10.x
 - [Quick Port Scan Tip](https://forum.hackthebox.eu/discussion/927/quick-port-scan-tip) - Hack The Box Forum
 
 ### Wordlist
-- [SecLists](https://github.com/danielmiessler/SecLists)
 - [FuzzDB](https://github.com/fuzzdb-project/fuzzdb)
-- [Commonspeak2](https://github.com/assetnote/commonspeak2-wordlists) - Nice for subdomain
+- [SecLists](https://github.com/danielmiessler/SecLists)
 - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
+- Subdomain Worlist:
+    - [all.txt](https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056) - By Jason Haddix
+    - [Who, What, Where, When, Wordlist](https://www.youtube.com/watch?v=W4_QCSIujQ4) - Custom Wordlist by TomNomNom
+    - [Commonspeak2](https://github.com/assetnote/commonspeak2-wordlists) - Nice for subdomain
+
     
 ### API Enumeration
 [How To Do Recon: API Enumeration](https://www.youtube.com/watch?v=fvcKwUS4PTE&t=267s) - by InsiderPhD

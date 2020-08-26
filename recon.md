@@ -45,7 +45,7 @@
     - Brutes word list
       - [all.txt](https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056) - By Jason Haddix
       - [Custom Wordlist](https://www.twitch.tv/videos/649748420?t=0h28m34s) - By TomNomNom
-      - [CommonSpeak2](# Wordlist)
+      - [CommonSpeak2](#Wordlist)
    
 ## Path Discovery
 

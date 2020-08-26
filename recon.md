@@ -3,17 +3,13 @@
 ## RECONNAISSANCE :crystal_ball:
 
 ### Subdomain Enumeration
-- [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/) - By Patrik Hudak
-<p align="center"><img src="https://user-images.githubusercontent.com/52058660/90480317-43dbb580-e15a-11ea-863d-f783f7f4236f.png" width="800"></p>
 - Macam2 subdomain enumerasi:
-
   - Link and JS discovery
     - Burpsuite - Crawler
     - [GoSpider](https://github.com/jaeles-project/gospider)
     - [Hakrawler](https://github.com/hakluke/hakrawler)
     - [SubDomainizer](https://github.com/nsonaniya2010/SubDomainizer) - And JS Discover
     - [Subscraper](https://github.com/Cillian-Collins/subscraper) - ada fitur recursive
-    
   - Scrapping
     - [Amass enum](https://github.com/OWASP/Amass)
     - [Subfinder v2](https://github.com/projectdiscovery/subfinder)

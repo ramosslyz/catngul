@@ -7,7 +7,6 @@
 <br>
 - [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/) - By Patrik Hudak
 - Link and JS discovery
-  - Burpsuite - Crawler
   - [GoSpider](https://github.com/jaeles-project/gospider)
   - [Hakrawler](https://github.com/hakluke/hakrawler)
   - [SubDomainizer](https://github.com/nsonaniya2010/SubDomainizer) - And JS Discover
@@ -16,7 +15,7 @@
   - [Amass enum](https://github.com/OWASP/Amass)
   - [Subfinder v2](https://github.com/projectdiscovery/subfinder)
   - [Github-search](https://github.com/gwen001/github-search)
-  - Shobsugo
+  - [Shobsugo](https://github.com/incogbyte/shosubgo) - Grab subdomains using Shodan api
   - [Cloud Range](https://www.daehee.com/scan-aws-ip-ssl-certificates/)
   - [Project Sonar Forward DNS](https://opendata.rapid7.com/sonar.fdns_v2/) - Subdomains from Rapid7 FDNS
     ```
@@ -24,7 +23,7 @@
       
     ```
 - Bruteforcing
-  - Amass enum -brute
+  - [Amass enum -brute][Amass enum](https://github.com/OWASP/Amass)
     ```
     amass enum -brute -d twitch.tv -src
     amass enum -brute -d twitch.tv -rf resolvers.txt -w bruteforce.list

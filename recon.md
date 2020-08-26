@@ -3,37 +3,36 @@
 ## RECONNAISSANCE :crystal_ball:
 
 ### Subdomain Enumeration
-- Macam2 subdomain enumerasi:
-  - Link and JS discovery
-    - Burpsuite - Crawler
-    - [GoSpider](https://github.com/jaeles-project/gospider)
-    - [Hakrawler](https://github.com/hakluke/hakrawler)
-    - [SubDomainizer](https://github.com/nsonaniya2010/SubDomainizer) - And JS Discover
-    - [Subscraper](https://github.com/Cillian-Collins/subscraper) - ada fitur recursive
-  - Scrapping
-    - [Amass enum](https://github.com/OWASP/Amass)
-    - [Subfinder v2](https://github.com/projectdiscovery/subfinder)
-    - [Github-search](https://github.com/gwen001/github-search)
-    - Shobsugo
-    - [Cloud Range](https://www.daehee.com/scan-aws-ip-ssl-certificates/)
-    - [Project Sonar Forward DNS](https://opendata.rapid7.com/sonar.fdns_v2/) - Subdomains from Rapid7 FDNS
-      ```
-      zcat data-sonar.gz | grep -F '.uhuy.com"' | jq -r .name | grep '.uhuy.com$' | sort | uniq
+- [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/) - By Patrik Hudak
+- Link and JS discovery
+  - Burpsuite - Crawler
+  - [GoSpider](https://github.com/jaeles-project/gospider)
+  - [Hakrawler](https://github.com/hakluke/hakrawler)
+  - [SubDomainizer](https://github.com/nsonaniya2010/SubDomainizer) - And JS Discover
+  - [Subscraper](https://github.com/Cillian-Collins/subscraper) - ada fitur recursive
+- Scrapping
+  - [Amass enum](https://github.com/OWASP/Amass)
+  - [Subfinder v2](https://github.com/projectdiscovery/subfinder)
+  - [Github-search](https://github.com/gwen001/github-search)
+  - Shobsugo
+  - [Cloud Range](https://www.daehee.com/scan-aws-ip-ssl-certificates/)
+  - [Project Sonar Forward DNS](https://opendata.rapid7.com/sonar.fdns_v2/) - Subdomains from Rapid7 FDNS
+    ```
+    zcat data-sonar.gz | grep -F '.uhuy.com"' | jq -r .name | grep '.uhuy.com$' | sort | uniq
       
-      ```
-  - Bruteforcing
-    - Amass enum -brute
-      ```
-      amass enum -brute -d twitch.tv -src
-      amass enum -brute -d twitch.tv -rf resolvers.txt -w bruteforce.list
-      ```
-    - [Async DNS Brute](https://github.com/blark/aiodnsbrute)
-    - [shuffleDNS](https://github.com/projectdiscovery/shuffledns)
-    - Brutes word list
-      - [all.txt](https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056) - By Jason Haddix
-      - [Custom Wordlist](https://www.twitch.tv/videos/649748420?t=0h28m34s) - By TomNomNom
-      - [CommonSpeak2](#Wordlist)
-      
+    ```
+- Bruteforcing
+  - Amass enum -brute
+    ```
+    amass enum -brute -d twitch.tv -src
+    amass enum -brute -d twitch.tv -rf resolvers.txt -w bruteforce.list
+    ```
+  - [Async DNS Brute](https://github.com/blark/aiodnsbrute)
+  - [shuffleDNS](https://github.com/projectdiscovery/shuffledns)
+  - Brutes word list
+    - [all.txt](https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056) - By Jason Haddix
+    - [Custom Wordlist](https://www.twitch.tv/videos/649748420?t=0h28m34s) - By TomNomNom
+    - [CommonSpeak2](#Wordlist)
 - DNS Resolver
   - Httprobe - DNS resolver
   - Massdns - DNS resolver

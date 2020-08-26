@@ -35,7 +35,17 @@
     - Shobsugo
     - [Cloud Range](https://www.daehee.com/scan-aws-ip-ssl-certificates/)
    - Bruteforcing
-    -
+    - Amass enum -brute
+      ```
+      amass enum -brute -d twitch.tv -src
+      amass enum -brute -d twitch.tv -rf resolvers.txt -w bruteforce.list
+      ```
+    - [Async DNS Brute](https://github.com/blark/aiodnsbrute)
+    - [shuffleDNS](https://github.com/projectdiscovery/shuffledns)
+    - Brutes word list
+      - [all.txt](https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056) - By Jason Haddix
+      - [Custom Wordlist](https://www.twitch.tv/videos/649748420?t=0h28m34s) - By TomNomNom
+      - [CommonSpeak2](# Wordlist)
    
 ## Path Discovery
 

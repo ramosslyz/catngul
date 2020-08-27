@@ -1,8 +1,6 @@
-# b3lajar
+# RECONNAISSANCE :crystal_ball:
 
-## RECONNAISSANCE :crystal_ball:
-
-### Subdomain Enumeration
+## Subdomain Enumeration
 <br><p align="center"><img src="https://user-images.githubusercontent.com/52058660/90480317-43dbb580-e15a-11ea-863d-f783f7f4236f.png" width="800"></p>
 <br>
 - [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/) - By Patrik Hudak
@@ -42,7 +40,7 @@
     python __main__.py -i domain.txt -o output.txt -w ../words.txt
     ```
 
-### Path Discovery
+## Path Discovery
 
  <p align="center"><img src="https://user-images.githubusercontent.com/52058660/90960320-1335ac00-e4cb-11ea-8887-70130a069fe3.png" width="700"></p>
  
@@ -55,7 +53,7 @@
 - Gau
 - Gobuster
 
-### Port Scanning<br>
+## Port Scanning<br>
 <p align="center"><img src="https://user-images.githubusercontent.com/52058660/91376301-fb518580-e846-11ea-8289-173570f6b866.png" width="500"></p><br>
 
 - [Quick Port Scan Tip](https://forum.hackthebox.eu/discussion/927/quick-port-scan-tip) - Hack The Box Forum
@@ -72,7 +70,7 @@ sudo nmap -Pn -f -sV -p 80 10.10.10.x
 dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
 ```
 
-### Wordlist
+## Wordlist
 - [FuzzDB](https://github.com/fuzzdb-project/fuzzdb)
 - [SecLists](https://github.com/danielmiessler/SecLists)
 - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
@@ -82,13 +80,13 @@ dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
     - [Commonspeak2](https://github.com/assetnote/commonspeak2-wordlists) - Nice for subdomain
 
     
-### API Enumeration
+## API Enumeration
 [How To Do Recon: API Enumeration](https://www.youtube.com/watch?v=fvcKwUS4PTE&t=267s) - by InsiderPhD
   
-### Screenshot
+## Screenshot
 [Eyeofwitness](https://github.com/FortyNorthSecurity/EyeWitness)
 
-### Mapping
+## Mapping
   - Company Information
     - [crunchbase](https://www.crunchbase.com) - info akuisisi
     - Amass intel - Website relation
@@ -102,9 +100,9 @@ dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
     - [Buildwith](https://pro.builtwith.com/)
     - [Wappalyzer](https://www.wappalyzer.com/)
 
-### Time Management</br>
+## Time Management</br>
 [TomatoTimer](https://tomato-timer.com/) - Pomodoro technique
 
-### OTHERS
+## OTHERS
 - [How To Shot Web - Jason Haddix's talk from DEFCON23](https://www.youtube.com/watch?v=VtFuAH19Qz0) - By Jason Haddix
 - [The Bug Hunter’s Methodology Jason Haddix @jhaddix](https://www.youtube.com/watch?v=gIz_yn0Uvb8) - TBHM v4.02

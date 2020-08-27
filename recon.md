@@ -44,7 +44,7 @@
 
 ### Path Discovery
 
- <p align="center"><img src="https://user-images.githubusercontent.com/52058660/90960320-1335ac00-e4cb-11ea-8887-70130a069fe3.png" width="800"></p>
+ <p align="center"><img src="https://user-images.githubusercontent.com/52058660/90960320-1335ac00-e4cb-11ea-8887-70130a069fe3.png" width="700"></p>
  
 - Dirsearch</br>
   ```
@@ -56,7 +56,7 @@
 - Gobuster
 
 ### Port Scanning<br>
-<p align="center"><img src="https://user-images.githubusercontent.com/52058660/91376301-fb518580-e846-11ea-8289-173570f6b866.png" width="800"></p><br>
+<p align="center"><img src="https://user-images.githubusercontent.com/52058660/91376301-fb518580-e846-11ea-8289-173570f6b866.png" width="500"></p><br>
 
 - [Quick Port Scan Tip](https://forum.hackthebox.eu/discussion/927/quick-port-scan-tip) - Hack The Box Forum
 - [Masscan](https://danielmiessler.com/study/masscan/)
@@ -67,7 +67,7 @@ masscan -p1-65535,U:1-65535 10.10.10.x --rate=1000 -e tun0
 ```
 sudo nmap -Pn -f -sV -p 80 10.10.10.x
 ```
-- [Dnsmasscan](https://github.com/rastating/dnmasscan) - masscan dengan input dns
+- [Dnmasscan](https://github.com/rastating/dnmasscan) - masscan dengan input dns
 ```
 dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
 ```

@@ -55,8 +55,11 @@
 - Gau
 - Gobuster
 
-### Port Scanning
-- Masscan
+### Port Scanning<br>
+<p align="center"><img src="https://user-images.githubusercontent.com/52058660/91376301-fb518580-e846-11ea-8289-173570f6b866.png" width="800"></p><br>
+
+- [Quick Port Scan Tip](https://forum.hackthebox.eu/discussion/927/quick-port-scan-tip) - Hack The Box Forum
+- [Masscan](https://danielmiessler.com/study/masscan/)
 ```
 masscan -p1-65535,U:1-65535 10.10.10.x --rate=1000 -e tun0
 ```
@@ -64,7 +67,10 @@ masscan -p1-65535,U:1-65535 10.10.10.x --rate=1000 -e tun0
 ```
 sudo nmap -Pn -f -sV -p 80 10.10.10.x
 ```
-- [Quick Port Scan Tip](https://forum.hackthebox.eu/discussion/927/quick-port-scan-tip) - Hack The Box Forum
+- [Dnsmasscan](https://github.com/rastating/dnmasscan) - masscan dengan input dns
+```
+dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
+```
 
 ### Wordlist
 - [FuzzDB](https://github.com/fuzzdb-project/fuzzdb)

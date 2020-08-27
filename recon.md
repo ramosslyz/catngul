@@ -103,6 +103,6 @@ dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
 ## Time Management</br>
 [TomatoTimer](https://tomato-timer.com/) - Pomodoro technique
 
-## OTHERS
+## Others
 - [How To Shot Web - Jason Haddix's talk from DEFCON23](https://www.youtube.com/watch?v=VtFuAH19Qz0) - By Jason Haddix
 - [The Bug Hunter’s Methodology Jason Haddix @jhaddix](https://www.youtube.com/watch?v=gIz_yn0Uvb8) - TBHM v4.02

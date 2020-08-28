@@ -40,7 +40,7 @@
     python __main__.py -i domain.txt -o output.txt -w ../words.txt
     ```
 
-## Path Discovery
+## Directory Discovery
 
  <p align="center"><img src="https://user-images.githubusercontent.com/52058660/90960320-1335ac00-e4cb-11ea-8887-70130a069fe3.png" width="700"></p>
  
@@ -69,6 +69,8 @@ sudo nmap -Pn -f -sV -p 80 10.10.10.x
 ```
 dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
 ```
+## Content Discovery
+- [github-search](https://github.com/gwen001/github-search) - github dorking
 
 ## Wordlist
 - [FuzzDB](https://github.com/fuzzdb-project/fuzzdb)
@@ -79,7 +81,9 @@ dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
     - [Who, What, Where, When, Wordlist](https://www.youtube.com/watch?v=W4_QCSIujQ4) - Custom Wordlist by TomNomNom
     - [Commonspeak2](https://github.com/assetnote/commonspeak2-wordlists) - Nice for subdomain
 
-    
+## Scanner
+Nikto
+
 ## API Enumeration
 [How To Do Recon: API Enumeration](https://www.youtube.com/watch?v=fvcKwUS4PTE&t=267s) - by InsiderPhD
   

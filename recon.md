@@ -71,6 +71,8 @@ dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
 ```
 ## Content Discovery
 - [github-search](https://github.com/gwen001/github-search) - github dorking
+- [GitHub Recon and Sensitive Data Exposure](https://www.youtube.com/watch?v=l0YsEk_59fQ) - By Th3g3nt3lman
+- [Gdorklinks.sh](https://gist.github.com/jhaddix/1fb7ab2409ab579178d2a79959909b33) - Github dorking by Jason Haddix 
 
 ## Wordlist
 - [FuzzDB](https://github.com/fuzzdb-project/fuzzdb)

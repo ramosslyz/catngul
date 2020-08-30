@@ -70,14 +70,16 @@ sudo nmap -Pn -f -sV -p 80 10.10.10.x
 dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
 ```
 ## Github Recon
+
 <p align="center"><img src="https://user-images.githubusercontent.com/52058660/91649439-5204cc80-ea9e-11ea-86aa-59102c5a20bf.png" width="470"> <img src="https://user-images.githubusercontent.com/52058660/91649418-208c0100-ea9e-11ea-9b0d-a642eef06a2b.png" width="470"></p><br>
-
-
 
 - [github-search](https://github.com/gwen001/github-search) - github dorking
 - [GitHub Recon and Sensitive Data Exposure](https://www.youtube.com/watch?v=l0YsEk_59fQ) - By Th3g3nt3lman
 - [Gdorklinks.sh](https://gist.github.com/jhaddix/1fb7ab2409ab579178d2a79959909b33) - Github dorking by Jason Haddix
 - [Top GitHub Dorks and Tools Used to Scan GitHub Repositories for Sensitive Data](https://securitytrails.com/blog/github-dorks)
+- [Github Dorks](https://github.com/techgaun/github-dorks)
+- [Gitrob now in go](https://michenriksen.com/blog/gitrob-now-in-go/)
+- [GitHub for Bug Bounty Hunters](https://gist.github.com/EdOverflow/922549f610b258f459b219a32f92d10b)
 
 
 ## Wordlist

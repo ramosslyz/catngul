@@ -1,3 +1,3 @@
 # LAB AND CTF
 
-- [Awesome CTF](tps://github.com/apsdehal/awesome-ctf)
+- [Awesome CTF](https://github.com/apsdehal/awesome-ctf)

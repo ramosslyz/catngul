@@ -85,6 +85,9 @@ dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
   - [GitHub for Bug Bounty Hunters](https://gist.github.com/EdOverflow/922549f610b258f459b219a32f92d10b)
   - [GitHub tools collection](http://10degres.net/github-tools-collection/)
 
+## IP Enumeration
+  - [Amass intel](https://danielmiessler.com/study/amass/)
+
 ## Wordlist
 - [FuzzDB](https://github.com/fuzzdb-project/fuzzdb)
 - [SecLists](https://github.com/danielmiessler/SecLists)
@@ -125,3 +128,4 @@ Nikto
 - [The Bug Hunter’s Methodology Jason Haddix @jhaddix](https://www.youtube.com/watch?v=gIz_yn0Uvb8) - TBHM v4.02
 - [Awesome Asset Discovery](https://github.com/redhuntlabs/Awesome-Asset-Discovery)
 - [Awesome Web Security](https://github.com/qazbnm456/awesome-web-security)
+- [Just another Recon Guide for Pentesters and Bug Bounty Hunters](https://www.offensity.com/de/blog/just-another-recon-guide-pentesters-and-bug-bounty-hunters/)

@@ -87,6 +87,8 @@ dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
 
 ## IP Enumeration
   - [Amass intel](https://danielmiessler.com/study/amass/)
+  - [bgp.he.net](https://bgp.he.net) - ASN and CIDR Enumeration
+  - [bgpview.io](https://bgpview.io) - Alternatif
 
 ## Wordlist
 - [FuzzDB](https://github.com/fuzzdb-project/fuzzdb)
@@ -98,7 +100,8 @@ dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
     - [Commonspeak2](https://github.com/assetnote/commonspeak2-wordlists) - Nice for subdomain
 
 ## Scanner
-Nikto
+   - Nikto
+   - [VIrus Total](https://www.virustotal.com)
 
 ## API Enumeration
 [How To Do Recon: API Enumeration](https://www.youtube.com/watch?v=fvcKwUS4PTE&t=267s) - by InsiderPhD
@@ -109,8 +112,6 @@ Nikto
 ## Mapping
   - Company Information
     - [crunchbase](https://www.crunchbase.com) - info akuisisi
-    - Amass intel - Website relation
-    - [bgp.he.net](https://bgp.he.net) - ASN Enumeration
   - Reverse whois
     - [whoxy](https://www.whoxy.com/)
     - [DOMLink](https://github.com/vysecurity/DomLink)
@@ -118,6 +119,7 @@ Nikto
     - [Shodan](https://www.shodan.io/)
   - Web Technology
     - [Buildwith](https://pro.builtwith.com/)
+    - [Censys](https://censys.io/)
     - [Wappalyzer](https://www.wappalyzer.com/)
 
 ## Time Management</br>

@@ -85,10 +85,15 @@ dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
   - [GitHub for Bug Bounty Hunters](https://gist.github.com/EdOverflow/922549f610b258f459b219a32f92d10b)
   - [GitHub tools collection](http://10degres.net/github-tools-collection/)
 
-## IP Enumeration
-  - [Amass intel](https://danielmiessler.com/study/amass/)
+## ASN, IP, CIDR Enumeration
+  - [Amass intel](https://danielmiessler.com/study/amass/) - Automated Attack Surface Mapping
+    ```
+    amass intel -asn 12345
+    amass intel -ip -src -cidr 104.154.0.0/15
+    ```
   - [bgp.he.net](https://bgp.he.net) - ASN and CIDR Enumeration
   - [bgpview.io](https://bgpview.io) - Alternatif
+  - [Yougetsignal](https://www.yougetsignal.com) -  Reverse IP domain check
 
 ## Wordlist
 - [FuzzDB](https://github.com/fuzzdb-project/fuzzdb)

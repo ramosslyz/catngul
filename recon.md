@@ -4,6 +4,7 @@
 <br><p align="center"><img src="https://user-images.githubusercontent.com/52058660/90480317-43dbb580-e15a-11ea-863d-f783f7f4236f.png" width="800"></p>
 <br>
 - [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/) - By Patrik Hudak
+- [Filter Wildcard Domains](https://0xpatrik.com/wildcard-domains/)
 - Link and JS discovery
   - [GoSpider](https://github.com/jaeles-project/gospider)
   - [Hakrawler](https://github.com/hakluke/hakrawler)
@@ -94,6 +95,21 @@ dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
   - [bgp.he.net](https://bgp.he.net) - ASN and CIDR Enumeration
   - [bgpview.io](https://bgpview.io) - Alternatif
   - [Yougetsignal](https://www.yougetsignal.com) -  Reverse IP domain check
+  - [nmap ping sweep](https://www.wildantechnoart.net/2017/06/penggunaan-ping-scanning-nmap.html)
+    ```
+    nmap -sn -PS/PA/PE/PP/PM/PU/PO/PR --packet-trace 192.168.100.0-10 -v
+    
+    ket:
+    -sn -> scan no port
+    -PS -> Ping Scan TCP SYN
+    -PA -> Ping Scan TCP ACK
+    -PE -> Ping Scan ICMP
+    -PP -> Ping Scan ICMP timestamp reply 
+    -PM -> Ping Scan ICMP Address mark reply
+    -PU -> Ping Scan UDP
+    -PO -> Ping Scan Protokol IP, menggunakan IGMP
+    -PR -> Ping Scan ARP, ampuh untuk jaringan lokal
+    ```
 
 ## Wordlist
 - [FuzzDB](https://github.com/fuzzdb-project/fuzzdb)

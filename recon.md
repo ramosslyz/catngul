@@ -90,7 +90,7 @@ dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
   - [Amass intel](https://danielmiessler.com/study/amass/) - Automated Attack Surface Mapping
     ```
     amass intel -asn 12345
-    amass intel -ip -src -cidr 104.154.0.0/15 //hasil ini dan bgp.he.net berbeda. bgp.he.net lebih akurat
+    amass intel -ip -src -cidr 104.154.0.0/15
     ```
   - [bgp.he.net](https://bgp.he.net) - ASN and CIDR Enumeration
   - [bgpview.io](https://bgpview.io) - Alternatif

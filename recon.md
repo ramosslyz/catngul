@@ -110,6 +110,12 @@ dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
     -PO -> Ping Scan Protokol IP, menggunakan IGMP
     -PR -> Ping Scan ARP, ampuh untuk jaringan lokal
     ```
+## Recon Framework
+- intrigue.io
+```
+sudo docker run -e LANG=C.UTF-8 -v ~/intrigue-core-data:/data -p 0.0.0.0:7777:7777 -i -t intrigueio/intrigue-core:latest --privileged
+
+```
 
 ## Wordlist
 - [FuzzDB](https://github.com/fuzzdb-project/fuzzdb)

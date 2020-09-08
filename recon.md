@@ -10,6 +10,8 @@
   - [Hakrawler](https://github.com/hakluke/hakrawler)
   - [SubDomainizer](https://github.com/nsonaniya2010/SubDomainizer) - And JS Discover
   - [Subscraper](https://github.com/Cillian-Collins/subscraper) - ada fitur recursive
+  - [crt.sh](scrt.sh)
+  - [certspotter]
 - Scrapping
   - [Amass enum](https://github.com/OWASP/Amass)
   - [Subfinder v2](https://github.com/projectdiscovery/subfinder)

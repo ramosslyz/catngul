@@ -1,5 +1,8 @@
 # BASIC KNOWLEDGE
 
+## Authentication
+- [Web Security Academy >> Authentication](https://portswigger.net/web-security/authentication)
+
 ## API
 - [What is an API?](https://www.youtube.com/watch?v=s7wmiS2mSXY) - Awesome explation with beautifull animation
 - [Finding Your First Bug: Finding Bugs Using APIs](https://www.youtube.com/watch?v=yCUQBc2rY9Y) - By InsiderPhD

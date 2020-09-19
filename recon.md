@@ -146,7 +146,7 @@ sudo docker run -e LANG=C.UTF-8 -v ~/intrigue-core-data:/data -p 0.0.0.0:7777:77
   - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
   - [all.txt](https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056) - By Jason Haddix
   - [Commonspeak2](https://github.com/assetnote/commonspeak2-wordlists) - Nice for subdomain
-- Custome
+- Custom
   - [Who, What, Where, When, Wordlist](https://www.youtube.com/watch?v=W4_QCSIujQ4) - Custom Wordlist by TomNomNom
 
 ## Scanner

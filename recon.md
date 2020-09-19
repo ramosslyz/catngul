@@ -1,5 +1,6 @@
 # RECONNAISSANCE :crystal_ball:
-index:
+
+## Table Of Contents
 - Subdomain Enumeration
 - Directory Discovery
 - Content Discovery

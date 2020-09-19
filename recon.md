@@ -1,4 +1,19 @@
 # RECONNAISSANCE :crystal_ball:
+index:
+- Subdomain Enumeration
+- Directory Discovery
+- Content Discovery
+- Port Scanning
+- Github Recon
+- ASN, IP, CIDR Enumeration
+- Recon Framerwork
+- Wordlist
+- Scanner
+- Api Enumeration
+- Screnshooter
+- Information Mapping
+- Time Management
+- Others
 
 ## Subdomain Enumeration
 <br><p align="center"><img src="https://user-images.githubusercontent.com/52058660/90480317-43dbb580-e15a-11ea-863d-f783f7f4236f.png" width="800"></p>
@@ -124,13 +139,14 @@ sudo docker run -e LANG=C.UTF-8 -v ~/intrigue-core-data:/data -p 0.0.0.0:7777:77
 ```
 
 ## Wordlist
-- [FuzzDB](https://github.com/fuzzdb-project/fuzzdb)
-- [SecLists](https://github.com/danielmiessler/SecLists)
-- [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
-- Subdomain Worlist:
-    - [all.txt](https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056) - By Jason Haddix
-    - [Who, What, Where, When, Wordlist](https://www.youtube.com/watch?v=W4_QCSIujQ4) - Custom Wordlist by TomNomNom
-    - [Commonspeak2](https://github.com/assetnote/commonspeak2-wordlists) - Nice for subdomain
+- Pre-baked:
+  - [FuzzDB](https://github.com/fuzzdb-project/fuzzdb)
+  - [SecLists](https://github.com/danielmiessler/SecLists)
+  - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
+  - [all.txt](https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056) - By Jason Haddix
+  - [Commonspeak2](https://github.com/assetnote/commonspeak2-wordlists) - Nice for subdomain
+- Custome
+  - [Who, What, Where, When, Wordlist](https://www.youtube.com/watch?v=W4_QCSIujQ4) - Custom Wordlist by TomNomNom
 
 ## Scanner
    - Nikto
@@ -142,7 +158,7 @@ sudo docker run -e LANG=C.UTF-8 -v ~/intrigue-core-data:/data -p 0.0.0.0:7777:77
 ## Screenshot
 [Eyeofwitness](https://github.com/FortyNorthSecurity/EyeWitness)
 
-## Mapping
+## Information Mapping
   - Company Information
     - [crunchbase](https://www.crunchbase.com) - info akuisisi
   - Reverse whois

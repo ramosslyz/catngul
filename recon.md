@@ -148,6 +148,7 @@ sudo docker run -e LANG=C.UTF-8 -v ~/intrigue-core-data:/data -p 0.0.0.0:7777:77
   - [Commonspeak2](https://github.com/assetnote/commonspeak2-wordlists) - Nice for subdomain
 - Custom
   - [Who, What, Where, When, Wordlist](https://www.youtube.com/watch?v=W4_QCSIujQ4) - Custom Wordlist by TomNomNom
+  - [Cewl](https://www.hackingarticles.in/comprehensive-guide-on-cewl-tool/) 
 
 ## Scanner
    - Nikto

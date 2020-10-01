@@ -85,7 +85,7 @@
 ```
 masscan -p1-65535,U:1-65535 10.10.10.x --rate=1000 -e tun0
 ```
-- Nmap</br>
+- Nmap
 By me
 ```
 sudo nmap -Pn -f -sV -p 80 10.10.10.x

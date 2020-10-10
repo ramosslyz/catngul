@@ -22,8 +22,8 @@
 - [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/) - By Patrik Hudak
 - [Filter Wildcard Domains](https://0xpatrik.com/wildcard-domains/)
 - Link and JS discovery
-  - [GoSpider](https://github.com/jaeles-project/gospider)
-  - [Hakrawler](https://github.com/hakluke/hakrawler)
+  - [GoSpider](https://github.com/jaeles-project/gospider) - recomended
+  - [Hakrawler](https://github.com/hakluke/hakrawler) - most correct
   - [SubDomainizer](https://github.com/nsonaniya2010/SubDomainizer) - And JS Discover
   - [Subscraper](https://github.com/Cillian-Collins/subscraper) - ada fitur recursive
   - [crt.sh](scrt.sh)

@@ -48,17 +48,19 @@
   - [Async DNS Brute](https://github.com/blark/aiodnsbrute)
   - [shuffleDNS](https://github.com/projectdiscovery/shuffledns)
   - [Subdomain wordlist](#Wordlist)
-- DNS Resolver
+- Others   
+  - [Altdns](https://github.com/infosec-au/altdns) - permutasian subdomain
+    ```
+    python __main__.py -i domain.txt -o output.txt -w ../words.txt
+    ```
+## Resolver
   - Httprobe - DNS resolver
   - Massdns - DNS resolver
     ```
     massdns -r ../lists/resolvers.txt -t A domain.txt -w output.txt -s 15000 -o S --flush
     ```
-  - [Altdns](https://github.com/infosec-au/altdns) - permutasian subdomain
-    ```
-    python __main__.py -i domain.txt -o output.txt -w ../words.txt
-    ```
-
+  - [Httpx](https://github.com/projectdiscovery/httpx)
+  
 ## Directory Discovery
 
  <p align="center"><img src="https://user-images.githubusercontent.com/52058660/90960320-1335ac00-e4cb-11ea-8887-70130a069fe3.png" width="700"></p>

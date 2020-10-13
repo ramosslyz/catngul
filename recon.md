@@ -22,8 +22,6 @@
 - [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/) - By Patrik Hudak
 - [Filter Wildcard Domains](https://0xpatrik.com/wildcard-domains/)
 - Link and JS discovery
-  - [GoSpider](https://github.com/jaeles-project/gospider) - recomended
-  - [Hakrawler](https://github.com/hakluke/hakrawler) - most correct
   - [SubDomainizer](https://github.com/nsonaniya2010/SubDomainizer) - And JS Discover
   - [Subscraper](https://github.com/Cillian-Collins/subscraper) - ada fitur recursive
   - [crt.sh](scrt.sh)
@@ -61,10 +59,8 @@
     ```
   - [Httpx](https://github.com/projectdiscovery/httpx)
   
-## Directory Discovery
-
+## Path and Content Discovery
  <p align="center"><img src="https://user-images.githubusercontent.com/52058660/90960320-1335ac00-e4cb-11ea-8887-70130a069fe3.png" width="700"></p>
- 
 - Dirsearch</br>
   ```
   python3 dirsearch.py -u http://uhuy.com:666/ -e .asp, .aspx, .jsp, .php, .csv, .doc, .docx, .xls, .xlsx, .ppt, .pptx, .pdf, .bak, .conf, .config, .old, .sql, .jar, .rar, .zip, .tar, .tar.gz, .apk, .ipa, .cgi, .do, .htm, .html, .js, .json, .rb, .xml, .yml, .svn, .git
@@ -74,10 +70,15 @@
 - Gau
 - Gobuster
 - [Scantastic-tools](https://github.com/maK-/scantastic-tool)
-
-## Content Discovery
-- [FuFF](https://codingo.io/tools/ffuf/bounty/2020/09/17/everything-you-need-to-know-about-ffuf.html)
+- [GoSpider](https://github.com/jaeles-project/gospider) - recomended
+- [Hakrawler](https://github.com/hakluke/hakrawler) - most correct
 - [Arjun](https://github.com/s0md3v/Arjun) - Parameter discovery
+- [waybackurls](https://github.com/tomnomnom/waybackurls/)
+- [Static Analysis of Client-Side JavaScript for pen testers and bug bounty hunters](https://blog.appsecco.com/static-analysis-of-client-side-javascript-for-pen-testers-and-bug-bounty-hunters-f1cb1a5d5288)
+- [How to look for JS files Vulnerability for fun and profit?](https://medium.com/@Skylinearafat/how-to-look-for-js-files-vulnerability-for-fun-and-profit-78bfdfbd6731)
+
+## Fuzzing
+- [FuFF](https://codingo.io/tools/ffuf/bounty/2020/09/17/everything-you-need-to-know-about-ffuf.html)
 
 ## Port Scanning<br>
 [<p align="center"><img src="https://user-images.githubusercontent.com/52058660/91376301-fb518580-e846-11ea-8289-173570f6b866.png" width="500"></p><br>](https://forum.hackthebox.eu/discussion/927/quick-port-scan-tip)
@@ -146,7 +147,6 @@ dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
 sudo docker run -e LANG=C.UTF-8 -v ~/intrigue-core-data:/data -p 0.0.0.0:7777:7777 -i -t intrigueio/intrigue-core:latest --privileged
 
 ```
-
 ## Wordlist
 - Pre-baked:
   - [FuzzDB](https://github.com/fuzzdb-project/fuzzdb)
@@ -166,7 +166,8 @@ sudo docker run -e LANG=C.UTF-8 -v ~/intrigue-core-data:/data -p 0.0.0.0:7777:77
 [How To Do Recon: API Enumeration](https://www.youtube.com/watch?v=fvcKwUS4PTE&t=267s) - by InsiderPhD
   
 ## Screenshot
-[Eyeofwitness](https://github.com/FortyNorthSecurity/EyeWitness)
+- [Eyeofwitness](https://github.com/FortyNorthSecurity/EyeWitness)
+- Aquatone
 
 ## Information Mapping
   - Company Information

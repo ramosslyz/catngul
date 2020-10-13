@@ -22,17 +22,17 @@
 - [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/) - By Patrik Hudak
 - [Filter Wildcard Domains](https://0xpatrik.com/wildcard-domains/)
 - Link and JS discovery
-  - [SubDomainizer](https://github.com/nsonaniya2010/SubDomainizer) - And JS Discover
-  - [Subscraper](https://github.com/Cillian-Collins/subscraper) - ada fitur recursive
+  - [SubDomainizer](https://github.com/nsonaniya2010/SubDomainizer)
+  - [Subscraper](https://github.com/Cillian-Collins/subscraper)
   - [crt.sh](scrt.sh)
-  - [certspotter]
+  - certspotter
 - Scrapping
   - [Amass enum](https://github.com/OWASP/Amass)
   - [Subfinder v2](https://github.com/projectdiscovery/subfinder)
   - [Github-search](https://github.com/gwen001/github-search)
-  - [Shobsugo](https://github.com/incogbyte/shosubgo) - Grab subdomains using Shodan api
+  - [Shobsugo](https://github.com/incogbyte/shosubgo)
   - [Cloud Range](https://www.daehee.com/scan-aws-ip-ssl-certificates/)
-  - [Project Sonar Forward DNS](https://opendata.rapid7.com/sonar.fdns_v2/) - Subdomains from Rapid7 FDNS
+  - [Project Sonar Forward DNS](https://opendata.rapid7.com/sonar.fdns_v2/)
     ```
     zcat data-sonar.gz | grep -F '.uhuy.com"' | jq -r .name | grep '.uhuy.com$' | sort | uniq
       
@@ -47,13 +47,13 @@
   - [shuffleDNS](https://github.com/projectdiscovery/shuffledns)
   - [Subdomain wordlist](#Wordlist)
 - Others   
-  - [Altdns](https://github.com/infosec-au/altdns) - permutasian subdomain
+  - [Altdns](https://github.com/infosec-au/altdns)
     ```
     python __main__.py -i domain.txt -o output.txt -w ../words.txt
     ```
 ## Resolver
-  - Httprobe - DNS resolver
-  - Massdns - DNS resolver
+  - Httprobe
+  - Massdns
     ```
     massdns -r ../lists/resolvers.txt -t A domain.txt -w output.txt -s 15000 -o S --flush
     ```
@@ -72,9 +72,9 @@
 - Gau
 - Gobuster
 - [Scantastic-tools](https://github.com/maK-/scantastic-tool)
-- [GoSpider](https://github.com/jaeles-project/gospider) - recomended
-- [Hakrawler](https://github.com/hakluke/hakrawler) - most correct
-- [Arjun](https://github.com/s0md3v/Arjun) - Parameter discovery
+- [GoSpider](https://github.com/jaeles-project/gospider)
+- [Hakrawler](https://github.com/hakluke/hakrawler)
+- [Arjun](https://github.com/s0md3v/Arjun)
 - [waybackurls](https://github.com/tomnomnom/waybackurls/)
 - [Static Analysis of Client-Side JavaScript for pen testers and bug bounty hunters](https://blog.appsecco.com/static-analysis-of-client-side-javascript-for-pen-testers-and-bug-bounty-hunters-f1cb1a5d5288)
 - [How to look for JS files Vulnerability for fun and profit?](https://medium.com/@Skylinearafat/how-to-look-for-js-files-vulnerability-for-fun-and-profit-78bfdfbd6731)
@@ -85,7 +85,7 @@
 ## Port Scanning<br>
 [<p align="center"><img src="https://user-images.githubusercontent.com/52058660/91376301-fb518580-e846-11ea-8289-173570f6b866.png" width="500"></p><br>](https://forum.hackthebox.eu/discussion/927/quick-port-scan-tip)
 - Nice port: 80, 443, 8443, 4443, 4080
-- [Quick Port Scan Tip](https://forum.hackthebox.eu/discussion/927/quick-port-scan-tip) - Hack The Box Forum
+- [Quick Port Scan Tip](https://forum.hackthebox.eu/discussion/927/quick-port-scan-tip)
 - [Masscan](https://danielmiessler.com/study/masscan/)
 ```
 masscan -p1-65535,U:1-65535 10.10.10.x --rate=1000 -e tun0
@@ -99,7 +99,7 @@ masscan -p1-65535,U:1-65535 10.10.10.x --rate=1000 -e tun0
   ```
   nmap -T 4 -iL hosts -Pn --script=http-title -p80,4443,4080,443 --open 
   ```
-- [Dnmasscan](https://github.com/rastating/dnmasscan) - masscan dengan input dns
+- [Dnmasscan](https://github.com/rastating/dnmasscan)
 ```
 dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
 ```
@@ -108,26 +108,26 @@ dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
 <p align="center"><img src="https://user-images.githubusercontent.com/52058660/91649439-5204cc80-ea9e-11ea-86aa-59102c5a20bf.png" width="470"> <img src="https://user-images.githubusercontent.com/52058660/91649418-208c0100-ea9e-11ea-9b0d-a642eef06a2b.png" width="470"></p><br>
 
 - Tools
-  - [Gitrob](https://michenriksen.com/blog/gitrob-now-in-go/) - By Michael Henriksen
-  - [Github Dorks](https://github.com/techgaun/github-dorks) -
-  - [Gitleaks](https://github.com/zricethezav/gitleaks) - 
-  - [github-search](https://github.com/gwen001/github-search) - 
-  - [Gdorklinks.sh](https://gist.github.com/jhaddix/1fb7ab2409ab579178d2a79959909b33) - Github dorking shortcut link by Jason Haddix
+  - [Gitrob](https://michenriksen.com/blog/gitrob-now-in-go/)
+  - [Github Dorks](https://github.com/techgaun/github-dorks) 
+  - [Gitleaks](https://github.com/zricethezav/gitleaks) 
+  - [github-search](https://github.com/gwen001/github-search) 
+  - [Gdorklinks.sh](https://gist.github.com/jhaddix/1fb7ab2409ab579178d2a79959909b33)
 - Bacaan
   - [Top GitHub Dorks and Tools Used to Scan GitHub Repositories for Sensitive Data](https://securitytrails.com/blog/github-dorks)
-  - [GitHub Recon and Sensitive Data Exposure](https://www.youtube.com/watch?v=l0YsEk_59fQ) - By Th3g3nt3lman
+  - [GitHub Recon and Sensitive Data Exposure](https://www.youtube.com/watch?v=l0YsEk_59fQ)
   - [GitHub for Bug Bounty Hunters](https://gist.github.com/EdOverflow/922549f610b258f459b219a32f92d10b)
   - [GitHub tools collection](http://10degres.net/github-tools-collection/)
 
 ## ASN, IP, CIDR Enumeration
-  - [Amass intel](https://danielmiessler.com/study/amass/) - Automated Attack Surface Mapping
+  - [Amass intel](https://danielmiessler.com/study/amass/)
     ```
     amass intel -asn 12345
     amass intel -ip -src -cidr 104.154.0.0/15
     ```
-  - [bgp.he.net](https://bgp.he.net) - ASN and CIDR Enumeration
-  - [bgpview.io](https://bgpview.io) - Alternatif
-  - [Yougetsignal](https://www.yougetsignal.com) -  Reverse IP domain check
+  - [bgp.he.net](https://bgp.he.net)
+  - [bgpview.io](https://bgpview.io)
+  - [Yougetsignal](https://www.yougetsignal.com)
   - [nmap ping sweep](https://www.wildantechnoart.net/2017/06/penggunaan-ping-scanning-nmap.html)
     ```
     nmap -sn -PS/PA/PE/PP/PM/PU/PO/PR --packet-trace 192.168.100.0-10 -v
@@ -154,10 +154,10 @@ sudo docker run -e LANG=C.UTF-8 -v ~/intrigue-core-data:/data -p 0.0.0.0:7777:77
   - [FuzzDB](https://github.com/fuzzdb-project/fuzzdb)
   - [SecLists](https://github.com/danielmiessler/SecLists)
   - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
-  - [all.txt](https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056) - By Jason Haddix
-  - [Commonspeak2](https://github.com/assetnote/commonspeak2-wordlists) - Nice for subdomain
+  - [all.txt](https://gist.github.com/jhaddix/86a06c5dc309d08580a018c66354a056)
+  - [Commonspeak2](https://github.com/assetnote/commonspeak2-wordlists)
 - Custom
-  - [Who, What, Where, When, Wordlist](https://www.youtube.com/watch?v=W4_QCSIujQ4) - Custom Wordlist by TomNomNom
+  - [Who, What, Where, When, Wordlist](https://www.youtube.com/watch?v=W4_QCSIujQ4)
   - [Cewl](https://www.hackingarticles.in/comprehensive-guide-on-cewl-tool/) 
 
 ## Scanner
@@ -165,7 +165,7 @@ sudo docker run -e LANG=C.UTF-8 -v ~/intrigue-core-data:/data -p 0.0.0.0:7777:77
    - [VIrus Total](https://www.virustotal.com)
 
 ## API Enumeration
-[How To Do Recon: API Enumeration](https://www.youtube.com/watch?v=fvcKwUS4PTE&t=267s) - by InsiderPhD
+[How To Do Recon: API Enumeration](https://www.youtube.com/watch?v=fvcKwUS4PTE&t=267s)
   
 ## Screenshot
 - [Eyeofwitness](https://github.com/FortyNorthSecurity/EyeWitness)
@@ -173,7 +173,7 @@ sudo docker run -e LANG=C.UTF-8 -v ~/intrigue-core-data:/data -p 0.0.0.0:7777:77
 
 ## Information Mapping
   - Company Information
-    - [crunchbase](https://www.crunchbase.com) - info akuisisi
+    - [crunchbase](https://www.crunchbase.com)
   - Reverse whois
     - [whoxy](https://www.whoxy.com/)
     - [DOMLink](https://github.com/vysecurity/DomLink)
@@ -188,9 +188,9 @@ sudo docker run -e LANG=C.UTF-8 -v ~/intrigue-core-data:/data -p 0.0.0.0:7777:77
 [TomatoTimer](https://tomato-timer.com/) - Pomodoro technique
 
 ## Others
-- [How To Shot Web - Jason Haddix's talk from DEFCON23](https://www.youtube.com/watch?v=VtFuAH19Qz0) - By Jason Haddix
+- [How To Shot Web - Jason Haddix's talk from DEFCON23](https://www.youtube.com/watch?v=VtFuAH19Qz0)
 - [Hacking on Bug Bounties for Four Years](https://blog.assetnote.io/2020/09/15/hacking-on-bug-bounties-for-four-years/)
-- [The Bug Hunter’s Methodology Jason Haddix @jhaddix](https://www.youtube.com/watch?v=gIz_yn0Uvb8) - TBHM v4.02
+- [The Bug Hunter’s Methodology Jason Haddix @jhaddix](https://www.youtube.com/watch?v=gIz_yn0Uvb8)
 - [Awesome Asset Discovery](https://github.com/redhuntlabs/Awesome-Asset-Discovery)
 - [Awesome Web Security](https://github.com/qazbnm456/awesome-web-security)
 - [Just another Recon Guide for Pentesters and Bug Bounty Hunters](https://www.offensity.com/de/blog/just-another-recon-guide-pentesters-and-bug-bounty-hunters/)

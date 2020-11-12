@@ -6,6 +6,17 @@ Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa penggun
 ```
 The easiest way to check whether an application is vulnerable is to see if each link and form contains an unpredictable token for each user. Without such an unpredictable token, attackers can forge malicious requests. Focus on the links and forms that invoke state-changing functions, since those are the most important CSRF targets.
 ```
+- Gunakan burpsuite untuk melihat dan merubah csrf token yang terkandung pada HTTP request
+- Gonta-ganti method, POST ke GET, atau sebaliknya. Periksa kevalidan csrf token
+- Contoh Payload,
+  ```
+  <form method="$method" action="$url">
+    <input type="hidden" name="$param1name" value="$param1value">
+  </form>
+  <script>
+    document.forms[0].submit();
+  </script>
+  ```
 
 ## Sumber
 - [Portswigger Academy - Cross-site request forgery (CSRF)](https://portswigger.net/web-security/csrf)

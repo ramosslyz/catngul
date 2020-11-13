@@ -8,6 +8,7 @@ The easiest way to check whether an application is vulnerable is to see if each 
 ```
 - Gunakan burpsuite untuk melihat dan merubah csrf token yang terkandung pada HTTP request
 - Gonta-ganti method, POST ke GET, atau sebaliknya. Periksa kevalidan csrf token
+- Hapus csrf token
 - Contoh Payload,
   ```
   <form method="$method" action="$url">

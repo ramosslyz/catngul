@@ -25,7 +25,7 @@
   - [SubDomainizer](https://github.com/nsonaniya2010/SubDomainizer)
   - [Subscraper](https://github.com/Cillian-Collins/subscraper)
   - [crt.sh](scrt.sh)
-  - certspotter
+  - [certspotter](https://sslmate.com/certspotter/)
 - Scrapping
   - [Amass enum](https://github.com/OWASP/Amass)
   - [Subfinder v2](https://github.com/projectdiscovery/subfinder)

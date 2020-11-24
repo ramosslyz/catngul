@@ -103,7 +103,9 @@ masscan -p1-65535,U:1-65535 10.10.10.x --rate=1000 -e tun0
 ```
 dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
 ```
-## Github Recon
+## Infomartion Leaked
+
+### Github Recon
 
 <p align="center"><img src="https://user-images.githubusercontent.com/52058660/91649439-5204cc80-ea9e-11ea-86aa-59102c5a20bf.png" width="470"> <img src="https://user-images.githubusercontent.com/52058660/91649418-208c0100-ea9e-11ea-9b0d-a642eef06a2b.png" width="470"></p><br>
 
@@ -118,6 +120,9 @@ dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
   - [GitHub Recon and Sensitive Data Exposure](https://www.youtube.com/watch?v=l0YsEk_59fQ)
   - [GitHub for Bug Bounty Hunters](https://gist.github.com/EdOverflow/922549f610b258f459b219a32f92d10b)
   - [GitHub tools collection](http://10degres.net/github-tools-collection/)
+
+### Google Dork
+- [site:yammer.com inurl:'access_token'](https://www.vulnerability-lab.com/get_content.php?id=1003)
 
 ## ASN, IP, CIDR Enumeration
   - [Amass intel](https://danielmiessler.com/study/amass/)

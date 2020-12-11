@@ -79,6 +79,7 @@
 - [Static Analysis of Client-Side JavaScript for pen testers and bug bounty hunters](https://blog.appsecco.com/static-analysis-of-client-side-javascript-for-pen-testers-and-bug-bounty-hunters-f1cb1a5d5288)
 - [How to look for JS files Vulnerability for fun and profit?](https://medium.com/@Skylinearafat/how-to-look-for-js-files-vulnerability-for-fun-and-profit-78bfdfbd6731)
 - [Bug Bounty Tips #4](https://www.infosecmatter.com/bug-bounty-tips-4-aug-03/#2_find_javascript_files_using_gau_and_httpxok-for-js-files-vulnerability-for-fun-and-profit-78bfdfbd6731)
+- [BugBounty | Javascript Files Recon | Beginner](https://www.youtube.com/watch?v=btG3LP_3lnA)
 
 ## Fuzzing
 - [FuFF](https://codingo.io/tools/ffuf/bounty/2020/09/17/everything-you-need-to-know-about-ffuf.html)

@@ -11,3 +11,6 @@
 - `fastly.net.`
   - [Subdomain Takeover via Fastly ( Steps )](https://www.youtube.com/watch?v=9DYEg_j-_hw)
   - [Fastly Restrictions #22](https://github.com/EdOverflow/can-i-take-over-xyz/issues/22)
+- `cloudfront`
+  - [Authentication bypass on auth.uber.com via subdomain takeover of saostatic.uber.com](https://hackerone.com/reports/219205)
+  - [Subdomain takeover on rider.uber.com due to non-existent distribution on Cloudfront](https://hackerone.com/reports/175070)

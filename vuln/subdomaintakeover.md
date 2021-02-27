@@ -17,3 +17,5 @@
   - [Subdomain takeover on rider.uber.com due to non-existent distribution on Cloudfront](https://hackerone.com/reports/175070)
 - `Azure`
   - [Subdomain takeover - Chapter two: Azure Services](https://blog.cystack.net/subdomain-takeover-chapter-two-azure-services/)
+- `s3.amazonaws.com`
+  - [Weird “Subdomain Take Over” pattern of Amazon S3](https://medium.com/entersoftsecurity/weird-subdomain-take-over-pattern-of-amazon-s3-75165ab2e883)

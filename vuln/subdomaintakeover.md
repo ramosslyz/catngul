@@ -1,4 +1,8 @@
 # SUBDOMAIN TAKEOVER
+
+<p align="center"><img src="https://user-images.githubusercontent.com/52058660/109383060-991d2e80-7916-11eb-9d6f-037dc9eb0e74.png" width="500"></p>
+
+
 ## Online Resource
 - [Can I takeover XYZ?](https://github.com/EdOverflow/can-i-take-over-xyz/)
 - [List of specific sub-domains seen as CNAMEs #26](https://github.com/EdOverflow/can-i-take-over-xyz/issues/26)

@@ -7,6 +7,7 @@
   - [Subdomain Takeover](https://github.com/acvn/b3lajar/blob/master/vuln/subdomaintakeover.md)
   - [Port 11211](https://github.com/acvn/b3lajar/blob/master/vuln/portcek/port11211.md)
   - [Open Redirect](https://github.com/acvn/b3lajar/blob/master/vuln/open-redirect.md)
+  - [Account Takeover](https://github.com/acvn/b3lajar/blob/master/vuln/accounttakeover.md)
   
 ## Exploit
   - [PacketStorm-Exploits](https://github.com/BuddhaLabs/PacketStorm-Exploits)

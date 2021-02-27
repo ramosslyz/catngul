@@ -1,4 +1,4 @@
-# CATATAN BELAJAR :rocket:
+# CATATAN NGULIK :rocket:
 
 <p align="center"><img src="https://user-images.githubusercontent.com/52058660/89849631-14093c80-dbb3-11ea-9e04-a67d5758b904.jpg" width="500"></p>
 

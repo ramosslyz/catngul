@@ -8,6 +8,7 @@
   - [Port 11211](https://github.com/acvn/b3lajar/blob/master/vuln/portcek/port11211.md)
   - [Open Redirect](https://github.com/acvn/b3lajar/blob/master/vuln/open-redirect.md)
   - [Account Takeover](https://github.com/acvn/b3lajar/blob/master/vuln/accounttakeover.md)
+  - [IDOR](https://github.com/acvn/b3lajar/blob/master/vuln/idor.md)
   
 ## Exploit
   - [PacketStorm-Exploits](https://github.com/BuddhaLabs/PacketStorm-Exploits)

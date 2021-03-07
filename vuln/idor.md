@@ -12,6 +12,7 @@
   - Use burpsuite's HTTP history tab for checking all of requests.
   - Use burpsuite's scope feature for fast testing. Because the scope feature can be useful to make a target list and the scope feature allows showing only relevant data for your testing scope.
   - Use burpsuite’s compare tool. You should right-click on the request and choose “Send to Comparer” option. Then you can create the same request for using another object and send to comparer.
+  - AuthMAtrix
 ## Tips and trics
   - Focus on 1 feature (Pak Yokokho), klik semua button untuk mendapat
   - [How-To: Find IDOR (Insecure Direct Object Reference) Vulnerabilities for large bounty rewards](https://www.bugcrowd.com/blog/how-to-find-idor-insecure-direct-object-reference-vulnerabilities-for-large-bounty-rewards/)  

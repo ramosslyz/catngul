@@ -10,8 +10,8 @@
   - Use the browser’s secret tab to quickly practically test IDOR vulnerabilities. So, when you use the regular tab as a normal user, you can use the secret tab as an attacker. This will ensure that you don’t logout.
 - Burpsuite
   - Use burpsuite's HTTP history tab for checking all of requests.
-  - Use burpsuite's scope feature for fast testing. Because the scope feature can be useful to make a target list and the scope feature allows showing only relevant data for your testing scope.
-  - Use burpsuite’s compare tool. You should right-click on the request and choose “Send to Comparer” option. Then you can create the same request for using another object and send to comparer.
+  - Use burpsuite's scope feature for fast testing.
+  - Use burpsuite’s compare tool.
   - AuthMAtrix
 ## Tips and trics
   - Focus on 1 feature (Pak Yokokho), klik semua button untuk mendapat
@@ -26,4 +26,9 @@
     - Account takeover with idor
     - Test HPP (HTTP parameter pollution) bug
     - Create valid requests.
+
+## CASE
+- [IDOR via Websockets allow me to takeover any users account](https://mokhansec.medium.com/idor-via-websockets-allow-me-to-takeover-any-users-account-23460dacdeab)
+  - Always play with login, signup, and change info functionality. There is always something for you
+  - 
 

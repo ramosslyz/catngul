@@ -9,6 +9,7 @@
   - [Open Redirect](https://github.com/acvn/b3lajar/blob/master/vuln/open-redirect.md)
   - [Account Takeover](https://github.com/acvn/b3lajar/blob/master/vuln/accounttakeover.md)
   - [IDOR](https://github.com/acvn/b3lajar/blob/master/vuln/idor.md)
+  - [BYPASS](https://github.com/acvn/b3lajar/blob/master/vuln/bypass.md)
   
 ## Exploit
   - [PacketStorm-Exploits](https://github.com/BuddhaLabs/PacketStorm-Exploits)

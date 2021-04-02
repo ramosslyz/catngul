@@ -1,4 +1,7 @@
 # HTTP HEADER INJECTION
+## Cara Identifikasi
+  - [How to identify and exploit HTTP Host header vulnerabilities](https://portswigger.net/web-security/host-header/exploiting)
+  - 
 
 ## User-agent
   - [Access to staging environment via User-Agent string](https://medium.com/@yassergersy/access-to-staging-environment-via-user-agent-string-23470546577f)

@@ -1,19 +1,18 @@
 # RECONNAISSANCE :crystal_ball:
-
+Reconnaissance adalah langkah paling pertama dalam hacking
 ## Table Of Contents
-- [Parameter](https://github.com/acvn/catngul/blob/master/rekon/parameter.md)
-- [Subdomain](https://github.com/acvn/catngul/blob/master/rekon/subdomain.md)
-- [Path & Content](https://github.com/acvn/catngul/blob/master/rekon/path.md)
-- [Port](https://github.com/acvn/catngul/blob/master/rekon/port.md)
-- [Dorking](https://github.com/acvn/catngul/blob/master/rekon/dorking.md)
-- [ASN, IP, CIDR](https://github.com/acvn/catngul/blob/master/rekon/ip.md)
-- [Recon Framerwork](https://github.com/acvn/catngul/blob/master/rekon/framework.md)
-- [Wordlist](https://github.com/acvn/catngul/blob/master/rekon/wordlist.md)
-- [Scanner](https://github.com/acvn/catngul/blob/master/rekon/scanner.md)
-- [Api Enumeration](https://github.com/acvn/catngul/blob/master/rekon/api.md)
-- [Screnshooter](https://github.com/acvn/catngul/blob/master/rekon/screenshoot.md)
 - [Information Mapping](https://github.com/acvn/catngul/blob/master/rekon/information.md)
-
+- [Subdomain](https://github.com/acvn/catngul/blob/master/rekon/subdomain.md)
+- [Screnshooter](https://github.com/acvn/catngul/blob/master/rekon/screenshoot.md)
+- [Path & Content](https://github.com/acvn/catngul/blob/master/rekon/path.md)
+- [Wordlist](https://github.com/acvn/catngul/blob/master/rekon/wordlist.md)
+- [Parameter](https://github.com/acvn/catngul/blob/master/rekon/parameter.md)
+- [Dorking](https://github.com/acvn/catngul/blob/master/rekon/dorking.md)
+- [Api Enumeration](https://github.com/acvn/catngul/blob/master/rekon/api.md)
+- [ASN, IP, CIDR](https://github.com/acvn/catngul/blob/master/rekon/ip.md)
+- [Port](https://github.com/acvn/catngul/blob/master/rekon/port.md)
+- [Framerwork](https://github.com/acvn/catngul/blob/master/rekon/framework.md)
+- [Scanner](https://github.com/acvn/catngul/blob/master/rekon/scanner.md)
 
 ## Sumber
 - [How To Shot Web - Jason Haddix's talk from DEFCON23](https://www.youtube.com/watch?v=VtFuAH19Qz0)

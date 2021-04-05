@@ -1,18 +1,18 @@
 # RECONNAISSANCE :crystal_ball:
 Reconnaissance adalah langkah paling pertama hacking. Maksimalkan rekon!
 ## Table Of Contents
-- [Information](https://github.com/acvn/catngul/blob/master/rekon/information.md)
-- [Subdomain](https://github.com/acvn/catngul/blob/master/rekon/subdomain.md)
-- [Screnshooter](https://github.com/acvn/catngul/blob/master/rekon/screenshoot.md)
-- [Path & Content](https://github.com/acvn/catngul/blob/master/rekon/path.md)
-- [Wordlist](https://github.com/acvn/catngul/blob/master/rekon/wordlist.md)
-- [Parameter](https://github.com/acvn/catngul/blob/master/rekon/parameter.md)
-- [Dorking](https://github.com/acvn/catngul/blob/master/rekon/dorking.md)
-- [API](https://github.com/acvn/catngul/blob/master/rekon/api.md)
-- [ASN, IP & CIDR](https://github.com/acvn/catngul/blob/master/rekon/ip.md)
-- [Port](https://github.com/acvn/catngul/blob/master/rekon/port.md)
-- [Framerwork](https://github.com/acvn/catngul/blob/master/rekon/framework.md)
-- [Scanner](https://github.com/acvn/catngul/blob/master/rekon/scanner.md)
+1. [Information](https://github.com/acvn/catngul/blob/master/rekon/information.md)
+2. [Subdomain](https://github.com/acvn/catngul/blob/master/rekon/subdomain.md)
+3. [Screnshooter](https://github.com/acvn/catngul/blob/master/rekon/screenshoot.md)
+4. [Path & Content](https://github.com/acvn/catngul/blob/master/rekon/path.md)
+5. [Wordlist](https://github.com/acvn/catngul/blob/master/rekon/wordlist.md)
+6. [Parameter](https://github.com/acvn/catngul/blob/master/rekon/parameter.md)
+7. [Dorking](https://github.com/acvn/catngul/blob/master/rekon/dorking.md)
+8. [API](https://github.com/acvn/catngul/blob/master/rekon/api.md)
+9. [ASN, IP & CIDR](https://github.com/acvn/catngul/blob/master/rekon/ip.md)
+10. [Port](https://github.com/acvn/catngul/blob/master/rekon/port.md)
+11. [Framerwork](https://github.com/acvn/catngul/blob/master/rekon/framework.md)
+12. [Scanner](https://github.com/acvn/catngul/blob/master/rekon/scanner.md)
 
 ## Sumber
 - [How To Shot Web - Jason Haddix's talk from DEFCON23](https://www.youtube.com/watch?v=VtFuAH19Qz0)

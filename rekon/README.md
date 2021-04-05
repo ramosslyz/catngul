@@ -9,7 +9,7 @@ Reconnaissance adalah langkah paling pertama hacking. Maksimalkan rekon!
 - [Parameter](https://github.com/acvn/catngul/blob/master/rekon/parameter.md)
 - [Dorking](https://github.com/acvn/catngul/blob/master/rekon/dorking.md)
 - [API](https://github.com/acvn/catngul/blob/master/rekon/api.md)
-- [ASN, IP, CIDR](https://github.com/acvn/catngul/blob/master/rekon/ip.md)
+- [ASN, IP & CIDR](https://github.com/acvn/catngul/blob/master/rekon/ip.md)
 - [Port](https://github.com/acvn/catngul/blob/master/rekon/port.md)
 - [Framerwork](https://github.com/acvn/catngul/blob/master/rekon/framework.md)
 - [Scanner](https://github.com/acvn/catngul/blob/master/rekon/scanner.md)

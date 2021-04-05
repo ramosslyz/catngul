@@ -13,7 +13,14 @@
 - [Censys](https://censys.io/)
 
 ## Web Technology
+- Whatruns
 - Buildwith
 - Wappalyzer
+- Netcraft
+- PageXray
 - Nmap -A
 - Whatweb
+- [Webtech](https://github.com/ShielderSec/webtech)
+
+## Sumber
+- [How to find What Technology Website using?](https://geekflare.com/what-technology-website-using/)

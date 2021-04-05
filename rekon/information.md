@@ -21,6 +21,8 @@
 - Nmap -A
 - Whatweb
 - [Webtech](https://github.com/ShielderSec/webtech)
+- w3techs
 
 ## Sumber
 - [How to find What Technology Website using?](https://geekflare.com/what-technology-website-using/)
+- [How to find out what programming language a website is built in?(https://security.stackexchange.com/questions/117131/how-to-find-out-what-programming-language-a-website-is-built-in)

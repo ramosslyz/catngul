@@ -11,3 +11,5 @@
     - [Buildwith](https://pro.builtwith.com/)
     - [Censys](https://censys.io/)
     - [Wappalyzer](https://www.wappalyzer.com/)
+   - Port Information
+    - Nmap -A

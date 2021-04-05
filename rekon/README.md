@@ -1,14 +1,14 @@
 # RECONNAISSANCE :crystal_ball:
 Reconnaissance adalah langkah paling pertama hacking. Maksimalkan rekon!
 ## Table Of Contents
-- [Information Mapping](https://github.com/acvn/catngul/blob/master/rekon/information.md)
+- [Information](https://github.com/acvn/catngul/blob/master/rekon/information.md)
 - [Subdomain](https://github.com/acvn/catngul/blob/master/rekon/subdomain.md)
 - [Screnshooter](https://github.com/acvn/catngul/blob/master/rekon/screenshoot.md)
 - [Path & Content](https://github.com/acvn/catngul/blob/master/rekon/path.md)
 - [Wordlist](https://github.com/acvn/catngul/blob/master/rekon/wordlist.md)
 - [Parameter](https://github.com/acvn/catngul/blob/master/rekon/parameter.md)
 - [Dorking](https://github.com/acvn/catngul/blob/master/rekon/dorking.md)
-- [Api Enumeration](https://github.com/acvn/catngul/blob/master/rekon/api.md)
+- [API](https://github.com/acvn/catngul/blob/master/rekon/api.md)
 - [ASN, IP, CIDR](https://github.com/acvn/catngul/blob/master/rekon/ip.md)
 - [Port](https://github.com/acvn/catngul/blob/master/rekon/port.md)
 - [Framerwork](https://github.com/acvn/catngul/blob/master/rekon/framework.md)

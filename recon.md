@@ -1,5 +1,5 @@
 # RECONNAISSANCE :crystal_ball:
-Reconnaissance adalah langkah paling pertama dalam hacking
+Reconnaissance adalah langkah paling pertama hacking. Maksimalkan rekon!
 ## Table Of Contents
 - [Information Mapping](https://github.com/acvn/catngul/blob/master/rekon/information.md)
 - [Subdomain](https://github.com/acvn/catngul/blob/master/rekon/subdomain.md)

@@ -14,6 +14,12 @@ Reconnaissance adalah langkah paling pertama hacking. Maksimalkan rekon!
 11. [Framerwork](https://github.com/acvn/catngul/blob/master/rekon/framework.md)
 12. [Scanner](https://github.com/acvn/catngul/blob/master/rekon/scanner.md)
 
+## Burpsuite
+- AuthMatrix
+- Paraminer
+- Turbo Intruder
+- Pwnfox
+
 ## Sumber
 - [How To Shot Web - Jason Haddix's talk from DEFCON23](https://www.youtube.com/watch?v=VtFuAH19Qz0)
 - [Hacking on Bug Bounties for Four Years](https://blog.assetnote.io/2020/09/15/hacking-on-bug-bounties-for-four-years/)

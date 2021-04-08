@@ -17,6 +17,8 @@
   - Focus on 1 feature (Pak Yokokho), klik semua button untuk mendapat
   - [How-To: Find IDOR (Insecure Direct Object Reference) Vulnerabilities for large bounty rewards](https://www.bugcrowd.com/blog/how-to-find-idor-insecure-direct-object-reference-vulnerabilities-for-large-bounty-rewards/)
   - [Everything You Need to Know About IDOR (Insecure Direct Object References)](https://aysebilge.com/2020/04/17/everything-you-need-to-know-about-idor)
+    - ![image](https://user-images.githubusercontent.com/52058660/114009035-ff3d8f80-988c-11eb-89af-f799b5ce9266.png)
+
 
 ## CASE
 - [IDOR via Websockets allow me to takeover any users account](https://mokhansec.medium.com/idor-via-websockets-allow-me-to-takeover-any-users-account-23460dacdeab)

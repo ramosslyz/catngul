@@ -9,7 +9,7 @@
   - Burpsuite's scope feature for fast testing.
   - Burpsuite’s compare tool.
   - AuthMAtrix
-  -
+ 
 ## Tips and trics
   - Focus on 1 feature (Pak Yokokho)
   - [How-To: Find IDOR (Insecure Direct Object Reference) Vulnerabilities for large bounty rewards](https://www.bugcrowd.com/blog/how-to-find-idor-insecure-direct-object-reference-vulnerabilities-for-large-bounty-rewards/)

@@ -2,8 +2,7 @@
 
 ## Tools
 - Browser
-  - PwnFox
-  - AutoChrome
+  - PwnFox/AutoChrome
 - Burpsuite
   - Burpsuite's HTTP history tab for checking all of requests.
   - Burpsuite's scope feature for fast testing.

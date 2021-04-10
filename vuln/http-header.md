@@ -2,6 +2,7 @@
 ## Cara Identifikasi
   - [How to identify and exploit HTTP Host header vulnerabilities](https://portswigger.net/web-security/host-header/exploiting)
   - [Rewinding Back to the Basics — Injection Attack Series](https://medium.com/@vanessamorales.1023/rewinding-back-to-the-basics-injection-attack-series-226d35d7994e)
+  - [Testing for Bypassing Authorization Schema](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/05-Authorization_Testing/02-Testing_for_Bypassing_Authorization_Schema.html)
 
 ## User-agent
 Untuk menyisipkan payload, bisa XSS atau SQL-injection.
@@ -13,4 +14,9 @@ untuk mengarahkan ke situs tertentu (attacker).
   - [Hijacking Reset Password Link in https://www.niteflirt.com/ via Host Header Poisoning (Write Up) ](https://blog.evanricafort.com/2021/02/hijacking-reset-password-link-in.html)
 
 ## X-Original-URL / X-Rewrite-Url
-Untuk override sebuah request 
+Untuk override sebuah request
+  - [Bypass front server restrictions and access to forbidden files and directories through X-Rewrite-Url/X-original-url header on account.mackeeper.com](https://hackerone.com/reports/737323)
+ ### Step
+    - Cari halaman yang mengandung 403 atau 401
+    - buka halaman yang 200
+    - masukkan value 403/401 pada header tsb

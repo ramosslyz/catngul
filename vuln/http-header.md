@@ -17,6 +17,6 @@ untuk mengarahkan ke situs tertentu (attacker).
 Untuk override sebuah request
   - [Bypass front server restrictions and access to forbidden files and directories through X-Rewrite-Url/X-original-url header on account.mackeeper.com](https://hackerone.com/reports/737323)
 ### Step
-  - Cari halaman yang mengandung 403 atau 401
-  - buka halaman yang 200
-  - masukkan value 403/401 pada header tsb
+   - Cari halaman yang mengandung 403 atau 401
+   - buka halaman yang 200
+   - masukkan value 403/401 pada header tsb

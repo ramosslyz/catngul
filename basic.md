@@ -13,3 +13,4 @@
 
 ## CORS
 - [Complete Guide to Cross-Origin Resource Sharing (CORS)](https://www.keycdn.com/support/cors)
+- [What is CORS (Cross-Origin Resource Sharing)?](https://www.educative.io/blog/getting-started-cors)

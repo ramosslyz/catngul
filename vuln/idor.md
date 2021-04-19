@@ -17,7 +17,12 @@
     - List all endpoints in the application.
     - Try perform on endpoints for cross user roles. You can use AuthMatrix in BurpSuite.
     - If you can read, update, create or delete an endpoint you’re not authorized then there is an IDOR.
+  - [Learning about Insecure Object Reference (IDOR)](https://www.bugbountyhunter.com/vulnerability/?type=idor)
+    -  opt out all links, contoh: signup to all newsletter, receive forgot email link, etc
+    -  80% idors findigs are from mobile app
+    -  Updating account setting
+    -  Reset Password
+    -   
 
 ## Case
 - [IDOR via Websockets allow me to takeover any users account](https://mokhansec.medium.com/idor-via-websockets-allow-me-to-takeover-any-users-account-23460dacdeab), Always play with login, signup, and change info functionality. There is always something for you 
-

@@ -22,7 +22,9 @@
     -  80% idors findigs are from mobile app
     -  Updating account setting
     -  Reset Password
-    -   
+  - [How I made it to Google HOF?](https://infosecwriteups.com/how-i-made-it-to-google-hof-f1cec85fdb1b)
+    - Paramspider good for find parameter
+    - knxx by tomnomnom good for find reflected word
 
 ## Case
 - [IDOR via Websockets allow me to takeover any users account](https://mokhansec.medium.com/idor-via-websockets-allow-me-to-takeover-any-users-account-23460dacdeab), Always play with login, signup, and change info functionality. There is always something for you 

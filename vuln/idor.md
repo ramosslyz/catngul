@@ -25,6 +25,9 @@
   - [How I made it to Google HOF?](https://infosecwriteups.com/how-i-made-it-to-google-hof-f1cec85fdb1b)
     - Paramspider good for find parameter
     - knxx by tomnomnom good for find reflected word
+  - [login to any user's cashier account and full account information disclosure](https://hackerone.com/reports/98247/)
+    - Gunakan 2 akun
+    - Cek sourcecode
 
 ## Case
 - [IDOR via Websockets allow me to takeover any users account](https://mokhansec.medium.com/idor-via-websockets-allow-me-to-takeover-any-users-account-23460dacdeab), Always play with login, signup, and change info functionality. There is always something for you 

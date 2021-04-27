@@ -10,6 +10,7 @@
   - [Account Takeover](https://github.com/acvn/b3lajar/blob/master/vuln/accounttakeover.md)
   - [IDOR](https://github.com/acvn/b3lajar/blob/master/vuln/idor.md)
   - [HTTP Header Injection](https://github.com/acvn/b3lajar/blob/master/vuln/http-header.md)
+  - [SSRF](https://github.com/acvn/b3lajar/blob/master/vuln/ssrf.md)
   
 ## Exploit
   - [PacketStorm-Exploits](https://github.com/BuddhaLabs/PacketStorm-Exploits)

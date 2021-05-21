@@ -30,6 +30,7 @@
     - Cek sourcecode
   - @zseano
     - Mobile App
+    - Edit Profile
 
 ## Case
 - [IDOR via Websockets allow me to takeover any users account](https://mokhansec.medium.com/idor-via-websockets-allow-me-to-takeover-any-users-account-23460dacdeab), Always play with login, signup, and change info functionality. There is always something for you 

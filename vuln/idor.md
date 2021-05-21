@@ -28,6 +28,8 @@
   - [login to any user's cashier account and full account information disclosure](https://hackerone.com/reports/98247/)
     - Gunakan 2 akun
     - Cek sourcecode
+  - @zseano
+    - Mobile App
 
 ## Case
 - [IDOR via Websockets allow me to takeover any users account](https://mokhansec.medium.com/idor-via-websockets-allow-me-to-takeover-any-users-account-23460dacdeab), Always play with login, signup, and change info functionality. There is always something for you 

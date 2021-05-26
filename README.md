@@ -10,7 +10,7 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa.
 2. [Reconnaissance](https://github.com/acvn/b3lajar/blob/master/rekon)
 3. [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln)
 4. [Lab and CTF](https://github.com/acvn/b3lajar/tree/master/ctf.md)
-5. [Mobile](https://github.com/acvn/b3lajar/tree/master/mobile.md)
+5. [Mobile](https://github.com/acvn/b3lajar/tree/master/mobile)
 6. [Motivation](https://github.com/acvn/b3lajar/blob/master/motivation.md)
    
 ## Ask Me!

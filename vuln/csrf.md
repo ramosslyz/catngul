@@ -24,8 +24,9 @@ The easiest way to check whether an application is vulnerable is to see if each 
   </script>
   ```
 
-## Sumber
+## Resource
 - [Portswigger Academy - Cross-site request forgery (CSRF)](https://portswigger.net/web-security/csrf)
+- [KBID 5 - CSRF](https://owasp-skf.gitbook.io/asvs-write-ups/kbid-5-csrf)
 
 ## Write-up
 - [CSRF at Kaskus.co.id](https://medium.com/@daffailhamr/csrf-at-kaskus-co-id-f8e31864807f)

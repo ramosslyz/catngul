@@ -23,6 +23,9 @@ The easiest way to check whether an application is vulnerable is to see if each 
     document.forms[0].submit();
   </script>
   ```
+## Prevention
+- Samesite Cookie
+![image](https://user-images.githubusercontent.com/52058660/120603439-3cca2d80-c476-11eb-8de1-2d803a2a4c45.png)
 
 ## Resource
 - [Portswigger Academy - Cross-site request forgery (CSRF)](https://portswigger.net/web-security/csrf)

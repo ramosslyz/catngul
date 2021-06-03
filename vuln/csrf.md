@@ -28,8 +28,9 @@ The easiest way to check whether an application is vulnerable is to see if each 
 - [Portswigger Academy - Cross-site request forgery (CSRF)](https://portswigger.net/web-security/csrf)
 - [SKF - CSRF](https://owasp-skf.gitbook.io/asvs-write-ups/kbid-5-csrf)
 - [OWASP - Cross Site Request Forgery (CSRF)](https://owasp.org/www-community/attacks/csrf)
-- [Reviewing Code for Cross-Site Request Forgery Issues
+- [OWASP - Reviewing Code for Cross-Site Request Forgery Issues
 Overview](https://owasp.org/www-project-code-review-guide/reviewing-code-for-csrf-issues)
+- [OWASP Web Security Testing Guide](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/05-Testing_for_Cross_Site_Request_Forgery.md)
 
 ## Write-up
 - [CSRF at Kaskus.co.id](https://medium.com/@daffailhamr/csrf-at-kaskus-co-id-f8e31864807f)

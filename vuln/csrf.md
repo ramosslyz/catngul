@@ -45,5 +45,5 @@ Overview](https://owasp.org/www-project-code-review-guide/reviewing-code-for-csr
 
 ## Lab
 - [Portswigger Academy - Cross-site request forgery (CSRF)](https://portswigger.net/web-security/csrf)
-- [OWASP Juice Shop - Broken Access Control](https://owasp.org/www-project-juice-shop/)
-- [OWASP Security Knowledge Framework](ttps://owasp-skf.gitbook.io/asvs-write-ups/kbid-5-csrf)
+- [OWASP Juice Shop - Broken Access Control](https://owasp.org/www-project-juice-shop)
+- [OWASP Security Knowledge Framework](https://owasp-skf.gitbook.io/asvs-write-ups/kbid-5-csrf)

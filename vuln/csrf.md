@@ -22,9 +22,10 @@ Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa penggun
   </script>
   ```
 ## Prevention
-### Samesite Cookie (bisa dibypass dengan modifikasi GET)
+### Samesite Cookie
+- bisa dibypass dengan modifikasi GET
 ![image](https://user-images.githubusercontent.com/52058660/120603439-3cca2d80-c476-11eb-8de1-2d803a2a4c45.png)
-### CSRF Token as CSRF Protection
+### CSRF Token
 - CSRF token should be generated on the server-side
 - CSRF token should not be transmitted using cookies
 - CSRF token should be unique per session, secret, and unpredictable

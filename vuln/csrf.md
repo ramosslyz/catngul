@@ -24,7 +24,7 @@ The easiest way to check whether an application is vulnerable is to see if each 
   </script>
   ```
 ## Prevention
-- Samesite Cookie
+- Samesite Cookie (bisa dibypass dengan modifikasi GET)
 ![image](https://user-images.githubusercontent.com/52058660/120603439-3cca2d80-c476-11eb-8de1-2d803a2a4c45.png)
 
 ## Resource

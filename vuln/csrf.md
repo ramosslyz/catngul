@@ -2,12 +2,6 @@
 
 Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa pengguna agar backend mengeksekusi perintah yang tidak seharusnya dizinkan, menipu website dari request user yang terpercaya dan mengirim Request palsu dari authenticate user.
 
-## CSRF Token as CSRF Protection
-- CSRF token should be generated on the server-side
-- CSRF token should not be transmitted using cookies
-- CSRF token should be unique per session, secret, and unpredictable
-- CSRF token should no be leaked in the server logs or in the URL
-
 ## How to find them ?
 - The easiest way to check whether an application is vulnerable is to see if each link and form contains an unpredictable token for each user. Without such an unpredictable token, attackers can forge malicious requests. Focus on the links and forms that invoke state-changing functions, since those are the most important CSRF targets.
 - Gunakan burpsuite untuk melihat dan merubah csrf token yang terkandung pada HTTP request
@@ -28,8 +22,13 @@ Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa penggun
   </script>
   ```
 ## Prevention
-- Samesite Cookie (bisa dibypass dengan modifikasi GET)
+### Samesite Cookie (bisa dibypass dengan modifikasi GET)
 ![image](https://user-images.githubusercontent.com/52058660/120603439-3cca2d80-c476-11eb-8de1-2d803a2a4c45.png)
+### CSRF Token as CSRF Protection
+- CSRF token should be generated on the server-side
+- CSRF token should not be transmitted using cookies
+- CSRF token should be unique per session, secret, and unpredictable
+- CSRF token should no be leaked in the server logs or in the URL
 
 ## Resource
 - [OWASP - Cross Site Request Forgery (CSRF)](https://owasp.org/www-community/attacks/csrf)

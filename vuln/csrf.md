@@ -34,7 +34,6 @@ The easiest way to check whether an application is vulnerable is to see if each 
 ![image](https://user-images.githubusercontent.com/52058660/120603439-3cca2d80-c476-11eb-8de1-2d803a2a4c45.png)
 
 ## Resource
-- [Portswigger Academy - Cross-site request forgery (CSRF)](https://portswigger.net/web-security/csrf)
 - [SKF - CSRF](https://owasp-skf.gitbook.io/asvs-write-ups/kbid-5-csrf)
 - [OWASP - Cross Site Request Forgery (CSRF)](https://owasp.org/www-community/attacks/csrf)
 - [OWASP - Reviewing Code for Cross-Site Request Forgery Issues
@@ -44,3 +43,7 @@ Overview](https://owasp.org/www-project-code-review-guide/reviewing-code-for-csr
 
 ## Write-up
 - [CSRF at Kaskus.co.id](https://medium.com/@daffailhamr/csrf-at-kaskus-co-id-f8e31864807f)
+
+## Lab
+- [Portswigger Academy - Cross-site request forgery (CSRF)](https://portswigger.net/web-security/csrf)
+- [OWASP Juice Shop - Broken Access Control](https://owasp.org/www-project-juice-shop/)

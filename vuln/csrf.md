@@ -6,7 +6,7 @@ Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa penggun
 - CSRF token should be generated on the server-side
 - CSRF token should not be transmitted using cookies
 - CSRF token should be unique per session, secret, and unpredictable
-- CSRF token should no be leaked
+- CSRF token should no be leaked in the server logs or in the URL
 
 ## How to find them ?
 ```

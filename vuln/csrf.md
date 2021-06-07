@@ -12,14 +12,13 @@ Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa penggun
 - Using Same Anti-CSRF Token
 - Guessable Anti-CSRF Token
 - Stealing Token with other attacks such as XSS
-- Contoh evil.html,
+- Contoh POC
   ```
   <form method="$method" action="$url">
     <input type="hidden" name="$param1name" value="$param1value">
+    <input type="submit" value="submit">
   </form>
-  <script>
-    document.forms[0].submit();
-  </script>
+  <script> document.forms[0].submit();</script>
   ```
 ## Prevention
 ### Samesite Cookie

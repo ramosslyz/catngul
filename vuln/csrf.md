@@ -41,6 +41,9 @@ Overview](https://owasp.org/www-project-code-review-guide/reviewing-code-for-csr
 - [OWASP Cheat Sheet Series - Cross-Site Request Forgery Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
 - [InsiderPhD - Finding Your First Bug: Cross-Site Request Forgery (CSRF)](https://www.youtube.com/watch?v=ULvf6N8AL2A)
 
+## CORS and Same-origin policy
+
+
 ## Write-up
 - [CSRF at Kaskus.co.id](https://medium.com/@daffailhamr/csrf-at-kaskus-co-id-f8e31864807f)
 - [Refocusing in bug hunting, Bonus: An interestingly simple to test CSRF bypass(1)](https://medium.com/bugbountywriteup/refocusing-in-bug-hunting-bonus-an-interestingly-simple-to-test-csrf-bypass-8595b3312147)

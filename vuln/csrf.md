@@ -27,7 +27,8 @@ Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa penggun
 - CSRF token should be unique per session, secret, and unpredictable
 - CSRF token should no be leaked in the server logs or in the URL
 ### Double submit Cookie
--
+![image](https://user-images.githubusercontent.com/52058660/121179331-cf5d3900-c889-11eb-8676-ea95ab20b21a.png)
+
 
 ### Samesite Cookie
 - bisa dibypass dengan modifikasi GET

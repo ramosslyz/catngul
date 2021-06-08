@@ -20,6 +20,7 @@ Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa penggun
   </form>
   <script> document.forms[0].submit();</script>
   ```
+- Selalu periksa cookie request dan cookie response. Pelajari alur datanya.
 ## Prevention
 ### CSRF Token
 - CSRF token should be generated on the server-side

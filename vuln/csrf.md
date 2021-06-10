@@ -32,6 +32,12 @@ Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa penggun
 
 ### Samesite Cookie
 - bisa dibypass dengan modifikasi GET
+```
+Set-Cookie: JSESSIONID=xxxxx; SameSite=Strict
+Set-Cookie: JSESSIONID=xxxxx; SameSite=Lax
+```
+#### CORS
+
 
 ## Resource
 - [OWASP - Cross Site Request Forgery (CSRF)](https://owasp.org/www-community/attacks/csrf)

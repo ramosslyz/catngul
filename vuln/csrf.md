@@ -17,7 +17,9 @@ Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa penggun
 - Guessable Anti-CSRF Token
 - Stealing Token with other attacks such as XSS. XSS bisa melemahkan segala pertahanan website dari CSRF.
 - Selalu periksa cookie request dan cookie response. Pelajari alur datanya.
-- Contoh POC
+
+
+## POC
   ```
   <form method="$method" action="$url">
     <input type="hidden" name="$param1name" value="$param1value">
@@ -25,7 +27,6 @@ Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa penggun
   </form>
   <script> document.forms[0].submit();</script>
   ```
-
 
 
 ## CORS MISCONFIGURATION

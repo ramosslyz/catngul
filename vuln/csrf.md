@@ -23,6 +23,7 @@ Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa penggun
   <script> document.forms[0].submit();</script>
   ```
 - Selalu periksa cookie request dan cookie response. Pelajari alur datanya.
+- XSS bisa melemahkan segala pertahanan website dari CSRF
 
 
 ## CORS

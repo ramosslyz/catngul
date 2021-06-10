@@ -28,7 +28,7 @@ Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa penggun
 - XSS bisa melemahkan segala pertahanan website dari CSRF
 
 
-## CORS
+## CORS Misconfig
 
 
 ## Prevention

@@ -36,7 +36,7 @@ Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa penggun
 Set-Cookie: JSESSIONID=xxxxx; SameSite=Strict
 Set-Cookie: JSESSIONID=xxxxx; SameSite=Lax
 ```
-#### CORS
+### CORS
 
 
 ## Resource

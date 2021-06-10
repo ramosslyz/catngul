@@ -1,6 +1,8 @@
 # CSRF
 
+
 Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa pengguna agar backend mengeksekusi perintah yang tidak seharusnya dizinkan, menipu website dari request user yang terpercaya dan mengirim Request palsu dari authenticate user.
+
 
 ## How to find them ?
 - The easiest way to check whether an application is vulnerable is to see if each link and form contains an unpredictable token for each user. Without such an unpredictable token, attackers can forge malicious requests. Focus on the links and forms that invoke state-changing functions, since those are the most important CSRF targets.
@@ -21,6 +23,11 @@ Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa penggun
   <script> document.forms[0].submit();</script>
   ```
 - Selalu periksa cookie request dan cookie response. Pelajari alur datanya.
+
+
+## CORS
+
+
 ## Prevention
 ### CSRF Token
 - CSRF token should be generated on the server-side
@@ -36,7 +43,6 @@ Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa penggun
 Set-Cookie: JSESSIONID=xxxxx; SameSite=Strict
 Set-Cookie: JSESSIONID=xxxxx; SameSite=Lax
 ```
-### CORS
 
 
 ## Resource

@@ -4,7 +4,7 @@
 Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa pengguna agar backend mengeksekusi perintah yang tidak seharusnya dizinkan, menipu website dari request user yang terpercaya dan mengirim Request palsu dari authenticate user.
 
 
-## How to find them ?
+## HOW TO FIND THEM
 ![image](https://user-images.githubusercontent.com/52058660/121527083-3adb0e00-ca24-11eb-800a-f675f28fee14.png)
 ![image](https://user-images.githubusercontent.com/52058660/121529015-3152a580-ca26-11eb-8676-6c2ab13449e5.png)
 - The easiest way to check whether an application is vulnerable is to see if each link and form contains an unpredictable token for each user. Without such an unpredictable token, attackers can forge malicious requests. Focus on the links and forms that invoke state-changing functions, since those are the most important CSRF targets.
@@ -28,10 +28,10 @@ Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa penggun
 
 
 
-## CORS Misconfig
+## CORS MISCONFIGURATION
 
 
-## Prevention
+## PREVENTION
 ### CSRF Token
 - CSRF token should be generated on the server-side
 - CSRF token should not be transmitted using cookies
@@ -48,7 +48,7 @@ Set-Cookie: JSESSIONID=xxxxx; SameSite=Lax
 ```
 
 
-## Resource
+## RESOURCE
 - [OWASP - Cross Site Request Forgery (CSRF)](https://owasp.org/www-community/attacks/csrf)
 - [OWASP - Reviewing Code for Cross-Site Request Forgery Issues
 Overview](https://owasp.org/www-project-code-review-guide/reviewing-code-for-csrf-issues)
@@ -58,12 +58,12 @@ Overview](https://owasp.org/www-project-code-review-guide/reviewing-code-for-csr
 - [CSRF, CORS, and HTTP Security headers Demystified](https://blog.vnaik.com/posts/web-attacks.html)
 
 
-## Write-up
+## WRITE-UP
 - [CSRF at Kaskus.co.id](https://medium.com/@daffailhamr/csrf-at-kaskus-co-id-f8e31864807f)
 - [Refocusing in bug hunting, Bonus: An interestingly simple to test CSRF bypass(1)](https://medium.com/bugbountywriteup/refocusing-in-bug-hunting-bonus-an-interestingly-simple-to-test-csrf-bypass-8595b3312147)
 
 
-## Lab
+## LAB
 - [Portswigger Academy - Cross-site request forgery (CSRF)](https://portswigger.net/web-security/csrf)
 - [OWASP Juice Shop - Broken Access Control](https://owasp.org/www-project-juice-shop)
 - [OWASP Security Knowledge Framework - CSRF](https://owasp-skf.gitbook.io/asvs-write-ups/kbid-5-csrf)

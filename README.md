@@ -13,4 +13,4 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-c
 5. [Motivation](https://github.com/acvn/b3lajar/blob/master/motivation.md)
    
 ## Ask Me!
-acvn on [Twitter](https://twitter.com/aldi__satria)
+acvn on [Twitter](https://twitter.com/aldi__satria) or [Instagram](https://www.instagram.com/aldi___satria/)

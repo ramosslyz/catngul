@@ -72,7 +72,7 @@ Overview](https://owasp.org/www-project-code-review-guide/reviewing-code-for-csr
 
 ## WRITE-UP
 1. [CSRF at Kaskus.co.id](https://medium.com/@daffailhamr/csrf-at-kaskus-co-id-f8e31864807f)
-2. [Refocusing in bug hunting, Bonus: An interestingly simple to test CSRF bypass(1)](https://medium.com/bugbountywriteup/refocusing-in-bug-hunting-bonus-an-interestingly-simple-to-test-csrf-bypass-8595b3312147)
+2. [Refocusing in bug hunting, Bonus: An interestingly simple to test CSRF bypass](https://medium.com/bugbountywriteup/refocusing-in-bug-hunting-bonus-an-interestingly-simple-to-test-csrf-bypass-8595b3312147)
 
 
 ## LAB

@@ -30,6 +30,7 @@ Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa penggun
 
 
 ## CORS MISCONFIGURATION
+Sebenarnya CORS malah melemahkan browser karena melonggarkan aturan dari Same-origin policy sehingga apabila terjadi misconfigurasi CORS, attacker dapat memanfaatkan celah tersebut untuk melancarkan serangan CSRF.
 
 
 ## PREVENTION
@@ -38,8 +39,17 @@ Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa penggun
 - CSRF token should not be transmitted using cookies
 - CSRF token should be unique per session, secret, and unpredictable
 - CSRF token should no be leaked in the server logs or in the URL
+
 ### Double submit Cookie
--
+```
+POST /email/change HTTP/1.1
+Host: vulnerable-website.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 68
+Cookie: session=1DQGdzYbOJQzLP7460tfyiv3do7MjyPw; csrf=R8ov2YBfTYmzFyjit8o2hKBuoIjXXVpa
+
+csrf=R8ov2YBfTYmzFyjit8o2hKBuoIjXXVpa&email=wiener@normal-user.com 
+```
 
 ### Samesite Cookie
 - bisa dibypass dengan modifikasi GET

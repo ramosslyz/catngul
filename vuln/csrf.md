@@ -9,7 +9,7 @@ Cross Site Request Forgery / Onelink Attack adalah serangan yang memaksa penggun
 ![image](https://user-images.githubusercontent.com/52058660/121529015-3152a580-ca26-11eb-8676-6c2ab13449e5.png)
 - The easiest way to check whether an application is vulnerable is to see if each link and form contains an unpredictable token for each user. Without such an unpredictable token, attackers can forge malicious requests. Focus on the links and forms that invoke state-changing functions, since those are the most important CSRF targets.
 - Gunakan burpsuite untuk melihat dan merubah csrf token yang terkandung pada HTTP request
-- Mengganti content-type non-form  (i.e. `application/json, application/x-url-encoded`, etc.) menjadi `form-multipart`[2](##-write\-up)
+- Mengganti content-type non-form  (i.e. `application/json, application/x-url-encoded`, etc.) menjadi `form-multipart`[2](##-writeup)
 - Gonta-ganti method, POST ke GET, atau sebaliknya
 - Mengganti nilai csrf token dengan length yang sama
 - Spoof Anti-CSRF Token by Changing a few bits
@@ -70,7 +70,7 @@ Overview](https://owasp.org/www-project-code-review-guide/reviewing-code-for-csr
 - [CSRF, CORS, and HTTP Security headers Demystified](https://blog.vnaik.com/posts/web-attacks.html)
 
 
-## WRITE-UP
+## WRITEUP
 1. [CSRF at Kaskus.co.id](https://medium.com/@daffailhamr/csrf-at-kaskus-co-id-f8e31864807f)
 2. [Refocusing in bug hunting, Bonus: An interestingly simple to test CSRF bypass(1)](https://medium.com/bugbountywriteup/refocusing-in-bug-hunting-bonus-an-interestingly-simple-to-test-csrf-bypass-8595b3312147)
 

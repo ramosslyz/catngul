@@ -63,7 +63,7 @@ Set-Cookie: JSESSIONID=xxxxx; SameSite=Lax
 4. [OWASP Cheat Sheet Series - Cross-Site Request Forgery Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
 5. [InsiderPhD - Finding Your First Bug: Cross-Site Request Forgery (CSRF)](https://www.youtube.com/watch?v=ULvf6N8AL2A)
 6. [CSRF, CORS, and HTTP Security headers Demystified](https://blog.vnaik.com/posts/web-attacks.html)[PayloadsAllTheThings - Cross-Site Request Forgery](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/CSRF%20Injection#methodology)
-7. [Zseano's Methodology](https://www.bugbountyhunter.com/methodology/loader.php#page=22)
+7. [Zseano's Methodology - CSRF](https://www.bugbountyhunter.com/methodology/loader.php#page=22)
 
 
 ## WRITE-UP

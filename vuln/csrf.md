@@ -73,6 +73,7 @@ Set-Cookie: JSESSIONID=xxxxx; SameSite=Lax
 5. [InsiderPhD - Finding Your First Bug: Cross-Site Request Forgery (CSRF)](https://www.youtube.com/watch?v=ULvf6N8AL2A)
 6. [CSRF, CORS, and HTTP Security headers Demystified](https://blog.vnaik.com/posts/web-attacks.html)[PayloadsAllTheThings - Cross-Site Request Forgery](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/CSRF%20Injection#methodology)
 7. [Zseano's Methodology - CSRF](https://www.bugbountyhunter.com/methodology/loader.php#page=22)
+8. [BugBountyHunter - CSRF](https://www.bugbountyhunter.com/vulnerability/?type=csrf)
 
 
 ## WRITE-UP

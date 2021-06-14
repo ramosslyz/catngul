@@ -13,6 +13,15 @@ Cross Site Request Forgery adalah serangan yang memaksa pengguna agar backend me
 - Mengganti content-type non-form  (i.e. `application/json, application/x-url-encoded`, etc.) menjadi `form-multipart`[(2)](#write-up)
 - Periksa parameter state. State parameter is used in Oauth to prevent CSRF attacks[(3)](#write-up)
 - "When first hunting for CSRF bugs I look for areas on the website which should contain protection around them, such as updating your account information."[(7)](#resource)
+  - What behavior do you see when sending a blank CSRF value, did it reveal any framework information from an error?
+  - Did it reflect your changes but with a CSRF error?
+  - Have you seen this parameter name used on other websites? Perhaps there isn’t even any protection! Test their most secure features (account functions usually as mentioned above) and work your way backwards.
+- Salah satu langkah preventif untuk menanggulangi CSRF adalah memastian referer header berisikan website yang valid. Tapi bagaimana jika fielder header tersebut dihilangkan? kadang kita bisa membypass nya dengan meta tag berikut.[(7)](#resource)
+```
+<meta name="referrer" content="no-referrer" />
+<iframe src=”data:text/html;base64,form_code_here”>
+```
+- Kadang developer juga hanya memastika bahwa referer header mengandung domain mereka, kita bisa mengakalinya dengan menambahkan sebuah direktori dengan domain target pada evil server kita, contoh: `https://www.yoursite.com/https://www.theirsite.com/` atau `https://www.theirsite.computer/`.[(7)](#resource)
 
 
 ## POC

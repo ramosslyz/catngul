@@ -30,6 +30,7 @@
 4. Filter for something secret (secretfinder)
 5. Get hanging fruite (nuclei or jsa)
 6. Manual recon (gf)
+7. Membuat wordlist dari wordlist dan path yang telah dikumpulkan
 
 ### Resource
 - [Appsecco - Static Analysis of Client-Side JavaScript for pen testers and bug bounty hunters](https://blog.appsecco.com/static-analysis-of-client-side-javascript-for-pen-testers-and-bug-bounty-hunters-f1cb1a5d5288)

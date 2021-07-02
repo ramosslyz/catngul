@@ -38,3 +38,4 @@
 - [Black & White Security - BugBounty | Javascript Files Recon | Beginner](https://www.youtube.com/watch?v=btG3LP_3lnA)
 - [Kathan Patel - Beginners Guide On How You Can Use Javascript In BugBounty](https://medium.com/@patelkathan22/beginners-guide-on-how-you-can-use-javascript-in-bugbounty-492f6eb1f9ea)
 - [m4ll0k - My Javascript Recon Process](https://gist.github.com/m4ll0k/31ce0505270e0a022410a50c8b6311ff)
+- [Hacker101 - JavaScript for Hackers (Created by @STÖK)](https://www.youtube.com/watch?v=FTeE3OrTNoA)

@@ -11,12 +11,12 @@
 
 
 ## Fuzzing
-- [FuFF](https://codingo.io/tools/ffuf/bounty/2020/09/17/everything-you-need-to-know-about-ffuf.html)
-- [Dirsearch](https://github.com/maurosoria/dirsearch)</br>
+- [FuFF](https://codingo.io/tools/ffuf/bounty/2020/09/17/everything-you-need-to-know-about-ffuf.html) - Feri fast fuzzing
+- [Dirsearch](https://github.com/maurosoria/dirsearch) - Mature path discovery</br>
   ```
   python3 dirsearch.py -u http://uhuy.com:666/ -e .asp, .aspx, .jsp, .php, .csv, .doc, .docx, .xls, .xlsx, .ppt, .pptx, .pdf, .bak, .conf, .config, .old, .sql, .jar, .rar, .zip, .tar, .tar.gz, .apk, .ipa, .cgi, .do, .htm, .html, .js, .json, .rb, .xml, .yml, .svn, .git
   ```
-- [Gobuster](https://github.com/OJ/gobuster) - multifungsi fuzzing
+- [Gobuster](https://github.com/OJ/gobuster) - Multifungsi fuzzing
 - [Arjun](https://github.com/s0md3v/Arjun) dan [parameth](https://github.com/maK-/parameth) - untuk parameter
 
 ## Javascript Recon

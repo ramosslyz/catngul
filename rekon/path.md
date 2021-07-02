@@ -17,7 +17,9 @@
   python3 dirsearch.py -u http://uhuy.com:666/ -e .asp, .aspx, .jsp, .php, .csv, .doc, .docx, .xls, .xlsx, .ppt, .pptx, .pdf, .bak, .conf, .config, .old, .sql, .jar, .rar, .zip, .tar, .tar.gz, .apk, .ipa, .cgi, .do, .htm, .html, .js, .json, .rb, .xml, .yml, .svn, .git
   ```
 - [Gobuster - Multifungsi fuzzing](https://github.com/OJ/gobuster)
-- [Arjun - untuk parameter](https://github.com/s0md3v/Arjun) dan [parameth](https://github.com/maK-/parameth)
+- [Arjun - untuk parameter](https://github.com/s0md3v/Arjun)
+- [Parameth - untuk parameter juga](https://github.com/maK-/parameth)
+
 
 ## Javascript Recon
 - [Appsecco - Static Analysis of Client-Side JavaScript for pen testers and bug bounty hunters](https://blog.appsecco.com/static-analysis-of-client-side-javascript-for-pen-testers-and-bug-bounty-hunters-f1cb1a5d5288)

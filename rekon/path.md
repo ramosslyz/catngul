@@ -1,8 +1,8 @@
-# Path and Content Discovery
+# PATH AND CONTENT DISCOVERY
  
  <p align="center"><img src="https://user-images.githubusercontent.com/52058660/90960320-1335ac00-e4cb-11ea-8887-70130a069fe3.png" width="700"></p>
  
-## Tools
+## TOOLS
 ### Crawling
 - [Gau](https://github.com/lc/gau)
 - [Subjs](https://github.com/lc/subjs)
@@ -22,7 +22,7 @@
 - [Parameth - untuk parameter juga](https://github.com/maK-/parameth)
 
 
-## Javascript Recon
+## JAVASCRIPT RECON
 ### Method
 1. Crawl all the javascript urls (gau, hakrawler, etc.)
 2. Fetch all javascript file with (meg or curls)

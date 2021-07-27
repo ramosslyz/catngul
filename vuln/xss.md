@@ -1,8 +1,12 @@
 # Cross Site Scripting
-XSS bertujuan untuk mencuri cookie sehingga attacker bisa melakukan session hijacking. XSS bisa efektif jika cookie tersebut tidak termasuk HttpOnly, jika ya perlu usaha lebih lanju.
+XSS bertujuan untuk mencuri cookie sehingga attacker bisa melakukan session hijacking. XSS bisa efektif jika cookie tersebut tidak termasuk HttpOnly, jika ya perlu usaha lebih lanjut.
 
 ## Tools
   - xsshunter
+  - Mengerti html dan javascript
+
+## Bypass
+  - https://github.com/masatokinugawa/filterbypass/wiki/Browser's-XSS-Filter-Bypass-Cheat-Sheet
   
 ## Source
   - [Stealing HttpOnly Cookie via XSS](https://medium.com/@yassergersy/xss-to-session-hijack-6039e11e6a81)

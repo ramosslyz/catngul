@@ -5,9 +5,13 @@ XSS bertujuan untuk mencuri cookie sehingga attacker bisa melakukan session hija
   - xsshunter
   - Mengerti html dan javascript
 
+## How to find them ?
+  - 
+
 ## Bypass
   - https://github.com/masatokinugawa/filterbypass/wiki/Browser's-XSS-Filter-Bypass-Cheat-Sheet
   
-## Source
+## Resource
   - [Stealing HttpOnly Cookie via XSS](https://medium.com/@yassergersy/xss-to-session-hijack-6039e11e6a81)
   - [The Dark Side of XSS revealed](https://blog.yeswehack.com/best-practices/the-dark-side-of-xss-revealed/)
+  - [Finding Your First Bug: Cross Site Scripting (XSS)](https://www.youtube.com/watch?v=IWbmP0Z-yQg)

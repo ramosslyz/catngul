@@ -4,7 +4,7 @@
 - [MDN Web Docs - Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
 
 ## Authentication
-- [Web Security Academy >> Authentication](https://portswigger.net/web-security/authentication)
+- [Web Security Academy - Authentication](https://portswigger.net/web-security/authentication)
 
 ## API
 - [What is an API?](https://www.youtube.com/watch?v=s7wmiS2mSXY)

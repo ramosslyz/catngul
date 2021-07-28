@@ -1,5 +1,8 @@
 # BASIC KNOWLEDGE
 
+## Web Development
+- [MDN Web Docs - Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
+
 ## Authentication
 - [Web Security Academy >> Authentication](https://portswigger.net/web-security/authentication)
 

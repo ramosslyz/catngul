@@ -1,5 +1,9 @@
 # Cross Site Scripting
-XSS bertujuan untuk mencuri cookie sehingga attacker bisa melakukan session hijacking. XSS bisa efektif jika cookie tersebut tidak termasuk HttpOnly, jika ya perlu usaha lebih lanjut.
+XSS bertujuan untuk mencuri cookie sehingga attacker bisa melakukan session hijacking. XSS bisa efektif jika cookie tersebut tidak termasuk HttpOnly, jika ya perlu usaha lebih lanjut. Sangat bagus dikombinasikan dengan CSRF.
+
+## Impact
+![image](https://user-images.githubusercontent.com/52058660/127166129-9b157a5d-66bb-41b6-ad9a-005287e4bbeb.png)
+
 
 ## Tools
   - xsshunter

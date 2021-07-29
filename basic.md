@@ -4,6 +4,9 @@
 - [MDN Web Docs - Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
 - [Developer Roadmaps](https://roadmap.sh/)
 
+## HTTP
+- [MDN Web Docs - An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+
 ## Authentication
 - [Web Security Academy - Authentication](https://portswigger.net/web-security/authentication)
 

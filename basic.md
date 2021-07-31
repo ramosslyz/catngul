@@ -7,6 +7,9 @@
 ## HTTP
 - [MDN Web Docs - An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
 
+## DNS
+- [What is DNS? | How DNS works](https://www.cloudflare.com/learning/dns/what-is-dns/)
+
 ## Authentication
 - [Web Security Academy - Authentication](https://portswigger.net/web-security/authentication)
 

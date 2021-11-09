@@ -10,7 +10,7 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-c
 2. [Reconnaissance](https://github.com/acvn/b3lajar/blob/master/rekon)
 3. [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln)
 4. [Motivation](https://github.com/acvn/b3lajar/blob/master/motivation.md)
-5. [Steps](https://github.com/acvn/b3lajar/blob/master/motivation.md)
+5. [Steps](https://github.com/acvn/b3lajar/blob/master/steps.md)
    
 ## Ask Me!
 acvn on [Twitter](https://twitter.com/aldi__satria) or [Instagram](https://www.instagram.com/aldi___satria/)

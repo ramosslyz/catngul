@@ -9,8 +9,8 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-c
 1. [Basic Knowledge](https://github.com/acvn/b3lajar/tree/master/basic.md)
 2. [Reconnaissance](https://github.com/acvn/b3lajar/blob/master/rekon)
 3. [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln)
-4. [Mobile](https://github.com/acvn/b3lajar/tree/master/mobile)
-5. [Motivation](https://github.com/acvn/b3lajar/blob/master/motivation.md)
+4. [Motivation](https://github.com/acvn/b3lajar/blob/master/motivation.md)
+5. [Steps](https://github.com/acvn/b3lajar/blob/master/motivation.md)
    
 ## Ask Me!
 acvn on [Twitter](https://twitter.com/aldi__satria) or [Instagram](https://www.instagram.com/aldi___satria/)

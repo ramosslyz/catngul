@@ -1,4 +1,4 @@
-# STEPS
+# Penetration Testing Step by Step
 
 ## Steps by Steps
 - Pre engagement, menentukan target dan scop apa saja yang akan kita pentest (web server, mobile, IOT, dll)
@@ -9,7 +9,7 @@
 - Reporting, membuat report berdasarkan temuan yang telah berhasil dan memberikan solusi bagaimana mengatasi temuan tersebut
 
 ## Reconnaisance
-1. Scan port (nmap/masscan)
+1. [Scan port](https://github.com/acvn/catngul/blob/master/rekon/port.md)
 
 ## Resource
 - [Conduct a Penetration Test Like a Pro in 6 Phases [Tutorial]](https://www.youtube.com/watch?v=8a1yTN2kFNw)

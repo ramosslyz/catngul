@@ -7,6 +7,7 @@
 - [Information disclosure](https://github.com/acvn/b3lajar/blob/master/vuln/info.md)
 - [Open Redirect](https://github.com/acvn/b3lajar/blob/master/vuln/open-redirect.md)
 - [Port 11211](https://github.com/acvn/b3lajar/blob/master/vuln/portcek/port11211.md)
+- [Port 22/SSH](https://github.com/acvn/b3lajar/blob/master/vuln/portcek/port22.md)
 - [Subdomain Takeover](https://github.com/acvn/b3lajar/blob/master/vuln/subdomaintakeover.md)
 - [SSRF](https://github.com/acvn/b3lajar/blob/master/vuln/ssrf.md)
 - [XXE](https://github.com/acvn/b3lajar/blob/master/vuln/xxe.md)

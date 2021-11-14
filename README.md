@@ -1,4 +1,4 @@
-# CATATAN NGULIK :rocket:
+# CATATAN NGULIK:rocket:
 
 <p align="center"><img src="https://user-images.githubusercontent.com/52058660/89849631-14093c80-dbb3-11ea-9e04-a67d5758b904.jpg" width="500"></p>
 
@@ -11,6 +11,7 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-c
 3. [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln)
 4. [Motivation](https://github.com/acvn/b3lajar/blob/master/motivation.md)
 5. [Step Pentest](https://github.com/acvn/b3lajar/blob/master/steps.md)
+6. [Network Hacking](https://github.com/acvn/b3lajar/blob/master/netsec.md)
    
 ## Ask Me!
 acvn on [Twitter](https://twitter.com/aldi__satria) or [Instagram](https://www.instagram.com/aldi___satria/)

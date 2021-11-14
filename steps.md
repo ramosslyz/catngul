@@ -12,5 +12,5 @@
 1. [Scan port](https://github.com/acvn/catngul/blob/master/rekon/port.md)
 
 ## Resource
-- [Conduct a Penetration Test Like a Pro in 6 Phases [Tutorial]](https://www.youtube.com/watch?v=8a1yTN2kFNw)
+- [INE-Penetration Testing Student](https://my.ine.com/CyberSecurity/learning-paths/a223968e-3a74-45ed-884d-2d16760b8bbd/penetration-testing-student)
 - [A Starters Guide to Pentesting with OWASP](https://www.youtube.com/watch?v=AO_sqXb-gKE)

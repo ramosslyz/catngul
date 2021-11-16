@@ -12,8 +12,9 @@ Reconnaissance adalah langkah paling pertama hacking. Maksimalkan rekon!
 9. [ASN, IP & CIDR](https://github.com/acvn/catngul/blob/master/rekon/ip.md)
 10. [Json Web Token](https://github.com/acvn/catngul/blob/master/rekon/jwt.md)
 11. [Port](https://github.com/acvn/catngul/blob/master/rekon/port.md)
-12. [Framerwork](https://github.com/acvn/catngul/blob/master/rekon/framework.md)
-13. [Scanner](https://github.com/acvn/catngul/blob/master/rekon/scanner.md)
+12. [Egress Checking](https://github.com/acvn/catngul/blob/master/rekon/egress.md)
+13. [Framerwork](https://github.com/acvn/catngul/blob/master/rekon/framework.md)
+14. [Scanner](https://github.com/acvn/catngul/blob/master/rekon/scanner.md)
 
 ## Burpsuite
 - AuthMatrix

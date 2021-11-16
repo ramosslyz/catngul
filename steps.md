@@ -10,6 +10,7 @@
 
 ## Reconnaisance
 1. [Scan port](https://github.com/acvn/catngul/blob/master/rekon/port.md)
+2. Egress Checking
 
 ## Resource
 - [INE-Penetration Testing Student](https://my.ine.com/CyberSecurity/learning-paths/a223968e-3a74-45ed-884d-2d16760b8bbd/penetration-testing-student)

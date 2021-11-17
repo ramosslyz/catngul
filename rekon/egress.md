@@ -1,5 +1,9 @@
 # Egress Checking
-Egress connectin adalah koneksi outbound. Egress connection yang tidak secure bisa menyebabkan serangan reverse shell dan data-exfitration
+Egress connectin adalah koneksi outbound. Egress connection yang tidak secure bisa menyebabkan serangan reverse shell dan data-exfitration.<br>
+<div align="center"><img src="https://user-images.githubusercontent.com/52058660/142201600-d797166c-f87d-4027-84c4-f21d94f3a5f6.png"></div><br>
+
+
+
 
 ## Resource
 - [Hacker Target - Egress Firewall Test](https://hackertarget.com/egress-firewall-test/)

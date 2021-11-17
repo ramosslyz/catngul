@@ -7,3 +7,4 @@ Egress connectin adalah koneksi outbound. Egress connection yang tidak secure bi
 - [Poking Holes in the Firewall: Egress Testing With AllPorts.Exposed](https://www.blackhillsinfosec.com/poking-holes-in-the-firewall-egress-testing-with-allports-exposed/)
 - [Egress-Testing Windows (TCP and UDP)](https://pswalia2u.medium.com/egress-testing-windows-tcp-and-udp-d8adb43fa946)
 - [SANS - Egress Filtering FAQ](https://sansorg.egnyte.com/dl/fyF6fGJ4lz)
+- [f-secure - Egress Checking](https://labs.f-secure.com/archive/egress-checking/)

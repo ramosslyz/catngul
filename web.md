@@ -1,8 +1,16 @@
-# BASIC KNOWLEDGE
+# BELAJAR WEB
 
-## Web Development
-- [MDN Web Docs - Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
-- [Developer Roadmaps](https://roadmap.sh/)
+1. [MDN Web Docs](https://developer.mozilla.org/en-US/)
+2. [W3Schools Online Web Tutorial](https://www.w3schools.com/)
+3. [Web.dev](https://web.dev/)
+4. [EXLskills](https://exlskills.com/learn-en/courses)
+
+## CSS Resources
+1. [How to Center in CSS](http://howtocenterincss.com/) - Centering in CSS is not a pain in the ass
+
+## JS Resources
+1. [The Modern JavaScript Tutorial](https://javascript.info/) - Opensource javascript tutorial
+2. [A brief summary of JavaScript Learning Path ](https://dev.to/hoangleitvn/javascript-learning-path-5bgb) - what is the path for learning JavaScript from the beginning?
 
 ## HTTP
 - [MDN Web Docs - An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
@@ -31,9 +39,3 @@
 
 ## Web Framework
 - Flask
-
-## JWT
-
-## VIM
-- (Interactive Vim tutorial)[https://www.openvim.com/]
-- [Learn Vim For the Last Time: A Tutorial and Primer](https://danielmiessler.com/study/vim/)

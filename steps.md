@@ -7,7 +7,7 @@
 |Vulnerability Assessment|menentukan vulnerability apa saja yang ada berdasarkan target yang sudah ditemukan pada langkah sebelumnya, dapat menggunakan tools dan info dari outdated version of technology|
 |Exploitation|Mengecek kebeneraran vulnerability target berdasarkan data yang didapat dari vulnerability assessment. Proses pengecekan selesai jika tidak ada lagi system dan service pada scop yang akan di exploit|
 |Post Exploitation|melakukan privillege escallation atau gain permanent access dari device yang telah berhasil kita exploitasi|
-|Reporting|membuat report berdasarkan temuan yang telah berhasil dan memberikan solusi bagaimana mengatasi temuan tersebut|
+|Reporting|membuat report berdasarkan temuan yang telah berhasil dan memberikan solusi bagaimana mengatasi temuan tersebut. Ingat solusi dan remediasi lebih diapresiasi dibandingkan skill yang anda gunakan!!!|
 
 ## Engagement
 1. Tipe penetration test yang dilakukan ? (Black/Gray/White)
@@ -45,12 +45,28 @@
     - cek UDP/TCP
 
 ## Vulnerability Assessment
-1. Manual : menggunakan data dari step sebelumnya
-2. Automated tools : menggunakan tools seperti nessus
+1. Manual
+    - menggunakan data dari step sebelumnya
+2. Automated tools
+    - menggunakan tools seperti nessus
 
 ## Exploitation
-1. 
 
+## Post Exploitation
+
+## Reporting
+1. Report
+    - Teknik yang digunakan
+    - Vulnerability yang ditemukan
+    - Eksploit yang digunakan
+    - Impact dan resiko dari vulnerability yang ditemuka
+    - Remedial tips dan rekomendasi dari masing-masing vulnerability 
+- Presentasi
+
+## Catatan tipis-tipis
+- Widening the attack surface more valuable than exploiting the target
+- Solusi dan remediasi lebih dibutuhkan dibandingkan pamer skill hacking
+- Information gathering and Reconnaisance is a key
 
 ## Resource
 - [INE-Penetration Testing Student](https://my.ine.com/CyberSecurity/learning-paths/a223968e-3a74-45ed-884d-2d16760b8bbd/penetration-testing-student)

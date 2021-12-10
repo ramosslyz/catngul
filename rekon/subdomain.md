@@ -15,7 +15,7 @@
   - [Github-search](https://github.com/gwen001/github-search)
   - [Shobsugo](https://github.com/incogbyte/shosubgo)
   - [Cloud Range](https://www.daehee.com/scan-aws-ip-ssl-certificates/)
-  - [Assetfinder]
+  - Assetfinder
   - [Project Sonar Forward DNS](https://opendata.rapid7.com/sonar.fdns_v2/)
     ```
     zcat data-sonar.gz | grep -F '.uhuy.com"' | jq -r .name | grep '.uhuy.com$' | sort | uniq

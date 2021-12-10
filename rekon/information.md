@@ -3,6 +3,7 @@
 
 ## Company information
 - [Crunchbase](https://www.crunchbase.com)
+- WHOIS
 
 ## Reverse whois
 - [whoxy](https://www.whoxy.com/)

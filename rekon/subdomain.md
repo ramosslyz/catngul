@@ -3,12 +3,13 @@
 <br>
 - [Subdomain Enumeration: 2019 Workflow](https://0xpatrik.com/subdomain-enumeration-2019/) - By Patrik Hudak
 - [Filter Wildcard Domains](https://0xpatrik.com/wildcard-domains/)
-- Link and JS discovery
+## Link and JS discovery
   - [SubDomainizer](https://github.com/nsonaniya2010/SubDomainizer)
   - [Subscraper](https://github.com/Cillian-Collins/subscraper)
   - [crt.sh](scrt.sh)
   - [certspotter](https://sslmate.com/certspotter/)
-- Scrapping
+## Scrapping
+  - 
   - [Amass enum](https://github.com/OWASP/Amass)
   - [Subfinder v2](https://github.com/projectdiscovery/subfinder)
   - [Github-search](https://github.com/gwen001/github-search)
@@ -20,7 +21,7 @@
     zcat data-sonar.gz | grep -F '.uhuy.com"' | jq -r .name | grep '.uhuy.com$' | sort | uniq
       
     ```
-- Bruteforcing
+## Bruteforcing
   - [Amass enum -brute](https://github.com/OWASP/Amass)
     ```
     amass enum -brute -d twitch.tv -src
@@ -29,12 +30,13 @@
   - [Async DNS Brute](https://github.com/blark/aiodnsbrute)
   - [shuffleDNS](https://github.com/projectdiscovery/shuffledns)
   - [Subdomain wordlist](#Wordlist)
-- Others   
+  
+## Others   
   - [Altdns](https://github.com/infosec-au/altdns)
     ```
     python __main__.py -i domain.txt -o output.txt -w ../words.txt
     ```
-- Resolver
+## Resolver
   - Httprobe
   - Massdns
     ```

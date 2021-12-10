@@ -7,15 +7,15 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-c
 
 ## Table Of Contents
 1. [Web](https://github.com/acvn/b3lajar/tree/master/web.md)
-2. [Motivation](https://github.com/acvn/b3lajar/blob/master/motivation.md)
-3. [Step Pentest](https://github.com/acvn/b3lajar/blob/master/steps.md)
+2. [Koding](https://github.com/acvn/catngul/blob/master/code.md)
+3. [Motivation](https://github.com/acvn/b3lajar/blob/master/motivation.md)
 4. [Reconnaissance](https://github.com/acvn/b3lajar/blob/master/rekon)
-5. [Footprinting](https://github.com/acvn/catngul/blob/master/foot.md)
-6. [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln)
-7. [Network Hacking](https://github.com/acvn/b3lajar/blob/master/netsec.md)
-8. [Koding](https://github.com/acvn/catngul/blob/master/code.md)
-9. [Mobile](https://github.com/acvn/catngul/blob/master/mobile.md)
-10. [Microservice](https://github.com/acvn/catngul/blob/master/microservice.md)
+6. [Footprinting](https://github.com/acvn/catngul/blob/master/foot.md)
+7. [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln)
+8. [Web Hacking](https://github.com/acvn/b3lajar/blob/master/steps.md)
+9. [Network Hacking](https://github.com/acvn/b3lajar/blob/master/netsec.md)
+10. [Mobile Hacking](https://github.com/acvn/catngul/blob/master/mobile.md)
+11. [Microservice](https://github.com/acvn/catngul/blob/master/microservice.md)
    
 ## Ask Me!
 acvn on [Twitter](https://twitter.com/aldi__satria) or [Instagram](https://www.instagram.com/aldi___satria/)

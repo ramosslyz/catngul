@@ -1,5 +1,9 @@
 # Footprinting
 
+- Mapping a network
+- OS FIngerprinting
+- Port Scanning
+
 ## Mapping a Network
 Misalkan saat kita melakukan pentest, kita diberi scope berupa ip block sebagai berikut 200.200.0.0/16. 
 ```

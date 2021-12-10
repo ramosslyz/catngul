@@ -22,7 +22,7 @@
       
     ```
 ## Bruteforcing
-  - [Amass enum -brute](https://github.com/OWASP/Amass)
+  - [Amass](https://github.com/OWASP/Amass)
     ```
     amass enum -brute -d twitch.tv -src
     amass enum -brute -d twitch.tv -rf resolvers.txt -w bruteforce.list

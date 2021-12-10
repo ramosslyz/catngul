@@ -12,7 +12,7 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-c
 4. [Reconnaissance](https://github.com/acvn/b3lajar/blob/master/rekon)
 6. [Footprinting](https://github.com/acvn/catngul/blob/master/foot.md)
 7. [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln)
-8. [Web Hacking](https://github.com/acvn/b3lajar/blob/master/steps.md)
+8. [Step of Hacking](https://github.com/acvn/b3lajar/blob/master/steps.md)
 9. [Network Hacking](https://github.com/acvn/b3lajar/blob/master/netsec.md)
 10. [Mobile Hacking](https://github.com/acvn/catngul/blob/master/mobile.md)
 11. [Microservice](https://github.com/acvn/catngul/blob/master/microservice.md)

@@ -34,13 +34,20 @@ nmap -O --oscan-limit <target>
 - [p0f - offline fingerprinting](https://lcamtuf.coredump.cx/p0f3/)
 
 ## Port Scanning
-menggunakan konsep three handway handshake, dimana jika port server terbuka `SYN->SYN-ACK->ACK` dan jika port server tertutup `SYN->RST-ACK`
+menngunakan konsep Three Way Handshake
 - Nmap</br>
-```
-TCP connect scan, dapat direcord oleh server -> -sT
-SYN scan. tidak direcord oleh server (stealthy), tp well-configured IDS masi dapat mendeteksinya -> -sS
-Version scan, dapat direcord oleh server -> -sV
-```
+  - TCP Connect Scan, jika terkoneksi `SYN->SYN+ACK->ACK->RST+ACK`, jika tidak terkoneksi `SYN->RST+ACK`. Dapat direcord oleh server
+    ```
+    nmap -sT <target>
+    ```
+  - TCP Connect Scan, jika terkoneksi `SYN->SYN+ACK->RST`, jika tidak terkoneksi `SYN->RST+ACK`. Tidak direcord oleh server (stealthy), tp well-configured IDS masi dapat mendeteksinya
+    ```
+    nmap -sS <target>
+    ```
+  - Version detection scan, tcp connect scan dengan banner grabbing
+    ```
+    nmap -sV <target>
+    ```
 
 ## Resource
 - [INE - Penetration Testing Basics](https://my.ine.com/CyberSecurity/courses/6f986ca5/penetration-testing-basics)

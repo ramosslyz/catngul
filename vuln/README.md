@@ -10,6 +10,7 @@
 - [Port 22/SSH](https://github.com/acvn/b3lajar/blob/master/vuln/portcek/port22.md)
 - [Subdomain Takeover](https://github.com/acvn/b3lajar/blob/master/vuln/subdomaintakeover.md)
 - [SSRF](https://github.com/acvn/b3lajar/blob/master/vuln/ssrf.md)
+- [SQL Injection](https://github.com/acvn/catngul/blob/master/vuln/sql.md)
 - [XXE](https://github.com/acvn/b3lajar/blob/master/vuln/xxe.md)
 - [XSS](https://github.com/acvn/b3lajar/blob/master/vuln/xss.md)
 

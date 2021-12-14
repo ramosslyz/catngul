@@ -34,7 +34,7 @@ nmap -O --oscan-limit <target>
 - [p0f - offline fingerprinting](https://lcamtuf.coredump.cx/p0f3/)
 
 ## Port Scanning
-menngunakan konsep Three Way Handshake
+menggunakan konsep Three Way Handshake
 - Nmap</br>
   - TCP Connect Scan, jika terkoneksi `SYN->SYN+ACK->ACK->RST+ACK`, jika tidak terkoneksi `SYN->RST+ACK`. Dapat direcord oleh server
     ```
@@ -48,6 +48,10 @@ menngunakan konsep Three Way Handshake
     ```
     nmap -sV <target>
     ```
+Berikut adalah beberapa port umum yang mendikasikan bahwa port tersebut alive: 22, 445, 80, 443
+Anda harus memperhitungkan firewal, berikut adalah tanda-tanda bahwa firewall menghambat port scannning
+- Nmap scanning tidak selesai, nmap seharusnya tidak akan kesusahan untuk sV (banner grabbing) pada host. Pada host yang menggunakan firewall, version nya tidak dikenali. untuk menganalisanya gunakan `--reason`
+- State status adalah filtered, kemungkinan ada IDS atau firewall
 
 ## Resource
 - [INE - Penetration Testing Basics](https://my.ine.com/CyberSecurity/courses/6f986ca5/penetration-testing-basics)

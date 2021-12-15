@@ -3,6 +3,9 @@
 ## Resource
 - [SQL injection cheat sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)
 
+## Tips
+- Tidak semua payload biasa dijalankan di address-bar browser, kadang harus menggunakan burpsuite (repeater)
+
 ## Comment
 ![image](https://user-images.githubusercontent.com/52058660/146121986-00960851-1a8e-4f32-8543-c980b75c6c24.png)
 

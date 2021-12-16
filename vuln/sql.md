@@ -1,28 +1,36 @@
 # SQL Injection
 
 ## Resource
-- [SQL injection cheat sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)
+- [Web Security Academy - SQL injection cheat sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)
+- [HackTricks -  SQL Injection](https://book.hacktricks.xyz/pentesting-web/sql-injection)
 
 ## Tips
 - Tidak semua payload biasa dijalankan di address-bar browser, kadang harus menggunakan burpsuite (repeater)
 
-## Comment
-![image](https://user-images.githubusercontent.com/52058660/146121986-00960851-1a8e-4f32-8543-c980b75c6c24.png)
-
-## Payload
-
-
-## UNION Attack
-Syarat:
-  - The individual queries must return the same number of columns.
-  - The data types in each column must be compatible between the individual queries.
-
-Untuk melancarkan UNION attack harus memenuhi 2 syarat diatas. Dari syarat2 diatas timbullah pertanyaan:
-  - How many columns are being returned from the original query?
+## langkah-langkah
+1. Identify kapan aplikasi berinteraksi dengan DB Server untuk mengakses data. Berikut kondisi umum aplikasi berinteraksi dengan DB server.
+- Authentication form, user dan password akan dicek pada database apakah ada atau tidak (kadang juga hash)
+- Search Engine, string yang disubmit oleh user digunakan untuk mengeksract semua data yang relevant pada database
+- E-commerce site, semua produk e-commerce stored di DB
+2. List entry point/parameter yang bisa digunakan untuk menginputkan SQL query, seperti (__GET parameter, POST parameter, HTTP header, cookies__)
+3. Coba generate error pada entry point/parameter yang sudah dikumpulkan pada langkah sebelumnya menggunakan `'` (digunakan untuk memisahkan string) dan `;` (digunakan untuk mengakhiri kueri SQL)
   ```
-  'UNION SELECT NULL,NULL,n--, dimana n adalah jumlah kolom
-  'ORDER BY 1/2/n--, dimana n adalah jumlah kolom
+  <spasi_kosong>
+  '
+  ')
+  '))
+  " / ") / "))
+  `
+  `)
+  `))
   ```
-  - Which columns returned from the original query are of a suitable data type to hold the results from the injected query?
+4. Coba meng-injek payload tanpa break query, bisa mengguna comment
+
+|Database|Comment|
+|---|---|
+|Oracle|`--comment`|
+|MySQL|`-- comment` `#comment` `/*comment*/`|
+|PostgreSQL|`--comment` `/*comment*/`|
+|Microsoft|`--comment` `/*comment*/`|
 
 

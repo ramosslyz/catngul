@@ -30,6 +30,7 @@
 |---|---|
 |Oracle|`--comment`|
 |MySQL|`-- comment` `#comment` `/*comment*/`|
+|MariaDB|`-- comment` `#comment` `/*comment*/`|
 |PostgreSQL|`--comment` `/*comment*/`|
 |Microsoft|`--comment` `/*comment*/`|
 

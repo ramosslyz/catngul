@@ -9,21 +9,26 @@
 
 ## langkah-langkah
 1. Identify kapan aplikasi berinteraksi dengan DB Server untuk mengakses data. Berikut kondisi umum aplikasi berinteraksi dengan DB server.
-- Authentication form, user dan password akan dicek pada database apakah ada atau tidak (kadang juga hash)
-- Search Engine, string yang disubmit oleh user digunakan untuk mengeksract semua data yang relevant pada database
-- E-commerce site, semua produk e-commerce stored di DB
+    - Authentication form, user dan password akan dicek pada database apakah ada atau tidak (kadang juga hash)
+    - Search Engine, string yang disubmit oleh user digunakan untuk mengeksract semua data yang relevant pada database
+    - E-commerce site, semua produk e-commerce stored di DB
 2. List entry point/parameter yang bisa digunakan untuk menginputkan SQL query, seperti (__GET parameter, POST parameter, HTTP header, cookies__)
 3. Coba generate error pada entry point/parameter yang sudah dikumpulkan pada langkah sebelumnya menggunakan `'` (digunakan untuk memisahkan string) dan `;` (digunakan untuk mengakhiri kueri SQL)
-  ```
-  <spasi_kosong>
-  '
-  ')
-  '))
-  " / ") / "))
-  `
-  `)
-  `))
-  ```
+    - Oldschool
+      ```
+      <spasi_kosong>
+      ' atau ') atau '))
+      " atau ") atau "))
+      ` atau `) atau `))
+      ;
+      ```
+    - New
+      - delay/sleep payload
+        ```
+        ' or sleep(15) and 1=1#
+        ' or sleep(15)#
+        ' union select sleep(15),null#
+        ```
 4. Coba meng-injek payload tanpa break query, bisa mengguna comment
 
 |Database|Comment|

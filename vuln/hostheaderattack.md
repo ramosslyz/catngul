@@ -11,3 +11,4 @@ Dahulu satu IP hanya untuk satu domain, namun dengan berkebangnya teknologi clou
     1 Server multiple website/aplication, biasanya menggunakan cloud based SaaS solution
   - Routing trafic via an intermediary<br>
     Tiap website/aplication berbeda backend server, tapi diakse melalui satu server yang sama (reverse proxy server atau load balancer)
+## What Host Header Attack ??

@@ -3,6 +3,9 @@
 ## Resource
 - [Portswigger Academy - Host Header Attack](https://portswigger.net/web-security/host-header)
 
+## Tools
+- [Para Miner](https://portswigger.net/bappstore/17d2949a985c4b7ca092728dba871943)
+
 ## Pendahuluan
 host header adalah back-end website yang ingin dikunjungi oleh client. contoh:
 ```

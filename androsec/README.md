@@ -1,10 +1,10 @@
 # Android Penetration Testing
 
 ## Vulnerability
-## Information Gathering
-## Reversing
-## Static Analysis
-## Dynamic Analysis
+## 1. Information Gathering
+## 2. Reversing
+## 3. Static Analysis
+## 4. Dynamic Analysis
 
 ## Resource
 - [Ignitetechnologies - Android Penetration Testing](https://github.com/Ignitetechnologies/Android-Penetration-Testing)

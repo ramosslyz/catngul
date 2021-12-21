@@ -1,6 +1,5 @@
 # Android Penetration Testing
-- [Insecure Connection(nice first try)]()
-- 
+- Insecure Connection
 
 ## Vulnerability
 ## 1. Information Gathering

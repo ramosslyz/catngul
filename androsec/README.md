@@ -14,6 +14,7 @@
 - __Tools__
   - MobSF
   - Frida
+  - Objection
 
 ## Resource
 - [Ignitetechnologies - Android Penetration Testing](https://github.com/Ignitetechnologies/Android-Penetration-Testing)

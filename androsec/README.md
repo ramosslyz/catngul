@@ -1,8 +1,19 @@
 # Android Penetration Testing
-- Insecure Connection
 
 ## Vulnerability
-## 1. Information Gathering
+- Insecure Connection
+
+## Tools
+- adb
+- apktool
+- MobSF
+- Frida
+- Objection
+- Termux
+- Mobexler
+- Android Studio's built-in Device File Explorer
+
+## Information Gathering
 - __Extracting apps__
   - gplaycli
     ```
@@ -17,23 +28,11 @@
   - Alternative App Store (Pilihan terakhir)
     - APKMirror
     - APKPure
-## 2. Reversing 
-- __Tools__
-  - adb
-  - apktool
+## Reversing 
 
-## 3. Static Analysis
-- __Tools__
-  - MobSF
-  - Android Studio's built-in Device File Explorer
+## SAST
 
-## 4. Dynamic Analysis
-- __Tools__
-  - MobSF
-  - Frida
-  - Objection
-  - Termux
-  - Mobexler
+## DAST
 
 ## Resource
 - [Ignitetechnologies - Android Penetration Testing](https://github.com/Ignitetechnologies/Android-Penetration-Testing)

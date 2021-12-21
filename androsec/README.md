@@ -2,6 +2,9 @@
 
 ## Vulnerability
 - Insecure Connection
+  - Use insecure of network protocol
+  - Data transmision over insecure protocol
+  - Authentication over insecure protocol
 
 ## Tools
 - adb

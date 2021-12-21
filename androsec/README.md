@@ -13,6 +13,7 @@
 ## 4. Dynamic Analysis
 - __Tools__
   - MobSF
+  - Frida
 
 ## Resource
 - [Ignitetechnologies - Android Penetration Testing](https://github.com/Ignitetechnologies/Android-Penetration-Testing)

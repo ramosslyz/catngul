@@ -35,8 +35,10 @@
 - Termux
 - Mobexler
 - Android Studio's built-in Device File Explorer
+- Magisk -> Root Android device
+- RootAVD -> Root Android emulator
 
-## Information Gathering
+## Set up
 - __Extracting apps__
   - gplaycli
     ```
@@ -51,8 +53,8 @@
   - Alternative App Store (Pilihan terakhir)
     - APKMirror
     - APKPure
-- 
 
+## Information Gathering
 ## Reversing 
 
 ## SAST

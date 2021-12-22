@@ -25,8 +25,7 @@
   - Cross-app scripting
   - Incorect sandboxing of scripting language
   - Unprotected data on server
-  - 
-
+ 
 ## Tools
 - adb
 - apktool
@@ -52,6 +51,8 @@
   - Alternative App Store (Pilihan terakhir)
     - APKMirror
     - APKPure
+- 
+
 ## Reversing 
 
 ## SAST

@@ -10,6 +10,7 @@ adb install <namaPackage> -> install aplikasi
 adb push foo.txt /sdcard/foo.txt -> copy dari local pc ke android
 adb pull /sdcard -> copy dari android ke local pc
 adb -s <emualator> shell -> pilih emulator tertentu
+adb shell am start -n b3nac.injuredandroid/.b25lActivity -> menjalankan activity tertentu
 ```
 ## apktool
 ```
@@ -17,9 +18,6 @@ apktool d <namafileapk>
 ```
 
 ## jadx/jadx-gui
-```
-
-```
 
 ## Other
 - MobSF

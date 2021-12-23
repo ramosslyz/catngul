@@ -9,6 +9,7 @@ adb shell pm path <namaPackageTanpa.apk>
 adb install <namaPackage> -> install aplikasi
 adb push foo.txt /sdcard/foo.txt -> copy dari local pc ke android
 adb pull /sdcard -> copy dari android ke local pc
+adb -s <emualator> shell -> pilih emulator tertentu
 ```
 ## apktool
 ```

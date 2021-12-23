@@ -1,18 +1,8 @@
 # Android Penetration Testing
 
-1. [Android Vulnerability](https://github.com/acvn/catngul/blob/master/androsec/android-vuln.md)
+1. [Vulnerability](https://github.com/acvn/catngul/blob/master/androsec/android-vuln.md)
+2. [Tools](https://github.com/acvn/catngul/blob/master/androsec/android-tools.md)
  
-## Tools
-- adb
-- apktool
-- MobSF
-- Frida
-- Objection
-- Termux
-- Mobexler
-- Android Studio's built-in Device File Explorer
-- Magisk -> Root Android device
-- RootAVD -> Root Android emulator
 
 ## Set up
 - __Extracting apps__

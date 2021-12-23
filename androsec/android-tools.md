@@ -15,6 +15,11 @@ adb pull /sdcard -> copy dari android ke local pc
 apktool d <namafileapk>
 ```
 
+## jadx/jadx-gui
+```
+
+```
+
 ## Other
 - MobSF
 - Frida
@@ -24,3 +29,4 @@ apktool d <namafileapk>
 - Android Studio's built-in Device File Explorer
 - Magisk -> Root Android device
 - RootAVD -> Root Android emulator
+- ghidra

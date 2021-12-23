@@ -54,13 +54,6 @@
     - APKMirror
     - APKPure
 
-## Information Gathering
-## Reversing 
-
-## SAST
-
-## DAST
-
 ## Resource
 - [Ignitetechnologies - Android Penetration Testing](https://github.com/Ignitetechnologies/Android-Penetration-Testing)
 - [sundaysec - Android-Exploits](https://github.com/sundaysec/Android-Exploits)
@@ -76,8 +69,6 @@
 - [Android App Penetration Testing 101](https://www.youtube.com/watch?v=2uwhrfXCl4I)
 - [CodePath Android Cliffnotes](https://guides.codepath.com/android)
 - [Android APK Checklist](https://book.hacktricks.xyz/mobile-apps-pentesting)
-
-
 
 ## Methodolody
 - Static analysis & app recon 
@@ -96,7 +87,6 @@
     - getCellLocation
     - processBuilder
  - Code level quality and tampering
-
 
 ## Write-up
 ### Hackthebox

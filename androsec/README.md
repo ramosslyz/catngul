@@ -5,6 +5,9 @@
 3. [DIVA](https://github.com/acvn/catngul/blob/master/androsec/diva.md)
 4. [People](https://github.com/acvn/catngul/blob/master/androsec/people.md)
 
+## Tips
+1. Langkah pertama adalah review __AndroidManifest.xml__, adalah bluetprint aplikasi android
+
 ## Resource
 - [Ignitetechnologies - Android Penetration Testing](https://github.com/Ignitetechnologies/Android-Penetration-Testing)
 - [sundaysec - Android-Exploits](https://github.com/sundaysec/Android-Exploits)

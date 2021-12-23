@@ -4,22 +4,6 @@
 2. [Tools](https://github.com/acvn/catngul/blob/master/androsec/android-tools.md)
 3. [DIVA](https://github.com/acvn/catngul/blob/master/androsec/diva.md)
 4. [People](https://github.com/acvn/catngul/blob/master/androsec/people.md)
- 
-## Set up
-- __Extracting apps__
-  - gplaycli
-    ```
-    gplaycli -p -v -d com.google.android.keep
-    ```
-  - Extract from device (adb)
-    ```
-    adb shell pm list packages
-    adb shell pm path <package name>
-    adb pull <apk path>
-    ```
-  - Alternative App Store (Pilihan terakhir)
-    - APKMirror
-    - APKPure
 
 ## Resource
 - [Ignitetechnologies - Android Penetration Testing](https://github.com/Ignitetechnologies/Android-Penetration-Testing)

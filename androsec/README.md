@@ -9,6 +9,8 @@
 1. Langkah pertama adalah review __AndroidManifest.xml__, adalah bluetprint aplikasi android
 2. Cek activity yang memiliki atribut `android:exported:"true"` , pastikan activity yang __confidential__ memiliki atribut `android:exported:"false"`
 3. Cek sensitive value pada string reference string.xml, kadang disana terdapat API key dan credential tertentu
+4. Decode semua value Base64
+5. 
 
 ## Resource
 - [Ignitetechnologies - Android Penetration Testing](https://github.com/Ignitetechnologies/Android-Penetration-Testing)

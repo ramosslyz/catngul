@@ -5,7 +5,7 @@
 3. [DIVA](https://github.com/acvn/catngul/blob/master/androsec/diva.md)
 4. [People](https://github.com/acvn/catngul/blob/master/androsec/people.md)
 
-## Tips
+## Tips N Trick
 1. Langkah pertama adalah review __AndroidManifest.xml__, adalah bluetprint aplikasi android
 2. Cek activity yang memiliki atribut `android:exported:"true"` , pastikan activity yang __confidential__ memiliki atribut `android:exported:"false"`
 3. Cek sensitive value pada string reference string.xml, kadang disana terdapat API key dan credential tertentu

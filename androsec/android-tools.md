@@ -17,7 +17,17 @@ adb shell am start -n b3nac.injuredandroid/.b25lActivity -> menjalankan activity
 apktool d <namafileapk>
 ```
 
-## jadx/jadx-gui
+## Frida
+```
+adb root
+adb push frida-server /data/local/tmp
+adb shell "chmod 755 /data/local/tmp/frida-server"
+adb shell "/data/local/tmp/frida-server &"
+
+frida-ps -U -> melihat aplikasi apa saja yang berjalan (nanti akan ada PID)
+frida-trace -U -i open Calendar -> melacak aktivitas aplikasi calendar
+
+```
 
 ## Other
 - MobSF

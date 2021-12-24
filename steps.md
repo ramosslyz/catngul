@@ -63,10 +63,12 @@
     - Remedial tips dan rekomendasi dari masing-masing vulnerability 
 - Presentasi
 
-## Catatan tipis-tipis
+## Tips N Trick
 - Widening the attack surface more valuable than exploiting the target
 - Solusi dan remediasi lebih dibutuhkan dibandingkan pamer skill hacking
 - Information gathering and Reconnaisance is a key
+- Cek consol (f12)
+- Selalui cek reflected setelah injeksi dimasukkan
 
 ## Resource
 - [INE-Penetration Testing Student](https://my.ine.com/CyberSecurity/learning-paths/a223968e-3a74-45ed-884d-2d16760b8bbd/penetration-testing-student)

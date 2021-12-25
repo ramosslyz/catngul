@@ -29,6 +29,7 @@
 - [Android App Penetration Testing 101](https://www.youtube.com/watch?v=2uwhrfXCl4I)
 - [CodePath Android Cliffnotes](https://guides.codepath.com/android)
 - [Android APK Checklist](https://book.hacktricks.xyz/mobile-apps-pentesting)
+- [Mobile Application Penetration Testing Cheat Sheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet)
 
 ## Methodolody
 - Static analysis & app recon 

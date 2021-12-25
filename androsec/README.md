@@ -1,9 +1,10 @@
 # ANDROID HACKING
 
-1. [Vulnerability](https://github.com/acvn/catngul/blob/master/androsec/android-vuln.md)
-2. [Tools](https://github.com/acvn/catngul/blob/master/androsec/android-tools.md)
-3. [DIVA](https://github.com/acvn/catngul/blob/master/androsec/diva.md)
-4. [People](https://github.com/acvn/catngul/blob/master/androsec/people.md)
+1. [Information Gathering](https://github.com/acvn/catngul/blob/master/androsec/info-gathering.md)
+2. [Vulnerability](https://github.com/acvn/catngul/blob/master/androsec/android-vuln.md)
+3. [Tools](https://github.com/acvn/catngul/blob/master/androsec/android-tools.md)
+4. [DIVA](https://github.com/acvn/catngul/blob/master/androsec/diva.md)
+5. [People](https://github.com/acvn/catngul/blob/master/androsec/people.md)
 
 ## Tips N Trick
 1. Cek __versi__ aplikasi, apakah sesuai dengan kickoff meeting

@@ -13,7 +13,7 @@
 4. Cek sensitive value pada string reference string.xml, kadang disana terdapat API key dan credential tertentu
 5. Decode semua value Base64
 6. Cek certificate pinning dan SSL pinning
-7. 
+7. Bypass root detection
 
 ## Resource
 - [Ignitetechnologies - Android Penetration Testing](https://github.com/Ignitetechnologies/Android-Penetration-Testing)

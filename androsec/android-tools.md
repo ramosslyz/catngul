@@ -39,3 +39,4 @@ frida-trace -U -i open Calendar -> melacak aktivitas aplikasi calendar
 - Magisk -> Root Android device
 - RootAVD -> Root Android emulator
 - ghidra
+- reflutter

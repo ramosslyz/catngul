@@ -14,6 +14,7 @@
 5. Decode semua value Base64
 6. Cek certificate pinning dan SSL pinning
 7. Bypass root detection
+8. Aplikasi yang menggunakan flutter perlu modifikasi tertentu untuk intercept
 
 ## Resource
 - [Ignitetechnologies - Android Penetration Testing](https://github.com/Ignitetechnologies/Android-Penetration-Testing)

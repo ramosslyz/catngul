@@ -15,6 +15,7 @@
 6. Cek certificate pinning dan SSL pinning
 7. Bypass root detection
 8. Aplikasi yang menggunakan flutter perlu modifikasi tertentu untuk intercept
+9. Cek logcat
 
 ## Resource
 - [Ignitetechnologies - Android Penetration Testing](https://github.com/Ignitetechnologies/Android-Penetration-Testing)
@@ -32,6 +33,7 @@
 - [CodePath Android Cliffnotes](https://guides.codepath.com/android)
 - [Android APK Checklist](https://book.hacktricks.xyz/mobile-apps-pentesting)
 - [Mobile Application Penetration Testing Cheat Sheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet)
+- 
 
 ## Methodolody
 - Static analysis & app recon 

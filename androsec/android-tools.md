@@ -48,3 +48,5 @@ objection -g <nama-packages> explore , lalu pilih env, akan menampilkan data dir
 - ghidra
 - reflutter
 - fridump
+- jwt_tool
+- pidcat

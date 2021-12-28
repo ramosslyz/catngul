@@ -16,6 +16,8 @@
 7. Bypass root detection
 8. Aplikasi yang menggunakan flutter perlu modifikasi tertentu untuk intercept
 9. Cek logcat
+10.cek jwt, lalu extract pake jwt toll
+11. 
 
 ## Resource
 - [Ignitetechnologies - Android Penetration Testing](https://github.com/Ignitetechnologies/Android-Penetration-Testing)

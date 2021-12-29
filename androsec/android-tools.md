@@ -54,6 +54,9 @@ objection -g <nama-packages> explore , lalu pilih env, akan menampilkan data dir
 - ghidra
 - jwt_tool
 
+## Reverse
+- radare2
+
 ## Log Analysis
 - Pidcat
 - adb logcat

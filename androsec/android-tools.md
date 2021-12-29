@@ -1,5 +1,10 @@
 # Tools
 
+## Jadx
+```
+jadx -deobf
+```
+
 ## adb
 ```
 adb devices -> list device

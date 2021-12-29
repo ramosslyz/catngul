@@ -56,6 +56,7 @@ objection -g <nama-packages> explore , lalu pilih env, akan menampilkan data dir
 
 ## Reverse
 - radare2
+- r2frida
 
 ## Log Analysis
 - Pidcat

@@ -17,7 +17,8 @@
 8. Aplikasi yang menggunakan flutter perlu modifikasi tertentu untuk intercept
 9. Cek logcat
 10.cek jwt, lalu extract pake jwt toll
-11. 
+11. Cek mobsf, konfirmasi vulnerabilitynya
+12. android debug dan android backup tidak boleh enabled
 
 ## Resource
 - [Ignitetechnologies - Android Penetration Testing](https://github.com/Ignitetechnologies/Android-Penetration-Testing)

@@ -36,6 +36,12 @@ Harus ada frida server dahulu
 objection -g <nama-packages> explore , lalu pilih env, akan menampilkan data direktori env
 ```
 
+
+## Memorydump
+- r2frida
+- fridump
+- objection
+
 ## Other
 - MobSF
 - Frida
@@ -46,8 +52,14 @@ objection -g <nama-packages> explore , lalu pilih env, akan menampilkan data dir
 - Magisk -> Root Android device
 - RootAVD -> Root Android emulator
 - ghidra
-- reflutter
-- fridump
 - jwt_tool
-- pidcat
+
+## Log Analysis
+- Pidcat
+- adb logcat
+
+## SSL pinng
+- refluuter
+
+## Dynamic Analysis Online
 - appetize.io

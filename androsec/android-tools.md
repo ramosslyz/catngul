@@ -58,6 +58,7 @@ objection -g <nama-packages> explore , lalu pilih env, akan menampilkan data dir
 - RootAVD -> Root Android emulator
 - ghidra
 - jwt_tool
+- drozer
 
 ## Reverse
 - radare2

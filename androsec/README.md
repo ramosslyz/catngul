@@ -19,6 +19,8 @@
 10.cek jwt, lalu extract pake jwt toll
 11. Cek mobsf, konfirmasi vulnerabilitynya
 12. android debug dan android backup tidak boleh enabled
+13. cek memory dump
+14. cek copy-paste in credential input
 
 ## Resource
 - [Ignitetechnologies - Android Penetration Testing](https://github.com/Ignitetechnologies/Android-Penetration-Testing)

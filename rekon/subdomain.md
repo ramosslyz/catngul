@@ -43,3 +43,6 @@
     massdns -r ../lists/resolvers.txt -t A domain.txt -w output.txt -s 15000 -o S --flush
     ```
   - [Httpx](https://github.com/projectdiscovery/httpx)
+    ```
+    httpx -title -content-length -status-code -silent -content-type -no-color follow-redirects
+    ```

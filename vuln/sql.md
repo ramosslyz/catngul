@@ -7,6 +7,7 @@
 
 ## Tips
 - Tidak semua payload biasa dijalankan di address-bar browser, kadang harus menggunakan burpsuite (repeater)
+- Blind SQL injection generate error 500
 
 ## langkah-langkah
 1. Identify kapan dan dimana aplikasi akan berinteraksi dengan DB Server untuk mengakses data. Berikut kondisi umum aplikasi berinteraksi dengan DB server.

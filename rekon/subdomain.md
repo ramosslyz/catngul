@@ -44,5 +44,5 @@
     ```
   - [Httpx](https://github.com/projectdiscovery/httpx)
     ```
-    httpx -title -content-length -status-code -silent -content-type -no-color follow-redirects
+    httpx -title -content-length -status-code -silent -content-type -no-color -follow-redirects
     ```

@@ -16,12 +16,13 @@
 7. Bypass root detection
 8. Aplikasi yang menggunakan flutter perlu modifikasi tertentu untuk intercept
 9. Cek logcat
-10.cek jwt, lalu extract pake jwt toll
+10. cek jwt, lalu extract pake jwt toll
 11. Cek mobsf, konfirmasi vulnerabilitynya
 12. android debug dan android backup tidak boleh enabled
 13. cek memory dump
 14. cek anti brute protection pada authentication
-15. 
+15. Apabila apk tidak bisa didecompile dengan jadx, pull apk langsung dari androidnya
+16. 
 
 ## Resource
 - [Ignitetechnologies - Android Penetration Testing](https://github.com/Ignitetechnologies/Android-Penetration-Testing)

@@ -1,9 +1,5 @@
 # Tools
 
-## Jadx
-```
-jadx -deobf
-```
 
 ## adb
 ```
@@ -63,6 +59,11 @@ objection -g <nama-packages> explore , lalu pilih env, akan menampilkan data dir
 ## Reverse
 - radare2
 - r2frida
+- http://apk-deguard.com/
+- Jadx
+  ```
+  jadx -deobf
+  ```
 
 ## Log Analysis
 - Pidcat

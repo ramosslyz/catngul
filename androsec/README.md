@@ -22,7 +22,7 @@
 13. cek memory dump
 14. cek anti brute protection pada authentication
 15. Apabila apk tidak bisa didecompile dengan jadx, pull apk langsung dari androidnya
-16. 
+16. Selalu scan subdomain dari situs yang berhubungan dengan aplikasi, kemungkinan credential yang terdapat pada apk bisa berfungsi di subdomain tersebut
 
 ## Resource
 - [Ignitetechnologies - Android Penetration Testing](https://github.com/Ignitetechnologies/Android-Penetration-Testing)

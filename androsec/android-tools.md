@@ -49,18 +49,15 @@ objection -g <nama-packages> explore , lalu pilih env, akan menampilkan data dir
   ```
 - objection
 
-## Other
+## Dynamic Analysis
 - MobSF
-- Frida
 - Objection
-- Termux
-- Mobexler
-- Android Studio's built-in Device File Explorer
-- Magisk -> Root Android device
-- RootAVD -> Root Android emulator
 - ghidra
-- jwt_tool
 - drozer
+- appetize.io
+- 
+## Rooting
+- Magisk
 
 ## Reverse
 - radare2
@@ -79,8 +76,6 @@ objection -g <nama-packages> explore , lalu pilih env, akan menampilkan data dir
 ## SSL pinning
 - refluuter
 
-## Dynamic Analysis Online
-- appetize.io
-
 ## Framework
 - Runtime Mobile Security (RMS)
+- Moblexer

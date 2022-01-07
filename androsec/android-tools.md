@@ -70,12 +70,13 @@ objection -g <nama-packages> explore , lalu pilih env, akan menampilkan data dir
   ```
   jadx -deobf
   ```
+- Androguard
 
 ## Log Analysis
 - Pidcat
 - adb logcat
 
-## SSL pinng
+## SSL pinning
 - refluuter
 
 ## Dynamic Analysis Online

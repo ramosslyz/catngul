@@ -68,6 +68,7 @@ objection -g <nama-packages> explore , lalu pilih env, akan menampilkan data dir
   jadx -deobf
   ```
 - Androguard
+- APKiD
 
 ## Log Analysis
 - Pidcat

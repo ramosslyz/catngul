@@ -28,7 +28,6 @@
 ## Resource
 - [Ignitetechnologies - Android Penetration Testing](https://github.com/Ignitetechnologies/Android-Penetration-Testing)
 - [sundaysec - Android-Exploits](https://github.com/sundaysec/Android-Exploits)
-- [Guide to Setting Up Android Pentesting Lab](https://securityjunky.com/guide-to-setting-up-android-pentesting-lab/)
 - [LevelUp 0x04 - Fun with Frida on Mobile](https://www.youtube.com/watch?v=dqA38-1UMxI)
 - [Resources-for-Beginner-Bug-Bounty-Hunters - Mobile Hacking](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters/blob/master/assets/mobile.md)
 - [The Mobile Hacking CheatSheet](https://github.com/randorisec/MobileHackingCheatSheet)

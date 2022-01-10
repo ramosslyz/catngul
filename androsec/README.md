@@ -41,6 +41,7 @@
 - [CodePath Android Cliffnotes](https://guides.codepath.com/android)
 - [Android APK Checklist](https://book.hacktricks.xyz/mobile-apps-pentesting)
 - [Mobile Application Penetration Testing Cheat Sheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet)
+- [Android security checklist: WebView](https://blog.oversecured.com/Android-security-checklist-webview/)
 
 ## Methodolody
 - Static analysis & app recon 
@@ -49,7 +50,7 @@
   - Cek and find packege info with drozer
 - Network communication capture analysis
   - Cek Insecure communication (Non encrypted tools, Certificate pinning, MITM exposure and proxy impact, Certificate Validation) with Burp Suite
-  - Cek full packet capture with WIFI soft AP, wireshark, tcpdump, tshark, Bro
+  - Cek ful packet capture with WIFI soft AP, wireshark, tcpdump, tshark, Bro
 - Insecure data storage with adb shell and linux utilities (diff, grep, strings)
 - Extraneous functionality
   - Cek interesting functionality with jadx and manipulate with drozer

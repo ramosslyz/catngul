@@ -23,6 +23,7 @@
 14. cek anti brute protection pada authentication
 15. Apabila apk tidak bisa didecompile dengan jadx, pull apk langsung dari androidnya
 16. Selalu scan subdomain dari situs yang berhubungan dengan aplikasi, kemungkinan credential yang terdapat pada apk bisa berfungsi di subdomain tersebut
+17. Check device binding
 
 ## Resource
 - [Ignitetechnologies - Android Penetration Testing](https://github.com/Ignitetechnologies/Android-Penetration-Testing)
@@ -40,7 +41,6 @@
 - [CodePath Android Cliffnotes](https://guides.codepath.com/android)
 - [Android APK Checklist](https://book.hacktricks.xyz/mobile-apps-pentesting)
 - [Mobile Application Penetration Testing Cheat Sheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet)
-- 
 
 ## Methodolody
 - Static analysis & app recon 

@@ -6,7 +6,7 @@
 Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-campur (inggris-indo).
 
 ## Table Of Contents
-1. [Web](https://github.com/acvn/b3lajar/tree/master/web.md)
+1. [Basic](https://github.com/acvn/b3lajar/tree/master/basic.md)
 2. [Koding](https://github.com/acvn/catngul/blob/master/code.md)
 3. [Motivation](https://github.com/acvn/b3lajar/blob/master/motivation.md)
 4. [Reconnaissance](https://github.com/acvn/b3lajar/blob/master/rekon)

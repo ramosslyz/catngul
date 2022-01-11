@@ -11,6 +11,10 @@
 ## Scrapping
   - [DNSdumpster](https://dnsdumpster.com/)
   - [Amass enum](https://github.com/OWASP/Amass)
+    ```
+    amass enum -active -df subdomain-list -config acvn-config.ini -o asd.txt
+    amass enum -passive -df subdomain-list -config acvn-config.ini -o asd.txt
+    ```
   - [Subfinder v2](https://github.com/projectdiscovery/subfinder)
   - [Github-search](https://github.com/gwen001/github-search)
   - [Shobsugo](https://github.com/incogbyte/shosubgo)

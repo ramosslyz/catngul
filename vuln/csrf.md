@@ -65,6 +65,8 @@ Set-Cookie: JSESSIONID=xxxxx; SameSite=Lax
 ```
 
 ## CSRF V.S. Clickjacking
+- CSRF memalsukan request
+- clickjacking memalsukan halaman http
 
 ## RESOURCE
 1. [OWASP - Cross Site Request Forgery (CSRF)](https://owasp.org/www-community/attacks/csrf)

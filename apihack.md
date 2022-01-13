@@ -24,3 +24,4 @@
 - [How to Hack APIs in 2021](https://labs.detectify.com/2021/08/10/how-to-hack-apis-in-2021/)
 - [Hack EVERY API! KiteRunner - Hacker Tools](https://www.youtube.com/watch?v=vrOXmxNZ3zQ)
 - [API Security 101 by Sadako](https://www.youtube.com/watch?v=ijalD2NkRFg&t=13s)
+- [Hacking JSON Web Tokens (JWTs)](https://medium.com/swlh/hacking-json-web-tokens-jwts-9122efe91e4a)

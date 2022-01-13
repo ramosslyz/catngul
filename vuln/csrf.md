@@ -83,7 +83,7 @@ Set-Cookie: JSESSIONID=xxxxx; SameSite=Lax
 1. [CSRF at Kaskus.co.id](https://medium.com/@daffailhamr/csrf-at-kaskus-co-id-f8e31864807f)
 2. [Refocusing in bug hunting, Bonus: An interestingly simple to test CSRF bypass](https://medium.com/bugbountywriteup/refocusing-in-bug-hunting-bonus-an-interestingly-simple-to-test-csrf-bypass-8595b3312147)
 3. [Got Nice catch by Google](https://parthdeshani.medium.com/got-nice-catch-by-google-5e6a8211371c)
-
+4. [JSON CSRF To FormData Attack](https://medium.com/@osamaavvan/json-csrf-to-formdata-attack-eb65272376a2)
 
 ## LAB
 - [Portswigger Academy - Cross-site request forgery (CSRF)](https://portswigger.net/web-security/csrf)

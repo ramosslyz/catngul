@@ -1,24 +1,15 @@
 # API HACKING
+Beberapa vulnerability berikut jarang ditemukan pada teknologi API.
+![image](https://user-images.githubusercontent.com/52058660/150070419-a8f2f689-9469-44ad-9133-63f3a3ca540f.png)
+![image](https://user-images.githubusercontent.com/52058660/150070524-daabb401-3876-4e50-8cc0-ce0bb7deccd2.png)
+Tapi api face their own challenge
+
+
 ## Tools
 - Postman
 - JWT cracker
 - Burpsuite
 - Kiterunner
-
-## Vulnerability
-1. API exposure
-2. Misconfigured Caching
-3. Exposed token
-4. JWT weaknesses
-5. Authorization Issues / IDOR
-6. Undocumented endpoints
-7. Different version
-8. Rate limiting
-9. Race condition
-10. XXE Injection
-11. Switching content type
-12. HTTP methods
-13. Injection vulnerabilities
 
 ## Resource
 - [OWASP API Security Top 10](https://github.com/OWASP/API-Security)

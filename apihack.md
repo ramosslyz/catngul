@@ -11,6 +11,9 @@ Tapi api face their own challenge
 - Burpsuite
 - Kiterunner
 
+## Tips
+- Cek every method GET, POST, DELETE, PUT etc
+
 ## Resource
 - [OWASP API Security Top 10](https://github.com/OWASP/API-Security)
 - [How to Hack APIs in 2021](https://labs.detectify.com/2021/08/10/how-to-hack-apis-in-2021/)

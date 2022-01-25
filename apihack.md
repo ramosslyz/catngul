@@ -15,7 +15,6 @@ Tapi api face their own challenge
 - Cek every method GET, POST, DELETE, PUT etc
 - Cek input negative value
 - Content discovery dengan kiterunner
-- 
 
 ## Resource
 - [OWASP API Security Top 10](https://github.com/OWASP/API-Security) - (sudah baca)

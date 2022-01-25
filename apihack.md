@@ -11,15 +11,31 @@ Tapi api face their own challenge
 - Burpsuite
 - Kiterunner
 
+
+## Vulnerability
+- API Exposure
+- Exposed token
+- IDOR
+- JWT Weaknesses
+- Misconfigured caching
+- Undocumented Endpoints
+- Rate limiting
+- Race Conditions (Bisa ditest menggunakan turbo intruder)
+- XXE
+- Switching content type
+- Switching http methods
+- Injection vulnerabilities (SQLi, RCE, SSRF)
+
 ## Tips
 - Cek every method GET, POST, DELETE, PUT etc
 - Cek input negative value
 - Content discovery dengan kiterunner
 
+
 ## Resource
 - [OWASP API Security Top 10](https://github.com/OWASP/API-Security) - (sudah baca)
-- [How to Hack APIs in 2021](https://labs.detectify.com/2021/08/10/how-to-hack-apis-in-2021/)
-- [Hack EVERY API! KiteRunner - Hacker Tools](https://www.youtube.com/watch?v=vrOXmxNZ3zQ)
+- [How to Hack APIs in 2021](https://labs.detectify.com/2021/08/10/how-to-hack-apis-in-2021/) - (sudah baca)
+- [Hack EVERY API! KiteRunner - Hacker Tools](https://www.youtube.com/watch?v=vrOXmxNZ3zQ) - (sudah nonton)
 - [API Security 101 by Sadako](https://www.youtube.com/watch?v=ijalD2NkRFg&t=13s)
 - [Hacking JSON Web Tokens (JWTs)](https://medium.com/swlh/hacking-json-web-tokens-jwts-9122efe91e4a)
 - [Analyzing The OWASP API Security Top 10 For Pen Testers](https://www.youtube.com/watch?v=5UTHUZ3NGfw)

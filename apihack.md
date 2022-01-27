@@ -11,6 +11,9 @@ Tapi api face their own challenge
 - Burpsuite
 - Kiterunner
 - Semgrep (scan endpoin on code)
+- Fuzz Light Year
+- RESTler
+
 
 
 ## Vulnerability
@@ -49,7 +52,7 @@ HMicroservices are considered to be four times more vulnerable than traditional 
 - [Hack EVERY API! KiteRunner - Hacker Tools](https://www.youtube.com/watch?v=vrOXmxNZ3zQ) - (sudah nonton)
 - [Contextual Content Discovery: You've forgotten about the API endpoints](https://blog.assetnote.io/2021/04/05/contextual-content-discovery/) (sudah baca)
 - [API Recon with Kiterunner - Hacker Toolbox](https://www.youtube.com/watch?v=hNs8fpWfcyU) (sudah nonton)
-- [Topics of Interest: Attacking the microservice systems: methods and practical tips - A. Barabanov](https://www.youtube.com/watch?v=HqrPCeuj04Y)
+- [Topics of Interest: Attacking the microservice systems: methods and practical tips - A. Barabanov](https://www.youtube.com/watch?v=HqrPCeuj04Y) (sudah nonton)
 - [API Security 101 by Sadako](https://www.youtube.com/watch?v=ijalD2NkRFg&t=13s)
 - [Hacking JSON Web Tokens (JWTs)](https://medium.com/swlh/hacking-json-web-tokens-jwts-9122efe91e4a)
 - [Security In Microservice World](https://owasp.org/www-pdf-archive/Microservice_Security.pdf)

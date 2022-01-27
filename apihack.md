@@ -45,6 +45,9 @@ HMicroservices are considered to be four times more vulnerable than traditional 
 - [Everything You Need to Know to Get Started with Microservices](https://dev.to/microtica/everything-you-need-to-know-to-get-started-with-microservices-5243)
 - [So you want to learn Microservices?](https://dev.to/kgoralski/deep-dive-into-microservices-architecture-h54)
 
+# Book
+- [Hacking APIs](https://www.hackingapis.com/)
+
 ## Resource
 - [OWASP API Security Top 10](https://github.com/OWASP/API-Security) (sudah baca)
 - [How to Hack APIs in 2021](https://labs.detectify.com/2021/08/10/how-to-hack-apis-in-2021/) (sudah baca)
@@ -57,4 +60,5 @@ HMicroservices are considered to be four times more vulnerable than traditional 
 - [Hacking JSON Web Tokens (JWTs)](https://medium.com/swlh/hacking-json-web-tokens-jwts-9122efe91e4a)
 - [Security In Microservice World](https://owasp.org/www-pdf-archive/Microservice_Security.pdf)
 - [Hacking Microservices For Fun and Bounty](https://infosecwriteups.com/hacking-microservices-for-fun-and-bounty-5cc302769e94)
+- [Introducing vAPI – an open source lab environment to learn about API security](https://portswigger.net/daily-swig/introducing-vapi-an-open-source-lab-environment-to-learn-about-api-security)
 

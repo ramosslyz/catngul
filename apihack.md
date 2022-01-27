@@ -62,4 +62,6 @@ HMicroservices are considered to be four times more vulnerable than traditional 
 - [Security In Microservice World](https://owasp.org/www-pdf-archive/Microservice_Security.pdf)
 - [Hacking Microservices For Fun and Bounty](https://infosecwriteups.com/hacking-microservices-for-fun-and-bounty-5cc302769e94)
 - [Introducing vAPI – an open source lab environment to learn about API security](https://portswigger.net/daily-swig/introducing-vapi-an-open-source-lab-environment-to-learn-about-api-security)
+- [Awesome API Security](https://github.com/arainho/awesome-api-security)
+- https://dsopas.github.io/MindAPI/references/
 

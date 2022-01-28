@@ -65,3 +65,6 @@ HMicroservices are considered to be four times more vulnerable than traditional 
 - [Awesome API Security](https://github.com/arainho/awesome-api-security)
 - https://dsopas.github.io/MindAPI/references/
 
+## Hack JWT
+- https://www.youtube.com/watch?v=AsZjCJiNcGw
+

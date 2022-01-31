@@ -26,7 +26,9 @@
 ## Tips
 - Cek every method GET, POST, DELETE, PUT etc
 - Cek input negative value
-- Content discovery dengan kiterunner
+- Cek Content discovery dengan kiterunner
+- Cek auth grant type
+- 
 
 ## Lab
 - vApi
@@ -38,10 +40,12 @@
 ### Hacking Microservices Resource
 Microservices are considered to be four times more vulnerable than traditional monolithic applications
 - [Hidden OAuth attack vectors](https://portswigger.net/research/hidden-oauth-attack-vectors)
+- https://infosecwriteups.com/oauth-2-0-hacking-simplified-part-2-vulnerabilities-and-mitigation-d01dd6d5fa2c
 - https://portswigger.net/web-security/oauth
 - [Security In Microservice World](https://owasp.org/www-pdf-archive/Microservice_Security.pdf)
 - [Topics of Interest: Attacking the microservice systems: methods and practical tips - A. Barabanov](https://www.youtube.com/watch?v=HqrPCeuj04Y) (sudah nonton)
 - [Hacking Microservices For Fun and Bounty](https://infosecwriteups.com/hacking-microservices-for-fun-and-bounty-5cc302769e94)
+- https://github.com/koenbuyens/Vulnerable-OAuth-2.0-Applications
 ### Hacking API Resource
 - [OWASP API Security Top 10](https://github.com/OWASP/API-Security) (sudah baca)
 - [How to Hack APIs in 2021](https://labs.detectify.com/2021/08/10/how-to-hack-apis-in-2021/) (sudah baca)

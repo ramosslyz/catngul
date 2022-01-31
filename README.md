@@ -6,16 +6,15 @@
 Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-campur (inggris-indo).
 
 ## Table Of Contents
-1. [Basic](https://github.com/acvn/b3lajar/tree/master/basic.md)
-2. [Koding](https://github.com/acvn/catngul/blob/master/code.md)
-3. [Motivation](https://github.com/acvn/b3lajar/blob/master/motivation.md)
-4. [Reconnaissance](https://github.com/acvn/b3lajar/blob/master/rekon)
-6. [Footprinting](https://github.com/acvn/catngul/blob/master/foot.md)
-7. [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln)
-8. [Web Hacking](https://github.com/acvn/b3lajar/blob/master/steps.md)
-9. [Network Hacking](https://github.com/acvn/b3lajar/blob/master/netsec.md)
-10. [Android Hacking](https://github.com/acvn/catngul/blob/master/androsec)
-11. [API Hacking](https://github.com/acvn/catngul/blob/master/apihack.md)
+1. [Koding](https://github.com/acvn/catngul/blob/master/code.md)
+2. [Motivation](https://github.com/acvn/b3lajar/blob/master/motivation.md)
+3. [Reconnaissance](https://github.com/acvn/b3lajar/blob/master/rekon)
+4. [Footprinting](https://github.com/acvn/catngul/blob/master/foot.md)
+5. [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln)
+6. [Web Hacking](https://github.com/acvn/b3lajar/blob/master/steps.md)
+7. [Network Hacking](https://github.com/acvn/b3lajar/blob/master/netsec.md)
+8. [Android Hacking](https://github.com/acvn/catngul/blob/master/androsec)
+9. [API Hacking](https://github.com/acvn/catngul/blob/master/apihack.md)
    
 ## Ask Me!
 acvn on [Twitter](https://twitter.com/aldi__satria) or [Instagram](https://www.instagram.com/aldi___satria/)

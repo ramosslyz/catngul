@@ -36,35 +36,30 @@ Tapi api face their own challenge
 ## Lab
 - vApi
 
-## Hacking Microservices
-HMicroservices are considered to be four times more vulnerable than traditional monolithic applications
-
-## Learn Microservice
-- [What are microservices?](https://microservices.io/)
-- [Belajar Microservices untuk Pemula](https://www.youtube.com/playlist?list=PL-CtdCApEFH-MtoBwQ0F3xNG21yjt5Kvs)
-- [Awesome Microservices](https://github.com/mfornos/awesome-microservices)
-- [Everything You Need to Know to Get Started with Microservices](https://dev.to/microtica/everything-you-need-to-know-to-get-started-with-microservices-5243)
-- [So you want to learn Microservices?](https://dev.to/kgoralski/deep-dive-into-microservices-architecture-h54)
-
-# Book
+## Book
 - [Hacking APIs](https://www.hackingapis.com/)
 
 ## Resource
+### Hacking Microservices Resource
+Microservices are considered to be four times more vulnerable than traditional monolithic applications
+- [Hidden OAuth attack vectors](https://portswigger.net/research/hidden-oauth-attack-vectors)
+- [Security In Microservice World](https://owasp.org/www-pdf-archive/Microservice_Security.pdf)
+- [Topics of Interest: Attacking the microservice systems: methods and practical tips - A. Barabanov](https://www.youtube.com/watch?v=HqrPCeuj04Y) (sudah nonton)
+- [Hacking Microservices For Fun and Bounty](https://infosecwriteups.com/hacking-microservices-for-fun-and-bounty-5cc302769e94)
+### Hacking API Resource
 - [OWASP API Security Top 10](https://github.com/OWASP/API-Security) (sudah baca)
 - [How to Hack APIs in 2021](https://labs.detectify.com/2021/08/10/how-to-hack-apis-in-2021/) (sudah baca)
 - [Analyzing The OWASP API Security Top 10 For Pen Testers](https://www.youtube.com/watch?v=5UTHUZ3NGfw) (sudah nonton)
 - [Hack EVERY API! KiteRunner - Hacker Tools](https://www.youtube.com/watch?v=vrOXmxNZ3zQ) - (sudah nonton)
 - [Contextual Content Discovery: You've forgotten about the API endpoints](https://blog.assetnote.io/2021/04/05/contextual-content-discovery/) (sudah baca)
 - [API Recon with Kiterunner - Hacker Toolbox](https://www.youtube.com/watch?v=hNs8fpWfcyU) (sudah nonton)
-- [Topics of Interest: Attacking the microservice systems: methods and practical tips - A. Barabanov](https://www.youtube.com/watch?v=HqrPCeuj04Y) (sudah nonton)
 - [API Security 101 by Sadako](https://www.youtube.com/watch?v=ijalD2NkRFg&t=13s)
-- [Hacking JSON Web Tokens (JWTs)](https://medium.com/swlh/hacking-json-web-tokens-jwts-9122efe91e4a)
-- [Security In Microservice World](https://owasp.org/www-pdf-archive/Microservice_Security.pdf)
-- [Hacking Microservices For Fun and Bounty](https://infosecwriteups.com/hacking-microservices-for-fun-and-bounty-5cc302769e94)
 - [Introducing vAPI – an open source lab environment to learn about API security](https://portswigger.net/daily-swig/introducing-vapi-an-open-source-lab-environment-to-learn-about-api-security)
 - [Awesome API Security](https://github.com/arainho/awesome-api-security)
 - https://dsopas.github.io/MindAPI/references/
-
-## Hack JWT
+### Hack JWT
 - https://www.youtube.com/watch?v=AsZjCJiNcGw
+- [Hacking JSON Web Tokens (JWTs)](https://medium.com/swlh/hacking-json-web-tokens-jwts-9122efe91e4a)
+
+
 

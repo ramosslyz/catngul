@@ -38,6 +38,7 @@
 ### Hacking Microservices Resource
 Microservices are considered to be four times more vulnerable than traditional monolithic applications
 - [Hidden OAuth attack vectors](https://portswigger.net/research/hidden-oauth-attack-vectors)
+- https://portswigger.net/web-security/oauth
 - [Security In Microservice World](https://owasp.org/www-pdf-archive/Microservice_Security.pdf)
 - [Topics of Interest: Attacking the microservice systems: methods and practical tips - A. Barabanov](https://www.youtube.com/watch?v=HqrPCeuj04Y) (sudah nonton)
 - [Hacking Microservices For Fun and Bounty](https://infosecwriteups.com/hacking-microservices-for-fun-and-bounty-5cc302769e94)
@@ -52,6 +53,7 @@ Microservices are considered to be four times more vulnerable than traditional m
 - [Introducing vAPI – an open source lab environment to learn about API security](https://portswigger.net/daily-swig/introducing-vapi-an-open-source-lab-environment-to-learn-about-api-security)
 - [Awesome API Security](https://github.com/arainho/awesome-api-security)
 - https://dsopas.github.io/MindAPI/references/
+- https://medium.com/decathlontechnology/api-security-e4800de36ce
 ### Hack JWT
 - https://www.youtube.com/watch?v=AsZjCJiNcGw
 - [Hacking JSON Web Tokens (JWTs)](https://medium.com/swlh/hacking-json-web-tokens-jwts-9122efe91e4a)

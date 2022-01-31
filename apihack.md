@@ -1,9 +1,4 @@
 # API & MICROSERVICE HACKING
-Beberapa vulnerability berikut jarang ditemukan pada teknologi API.
-![image](https://user-images.githubusercontent.com/52058660/150070419-a8f2f689-9469-44ad-9133-63f3a3ca540f.png)
-![image](https://user-images.githubusercontent.com/52058660/150070524-daabb401-3876-4e50-8cc0-ce0bb7deccd2.png)
-Tapi api face their own challenge
-
 
 ## Tools
 - Postman

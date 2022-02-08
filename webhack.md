@@ -69,7 +69,8 @@
 - Information gathering and Reconnaisance is a key
 - Cek consol (f12)
 - Selalui cek reflected setelah injeksi dimasukkan
-- Mapping authenticatio proses
+- Mapping authentication proses
+- Jangan dulu filter subdomain dengan httprobe / httpx, coba filter dengan nuclei
 
 ## Resource
 - [INE-Penetration Testing Student](https://my.ine.com/CyberSecurity/learning-paths/a223968e-3a74-45ed-884d-2d16760b8bbd/penetration-testing-student)

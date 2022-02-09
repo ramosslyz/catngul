@@ -8,12 +8,11 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-c
 ## Table Of Contents
 1. [Koding](https://github.com/acvn/catngul/blob/master/code.md)
 2. [Reconnaissance](https://github.com/acvn/b3lajar/blob/master/rekon)
-3. [Footprinting](https://github.com/acvn/catngul/blob/master/foot.md)
-4. [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln)
-5. [Web Hacking](https://github.com/acvn/b3lajar/blob/master/webhack.md)
-6. [Network Hacking](https://github.com/acvn/b3lajar/blob/master/netsec.md)
-7. [Android Hacking](https://github.com/acvn/catngul/blob/master/androsec)
-8. [API Hacking](https://github.com/acvn/catngul/blob/master/apihack.md)
+3. [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln)
+4. [Web Hacking](https://github.com/acvn/b3lajar/blob/master/webhack.md)
+5. [Network Hacking](https://github.com/acvn/b3lajar/blob/master/netsec.md)
+6. [Android Hacking](https://github.com/acvn/catngul/blob/master/androsec)
+7. [API Hacking](https://github.com/acvn/catngul/blob/master/apihack.md)
    
 ## Ask Me!
 acvn on [Twitter](https://twitter.com/aldi__satria) or [Instagram](https://www.instagram.com/aldi___satria/)

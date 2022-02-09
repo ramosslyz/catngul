@@ -9,3 +9,4 @@
 
 ## Write-up
 - [$10,000 for a vulnerability that doesn’t exist](https://krevetk0.medium.com/10-000-for-a-vulnerability-that-doesnt-exist-9dbc63684e94)
+- [open redirect to a complete account takeover](https://ninetyn1ne.github.io/2020-10-05-open-redir-to-ato/)

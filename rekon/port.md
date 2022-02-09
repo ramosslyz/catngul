@@ -15,6 +15,11 @@
     ```
     sudo nmap -Pn -f -sV -p 80 10.10.10.x
     ```
+  - OS fingerprinting
+    ```
+    nmap -Pn -O <target>
+    nmap -O --oscan-limit <target>
+    ```
   - By Naffy
     ```
     nmap -T 4 -iL hosts -Pn --script=http-title -p80,4443,4080,443 --open 

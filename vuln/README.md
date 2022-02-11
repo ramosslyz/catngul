@@ -2,6 +2,7 @@
 
 - [Account Takeover](https://github.com/acvn/b3lajar/blob/master/vuln/accounttakeover.md)
 - [CSRF](https://github.com/acvn/b3lajar/blob/master/vuln/csrf.md)
+- [CORS](https://github.com/acvn/b3lajar/blob/master/vuln/cors.md)
 - [Directory Traversal](https://github.com/acvn/b3lajar/blob/master/vuln/dirtra.md)
 - [HTTP Header Injection](https://github.com/acvn/b3lajar/blob/master/vuln/http-header.md)
 - [Host Header Attack](https://github.com/acvn/catngul/blob/master/vuln/hostheaderattack.md)

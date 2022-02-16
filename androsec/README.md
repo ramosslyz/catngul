@@ -24,6 +24,7 @@
 15. Apabila apk tidak bisa didecompile dengan jadx, pull apk langsung dari androidnya
 16. Selalu scan subdomain dari situs yang berhubungan dengan aplikasi, kemungkinan credential yang terdapat pada apk bisa berfungsi di subdomain tersebut
 17. Check device binding
+18. Jika ada fitur QR, coba scan QR lain
 
 ## Resource
 - [Ignitetechnologies - Android Penetration Testing](https://github.com/Ignitetechnologies/Android-Penetration-Testing)

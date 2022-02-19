@@ -1,10 +1,5 @@
 # SQL Injection
 
-## Resource
-- [Web Security Academy - SQL injection cheat sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)
-- [HackTricks -  SQL Injection](https://book.hacktricks.xyz/pentesting-web/sql-injection)
-- [Netsparker - SQL Injection Cheat Sheet](https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/)
-
 ## Tips
 - Tidak semua payload biasa dijalankan di address-bar browser, kadang harus menggunakan burpsuite (repeater)
 - Blind SQL injection generate error 500
@@ -43,3 +38,8 @@
 ' OR 1=1--
 ' AND 1=1--
 ```
+
+## Resource
+- [Web Security Academy - SQL injection cheat sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)
+- [HackTricks -  SQL Injection](https://book.hacktricks.xyz/pentesting-web/sql-injection)
+- [Netsparker - SQL Injection Cheat Sheet](https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/)

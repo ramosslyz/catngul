@@ -18,6 +18,7 @@ Reconnaissance adalah langkah paling pertama hacking. Maksimalkan rekon!
 15. [Others](https://github.com/acvn/catngul/blob/master/rekon/others.md)
 16. [Certificate](https://github.com/acvn/catngul/blob/master/rekon/certs.md)
 17. [Out of Band](https://github.com/acvn/catngul/blob/master/rekon/oob.md)
+18. [HTTP Header](https://github.com/acvn/catngul/blob/master/rekon/oob.md)
 
 ## Sumber
 - [How To Shot Web - Jason Haddix's talk from DEFCON23](https://www.youtube.com/watch?v=VtFuAH19Qz0)

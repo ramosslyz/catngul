@@ -8,6 +8,7 @@
 ## Tips
 - Tidak semua payload biasa dijalankan di address-bar browser, kadang harus menggunakan burpsuite (repeater)
 - Blind SQL injection generate error 500
+- Pada injection login, coba test inject for username dahulu, kalau tidak bisa coba inject kedua username dan password
 
 ## langkah-langkah
 1. Identify kapan dan dimana aplikasi akan berinteraksi dengan DB Server untuk mengakses data. Berikut kondisi umum aplikasi berinteraksi dengan DB server.
@@ -35,4 +36,9 @@
 |PostgreSQL|`--comment` `/*comment*/`|
 |Microsoft|`--comment` `/*comment*/`|
 
-
+## Payload
+```
+'or'1'='1
+' OR 1=1--
+' AND 1=1--
+```

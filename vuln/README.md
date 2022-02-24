@@ -1,5 +1,6 @@
-## VULNERABILITY :syringe:
+# VULNERABILITY :syringe:
 
+## Web
 - [Account Takeover](https://github.com/acvn/b3lajar/blob/master/vuln/accounttakeover.md)
 - [Command Injection](https://github.com/acvn/b3lajar/blob/master/vuln/command.md)
 - [CORS](https://github.com/acvn/b3lajar/blob/master/vuln/cors.md)
@@ -20,4 +21,8 @@
 - [XXE](https://github.com/acvn/b3lajar/blob/master/vuln/xxe.md)
 - [XSS](https://github.com/acvn/b3lajar/blob/master/vuln/xss.md)
 
- 
+## Android
+- [Firebase misconfiguration](https://github.com/acvn/b3lajar/blob/master/vuln/firebase.md))
+- Debuggablu
+- Insecure Data storage
+- 

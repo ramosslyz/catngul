@@ -22,7 +22,7 @@
 - [XSS](https://github.com/acvn/b3lajar/blob/master/vuln/xss.md)
 
 ## Android
-- [Firebase misconfiguration](https://github.com/acvn/b3lajar/blob/master/vuln/firebase.md))
+- [Firebase misconfiguration](https://github.com/acvn/b3lajar/blob/master/vuln/firebase.md)
 - Debuggablu
 - Insecure Data storage
 - 

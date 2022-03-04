@@ -3,6 +3,7 @@
 ## Web
 - [Account Takeover](https://github.com/acvn/b3lajar/blob/master/vuln/accounttakeover.md)
 - [Command Injection](https://github.com/acvn/b3lajar/blob/master/vuln/command.md)
+- [Cookie Injection](https://github.com/acvn/b3lajar/blob/master/vuln/cookieinjection.md)
 - [CORS](https://github.com/acvn/b3lajar/blob/master/vuln/cors.md)
 - [CSRF](https://github.com/acvn/b3lajar/blob/master/vuln/csrf.md)
 - [Directory Traversal](https://github.com/acvn/b3lajar/blob/master/vuln/dirtra.md)

@@ -26,6 +26,4 @@
 
 ## Android
 - [Firebase misconfiguration](https://github.com/acvn/b3lajar/blob/master/vuln/firebase.md)
-- Debuggablu
-- Insecure Data storage
-- 
+- [Harcoded Credentials](https://github.com/acvn/b3lajar/blob/master/vuln/android-harcoded.md)

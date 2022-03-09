@@ -2,6 +2,7 @@
 
 ## Web
 - [Account Takeover](https://github.com/acvn/b3lajar/blob/master/vuln/accounttakeover.md)
+- [AWS misconfiguration](https://github.com/acvn/b3lajar/blob/master/vuln/aws-misc.md)
 - [Bypassing Cloudflare](https://github.com/acvn/b3lajar/blob/master/vuln/cloudflare.md)
 - [Command Injection](https://github.com/acvn/b3lajar/blob/master/vuln/command.md)
 - [Cookie Injection](https://github.com/acvn/b3lajar/blob/master/vuln/cookieinjection.md)

@@ -33,4 +33,5 @@
     - Edit Profile
 
 ## Case
-- [IDOR via Websockets allow me to takeover any users account](https://mokhansec.medium.com/idor-via-websockets-allow-me-to-takeover-any-users-account-23460dacdeab), Always play with login, signup, and change info functionality. There is always something for you 
+- [IDOR via Websockets allow me to takeover any users account](https://mokhansec.medium.com/idor-via-websockets-allow-me-to-takeover-any-users-account-23460dacdeab) -> Always play with login, signup, and change info functionality. There is always something for you
+- [Story of critical security flaws I found in Glints](https://tech-blog.cymetrics.io/en/posts/huli/how-i-hacked-glints-and-your-resume-en/) -> always paly with access control

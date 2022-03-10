@@ -9,22 +9,19 @@
   - [crt.sh](scrt.sh)
   - [certspotter](https://sslmate.com/certspotter/)
 ## Scrapping
-  - [DNSdumpster](https://dnsdumpster.com/)
-  - [Amass enum](https://github.com/OWASP/Amass)
+  - [Amass enum](https://github.com/OWASP/Amass) -> recomend
     ```
     amass enum -active -df subdomain-list -config acvn-config.ini -o asd.txt
     amass enum -passive -df subdomain-list -config acvn-config.ini -o asd.txt
     ```
-  - [Subfinder v2](https://github.com/projectdiscovery/subfinder)
-  - [Github-search](https://github.com/gwen001/github-search)
-  - [Shobsugo](https://github.com/incogbyte/shosubgo)
-  - [Cloud Range](https://www.daehee.com/scan-aws-ip-ssl-certificates/)
-  - Assetfinder
   - [Project Sonar Forward DNS](https://opendata.rapid7.com/sonar.fdns_v2/)
     ```
     zcat data-sonar.gz | grep -F '.uhuy.com"' | jq -r .name | grep '.uhuy.com$' | sort | uniq
       
     ```
+  - [Subfinder](https://github.com/projectdiscovery/subfinder) -> recomend
+  - [Knockpy](https://github.com/guelfoweb/knock) -> recomend
+  - [Cloud Range](https://www.daehee.com/scan-aws-ip-ssl-certificates/)
 ## Bruteforcing
   - [Amass](https://github.com/OWASP/Amass)
     ```

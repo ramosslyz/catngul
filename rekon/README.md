@@ -20,7 +20,7 @@ Reconnaissance adalah langkah paling pertama hacking. Maksimalkan rekon!
 17. [Out of Band](https://github.com/acvn/catngul/blob/master/rekon/oob.md)
 18. [HTTP Header](https://github.com/acvn/catngul/blob/master/rekon/header.md)
 
-## Sumber
+## Resource
 - [How To Shot Web - Jason Haddix's talk from DEFCON23](https://www.youtube.com/watch?v=VtFuAH19Qz0)
 - [Hacking on Bug Bounties for Four Years](https://blog.assetnote.io/2020/09/15/hacking-on-bug-bounties-for-four-years/)
 - [The Bug Hunter’s Methodology Jason Haddix @jhaddix](https://www.youtube.com/watch?v=gIz_yn0Uvb8)

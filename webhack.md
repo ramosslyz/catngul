@@ -24,6 +24,7 @@
 - Ketika ada variable angka yang bungkus dalam string, coba inject kutip, analisa errornya
 - Alternative burp collaborator-> ngrok dan interactsh
 - grep “=” pada hasil gau waybackurl dan subfinder
+- Amati pola id, apakah bisa di prediksi ?
 
 ## Resource
 - [INE-Penetration Testing Student](https://my.ine.com/CyberSecurity/learning-paths/a223968e-3a74-45ed-884d-2d16760b8bbd/penetration-testing-student)

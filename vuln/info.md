@@ -1,7 +1,7 @@
 # INFORMATION DISCLOSURE
 
 ## Tools
-- Git-Cola
+- GitTools
 
 ## Tips
 - Google Dork

@@ -1,5 +1,8 @@
 # INFORMATION DISCLOSURE
 
+## Tools
+- Git-Cola
+
 ## Tips
 - Google Dork
 - Cari /.git dan lihat history gitnya dengan git-cola

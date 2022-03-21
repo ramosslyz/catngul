@@ -29,3 +29,4 @@
 - [Firebase misconfiguration](https://github.com/acvn/b3lajar/blob/master/vuln/firebase.md)
 - [Harcoded Credentials](https://github.com/acvn/b3lajar/blob/master/vuln/android-harcoded.md)
 - [CSRF (android)](https://github.com/acvn/b3lajar/blob/master/vuln/android-csrf.md)
+- [Webview](https://github.com/acvn/b3lajar/blob/master/vuln/webview.md)

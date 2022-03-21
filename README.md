@@ -13,7 +13,8 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-c
 5. [Cryptograph](https://github.com/acvn/b3lajar/blob/master/crypto.md)
 6. [Android Hacking](https://github.com/acvn/b3lajar/blob/master/android-hacking.md)
 7. [Web Hacking](https://github.com/acvn/b3lajar/blob/master/webhack.md)
-8. [API Hacking](https://github.com/acvn/catngul/blob/master/apihack.md)
+8. [iOS Hacking](https://github.com/acvn/b3lajar/blob/master/ioshack.md)
+9. [API Hacking](https://github.com/acvn/catngul/blob/master/apihack.md)
    
 ## Ask Me!
 acvn on [Twitter](https://twitter.com/aldi__satria) or [Instagram](https://www.instagram.com/aldi___satria/)

@@ -1,4 +1,4 @@
 # iOS Webview Vulnerability
 
 ## Resources
-- (iOS Hacking - Webviews)[https://www.youtube.com/watch?v=7Ozn9t7tp88]
+- [iOS Hacking - Webviews](https://www.youtube.com/watch?v=7Ozn9t7tp88)

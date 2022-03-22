@@ -47,4 +47,6 @@
 - [BigQuery SQL Injection Cheat Sheet](https://ozguralp.medium.com/bigquery-sql-injection-cheat-sheet-65ad70e11eac)
 
 ## Writeups
-- 
+|Title|Description|
+|---|---|
+|[SQL Injection at Spotify](https://infosecwriteups.com/sql-injection-at-spotify-d19e0861ddf0)||

@@ -50,3 +50,4 @@
 |Title|Description|
 |---|---|
 |[SQL Injection at Spotify](https://infosecwriteups.com/sql-injection-at-spotify-d19e0861ddf0)|inject `' atau / atau \` dan amati error yang.<br>![image](https://user-images.githubusercontent.com/52058660/159397667-09fa2fdc-f9ec-4a36-b8dc-cd6cce2bc1f1.png)<br>![image](https://user-images.githubusercontent.com/52058660/159397603-504a8a1c-acf9-4ae1-8725-978f06f6061a.png)<br>![image](https://user-images.githubusercontent.com/52058660/159397728-b70f35f9-ab12-43cc-9483-67b9806c1ba9.png)<br>![image](https://user-images.githubusercontent.com/52058660/159397801-3e97cac7-76cb-46ca-9b08-7dde6c0a73a7.png)|
+|[How I Hacked the Dutch Government with SQLi and Won the Famous T-Shirt?](https://goktugkaya.medium.com/how-i-hacked-the-dutch-government-and-won-the-famous-t-shirt-b45cdf5dfaa1)|Change GET to POST|

@@ -1,7 +1,7 @@
 # RECONNAISSANCE :crystal_ball:
 Reconnaissance adalah langkah paling pertama hacking. Maksimalkan rekon!
 ## Table Of Contents
-1. [WAF](https://github.com/acvn/catngul/blob/master/rekon/waf.md)
+1. [WAF](https://github.com/acvn/catngul/blob/master/rekon/WAF.md)
 2. [Information](https://github.com/acvn/catngul/blob/master/rekon/information.md)
 3. [Subdomain](https://github.com/acvn/catngul/blob/master/rekon/subdomain.md)
 4. [Screnshooter](https://github.com/acvn/catngul/blob/master/rekon/screenshoot.md)

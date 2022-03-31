@@ -41,7 +41,7 @@
 
 ## Bypass
 - <img width="500" src="https://user-images.githubusercontent.com/52058660/161014523-30ff8da2-81c8-4efb-a2a4-8d1611051381.png">
-
+- <img width="500" src="https://user-images.githubusercontent.com/52058660/161014897-00f5bafd-0ff0-45f2-a48f-9c128fdfb647.png">
 
 ## Resource
 - [Web Security Academy - SQL injection cheat sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)

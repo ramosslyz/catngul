@@ -24,6 +24,7 @@
 - [User-agent injection](https://github.com/acvn/catngul/blob/master/vuln/useragent.md)
 - [XXE](https://github.com/acvn/b3lajar/blob/master/vuln/xxe.md)
 - [XSS](https://github.com/acvn/b3lajar/blob/master/vuln/xss.md)
+- [Webshell](https://github.com/acvn/b3lajar/blob/master/vuln/webshell.md)
 
 ## Android
 - [Firebase misconfiguration](https://github.com/acvn/b3lajar/blob/master/vuln/firebase.md)

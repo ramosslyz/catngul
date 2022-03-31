@@ -13,7 +13,9 @@ XSS bertujuan untuk mencuri cookie sehingga attacker bisa melakukan session hija
   - 
 
 ## Bypass
-  - https://github.com/masatokinugawa/filterbypass/wiki/Browser's-XSS-Filter-Bypass-Cheat-Sheet<br><img width="500" src="https://user-images.githubusercontent.com/52058660/161007476-e5215d5e-1853-4628-a8c3-976857b30e4c.png"><br><img width="500" src="https://user-images.githubusercontent.com/52058660/161008670-e2237d6b-479d-4313-b75f-2e2c4766ee96.png">
+  - https://github.com/masatokinugawa/filterbypass/wiki/Browser's-XSS-Filter-Bypass-Cheat-Sheet
+  - <img width="500" src="https://user-images.githubusercontent.com/52058660/161007476-e5215d5e-1853-4628-a8c3-976857b30e4c.png">
+  - <img width="500" src="https://user-images.githubusercontent.com/52058660/161009039-567da9ea-6037-4084-ad10-be4db5b96b35.png">
 
 
   

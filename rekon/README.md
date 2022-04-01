@@ -26,6 +26,7 @@ Reconnaissance adalah langkah paling pertama hacking. Maksimalkan rekon!
 1. [Base64 Encoding](https://github.com/acvn/catngul/blob/master/rekon/base64evasion.md)
 2. [URI obfuscation](https://github.com/acvn/catngul/blob/master/rekon/uriobfs.md)
 3. [Javascript Obfuscation](https://github.com/acvn/catngul/blob/master/rekon/jsobfs.md)
+4. [PHP Obfuscation](https://github.com/acvn/catngul/blob/master/rekon/phpobfs.md)
 
 ## Resource
 - [How To Shot Web - Jason Haddix's talk from DEFCON23](https://www.youtube.com/watch?v=VtFuAH19Qz0)

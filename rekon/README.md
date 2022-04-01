@@ -1,5 +1,6 @@
 # RECONNAISSANCE :crystal_ball:
 Reconnaissance adalah langkah paling pertama hacking. Maksimalkan rekon!
+
 ## Table Of Contents
 1. [WAF](https://github.com/acvn/catngul/blob/master/rekon/WAF.md)
 2. [Information](https://github.com/acvn/catngul/blob/master/rekon/information.md)
@@ -20,6 +21,9 @@ Reconnaissance adalah langkah paling pertama hacking. Maksimalkan rekon!
 17. [Certificate](https://github.com/acvn/catngul/blob/master/rekon/certs.md)
 18. [Out of Band](https://github.com/acvn/catngul/blob/master/rekon/oob.md)
 19. [HTTP Header](https://github.com/acvn/catngul/blob/master/rekon/header.md)
+
+## Evasion
+1. [Base64 Encoding](https://github.com/acvn/catngul/blob/master/rekon/base64evasion.md)
 
 ## Resource
 - [How To Shot Web - Jason Haddix's talk from DEFCON23](https://www.youtube.com/watch?v=VtFuAH19Qz0)

@@ -1,8 +1,15 @@
 # Cross Site Scripting
-XSS bertujuan untuk mencuri cookie sehingga attacker bisa melakukan session hijacking. XSS bisa efektif jika cookie tersebut tidak termasuk HttpOnly, jika ya perlu usaha lebih lanjut. Sangat bagus dikombinasikan dengan CSRF.
+XSS bertujuan untuk mencuri cookie sehingga attacker bisa melakukan session hijacking. XSS bisa efektif jika cookie tersebut tidak termasuk HttpOnly, jika ya perlu usaha lebih lanjut. Sangat bagus dikombinasikan dengan CSRF. XSS dikelompokkan menjadi:
+- **Reflected XSS**, tipe yang paling umum, contohnya seperti popup alert
+- **Persistent (store) XSS**, hampir mirip seperti reflected, tapi stored didalam aplikasi web
+- **DOM XSS**, XSS yang ada oada DOM environtment, two fundamental keyword -> sources and sinks
+- **Universal XSS**, XSS pada extention atau plugin browser
 
 ## Impact
-![image](https://user-images.githubusercontent.com/52058660/127166129-9b157a5d-66bb-41b6-ad9a-005287e4bbeb.png)
+- Cookie gathering: script injection -> stealing -> recording and logging
+- Password autofill
+- Script Injection
+- Chain with CSRF
 
 
 ## Tools
@@ -10,7 +17,14 @@ XSS bertujuan untuk mencuri cookie sehingga attacker bisa melakukan session hija
   - Mengerti html dan javascript
 
 ## How to find them ?
-  - 
+<img width="500" src="https://user-images.githubusercontent.com/52058660/161474516-5007db3d-03f5-4e2e-b853-ac2a0be3234e.png">
+<img width="500" src="https://user-images.githubusercontent.com/52058660/161474550-2a34a0a8-051c-448c-a78c-daf920a07ff4.png">
+<img width="500" src="https://user-images.githubusercontent.com/52058660/161482070-5620781b-8e7f-4fcb-82a1-2058520a8411.png">
+
+## How to protect ?
+- HTTPOnly
+- XST
+
 
 ## Bypass
   - https://github.com/masatokinugawa/filterbypass/wiki/Browser's-XSS-Filter-Bypass-Cheat-Sheet

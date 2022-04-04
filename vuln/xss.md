@@ -9,6 +9,11 @@ XSS bertujuan untuk mencuri cookie sehingga attacker bisa melakukan session hija
 ## Impact
 - Cookie gathering: script injection -> stealing -> recording and logging
 - Defacement
+  - Non-persistent or Virtual, jika tidak mengubah existing content
+  - Persistent, jika mengubah existing content
+- Phising: Clonning website -> Choosing a domain name (urlcrazy)
+- Keylogger, with Metasploit(http_javascript_keylogger) and BeEG event logger
+- Network attack
 - Password autofill
 - Chain with CSRF
 

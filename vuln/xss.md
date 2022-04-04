@@ -27,7 +27,7 @@ XSS bertujuan untuk mencuri cookie sehingga attacker bisa melakukan session hija
 ## How to protect ?
 - HTTPOnly
 - XST
-- CVE-2012-0054 (Apache HTTP Server 2.2.x through 2.2.21)<br><img width="500" src="https://user-images.githubusercontent.com/52058660/161483548-3ac21b8c-d55a-4b5c-b9ea-22c0d18d20ae.png)"> -> bisa manual bisa juga menggunakan BeEF
+- CVE-2012-0054 (Apache HTTP Server 2.2.x through 2.2.21)<br><img width="500" src="https://user-images.githubusercontent.com/52058660/161483548-3ac21b8c-d55a-4b5c-b9ea-22c0d18d20ae.png"> -> bisa manual bisa juga menggunakan BeEF
 
 
 ## Bypass

@@ -30,6 +30,9 @@ Dewasa ini, alert() sudah di disable oleh kebanyakan browser, namun banyak paylo
 <img width="500" src="https://user-images.githubusercontent.com/52058660/161007476-e5215d5e-1853-4628-a8c3-976857b30e4c.png"><img width="500" src="https://user-images.githubusercontent.com/52058660/161009852-1085935b-5a5e-4d5b-a0d1-369c54c2dcb4.png">
 <img width="500" src="https://user-images.githubusercontent.com/52058660/161014105-44de9c1e-e57c-4db5-8b3f-147cda5375be.png">
 
+## How to find them ?
+### Reflected XSS
+- Search form. cek apakah reflected
 
 ## How to protect ?
 - HTTPOnly

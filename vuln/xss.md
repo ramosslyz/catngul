@@ -13,7 +13,8 @@ XSS bertujuan untuk mencuri cookie sehingga attacker bisa melakukan session hija
   - Persistent, jika mengubah existing content
 - Phising: Clonning website -> Choosing a domain name (urlcrazy)
 - Keylogger, with Metasploit(http_javascript_keylogger) and BeEG event logger
-- Network attack
+- Network attackp: ip detection -> subnet detection -> ping sweeping -> port scanning
+- Self-XSS, menkombinasikan dengan social engineering
 - Password autofill
 - Chain with CSRF
 
@@ -23,10 +24,11 @@ XSS bertujuan untuk mencuri cookie sehingga attacker bisa melakukan session hija
   - [BeEF](https://github.com/beefproject/beef)
 
 
-## How to find them ?
+## Payload ?
 <img width="500" src="https://user-images.githubusercontent.com/52058660/161474516-5007db3d-03f5-4e2e-b853-ac2a0be3234e.png">
 <img width="500" src="https://user-images.githubusercontent.com/52058660/161474550-2a34a0a8-051c-448c-a78c-daf920a07ff4.png">
-<img width="500" src="https://user-images.githubusercontent.com/52058660/161482070-5620781b-8e7f-4fcb-82a1-2058520a8411.png">
+<img width="500" src="https://user-images.githubusercontent.com/52058660/161482070-5620781b-8e7f-4fcb-82a1-2058520a8411.png"><br>
+- JavaScript:alert('Self-XSS')
 
 
 ## How to protect ?

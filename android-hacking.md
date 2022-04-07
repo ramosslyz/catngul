@@ -19,3 +19,6 @@
 - [Learning Frida](https://nibarius.github.io/learning-frida/)
 - [Introduction to Frida](https://medium.com/infosec-adventures/introduction-to-frida-5a3f51595ca1)
 - [Hacking Android Apps with Frida](https://www.youtube.com/watch?v=iMNs8YAy6pk&t=1s)
+  
+## Learn Ghidra
+- [How to use Ghidra to Reverse Engineer Mobile Application](https://infosecwriteups.com/how-to-use-ghidra-to-reverse-engineer-mobile-application-c2c89dc5b9aa)

@@ -6,11 +6,11 @@
 - [Quick Port Scan Tip](https://forum.hackthebox.eu/discussion/927/quick-port-scan-tip)
 
 ## Tools
-- [Masscan](https://danielmiessler.com/study/masscan/)
+### Masscan
   ```
   masscan -p1-65535,U:1-65535 10.10.10.x --rate=1000 -e tun0
   ```
-- Nmap
+### Nmap
   - By me
     ```
     sudo nmap -Pn -f -sV -p 80 10.10.10.x
@@ -24,7 +24,11 @@
     ```
     nmap -T 4 -iL hosts -Pn --script=http-title -p80,4443,4080,443 --open 
     ```
-- [Dnmasscan](https://github.com/rastating/dnmasscan)
+  - Ping sweep, cek subnetmask terlebih dahulu untuk mengetahui cangkupan sweep
+    ```
+    nmap -sP 192.168.1.1-255
+    ```
+### Dnmasscan
   ```
   dnsmasscan example.txt dns.log -p80,443 -oG masscan.log
   ```

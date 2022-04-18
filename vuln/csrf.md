@@ -4,7 +4,8 @@ Cross Site Request Forgery adalah serangan yang memaksa pengguna agar backend me
 
 
 # HOW TO FIND THEM
-<img width=300 src="https://user-images.githubusercontent.com/52058660/163762523-bdfba747-86a4-42b8-9de9-76210bff8fdd.png"><img width=300 src="https://user-images.githubusercontent.com/52058660/163762613-d908beb2-4503-49fa-9804-176fc8cdcfe3.png">
+<img width=300 src="https://user-images.githubusercontent.com/52058660/163762523-bdfba747-86a4-42b8-9de9-76210bff8fdd.png"><img width=300 src="https://user-images.githubusercontent.com/52058660/163762613-d908beb2-4503-49fa-9804-176fc8cdcfe3.png"><br>
+<img width=500 src="https://user-images.githubusercontent.com/52058660/163762091-6ea326a6-2435-45b8-9e85-0b1f57e6b799.png"><br>
 - The easiest way to check whether an application is vulnerable is to see if each link and form contains an unpredictable token for each user. Without such an unpredictable token, attackers can forge malicious requests. Focus on the links and forms that invoke state-changing functions, since those are the most important CSRF targets.
 - Mengganti content-type non-form  (i.e. `application/json, application/x-url-encoded`, etc.) menjadi `form-multipart`[(2)](#write-up)
 - Periksa parameter state. State parameter is used in Oauth to prevent CSRF attacks[(3)](#write-up)
@@ -19,12 +20,7 @@ Cross Site Request Forgery adalah serangan yang memaksa pengguna agar backend me
 ```
 - Kadang developer juga hanya memastika bahwa referer header mengandung domain mereka, kita bisa mengakalinya dengan menambahkan sebuah direktori dengan domain target pada evil server kita, contoh: `https://www.yoursite.com/https://www.theirsite.com/` atau `https://www.theirsite.computer/`.[(7)](#resource)
 - Jika Session aplikasi bergantung pada `http cookie` dan `basic authentication`
-<img width=500 src="https://user-images.githubusercontent.com/52058660/163762091-6ea326a6-2435-45b8-9e85-0b1f57e6b799.png"><br>
 - Cek misconfigurasi CORS, sebenarnya CORS malah melemahkan browser karena melonggarkan aturan dari Same-origin policy sehingga apabila terjadi misconfigurasi CORS, attacker dapat memanfaatkan celah tersebut untuk melancarkan serangan CSRF.
-
-# Attack Vector
-## Force Browsing with GET
-## POST Request
 
 
 # POC
@@ -36,6 +32,13 @@ POC berikut bisa disesuaikan dengan parameter yang pada form html target. Script
   </form>
   <script> document.forms[0].submit();</script>
   ```
+```
+<form action="change.php" method="POST" id="CSRForm">
+  <input name="old" value="myC00lemail@victim.site">
+  <input name="new" value="evil@hacker.site">
+  <img src=x onerror="CSRForm.submit();">
+</form>
+```
 
 
 # PREVENTION

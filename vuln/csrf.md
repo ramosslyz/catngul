@@ -1,13 +1,10 @@
 # CSRF
-
-
 Cross Site Request Forgery adalah serangan yang memaksa pengguna agar backend mengeksekusi perintah yang tidak seharusnya dizinkan, menipu website dari request user yang terpercaya dan mengirim Request palsu dari authenticate user.
-
 <img width=500 src="https://user-images.githubusercontent.com/52058660/121773442-33437280-cba6-11eb-8890-9f5d2f7900fa.png">
 
 
-## HOW TO FIND THEM
-<img width=500 src="https://user-images.githubusercontent.com/52058660/121527083-3adb0e00-ca24-11eb-800a-f675f28fee14.png"><img width=500 src="https://user-images.githubusercontent.com/52058660/121529015-3152a580-ca26-11eb-8676-6c2ab13449e5.png">
+# HOW TO FIND THEM
+<img width=300 src="https://user-images.githubusercontent.com/52058660/163762523-bdfba747-86a4-42b8-9de9-76210bff8fdd.png"><img width=300 src="https://user-images.githubusercontent.com/52058660/163762613-d908beb2-4503-49fa-9804-176fc8cdcfe3.png">
 - The easiest way to check whether an application is vulnerable is to see if each link and form contains an unpredictable token for each user. Without such an unpredictable token, attackers can forge malicious requests. Focus on the links and forms that invoke state-changing functions, since those are the most important CSRF targets.
 - Mengganti content-type non-form  (i.e. `application/json, application/x-url-encoded`, etc.) menjadi `form-multipart`[(2)](#write-up)
 - Periksa parameter state. State parameter is used in Oauth to prevent CSRF attacks[(3)](#write-up)
@@ -21,9 +18,16 @@ Cross Site Request Forgery adalah serangan yang memaksa pengguna agar backend me
 <iframe src=”data:text/html;base64,form_code_here”>
 ```
 - Kadang developer juga hanya memastika bahwa referer header mengandung domain mereka, kita bisa mengakalinya dengan menambahkan sebuah direktori dengan domain target pada evil server kita, contoh: `https://www.yoursite.com/https://www.theirsite.com/` atau `https://www.theirsite.computer/`.[(7)](#resource)
+- Jika Session aplikasi bergantung pada `http cookie` dan `basic authentication`
+<img width=500 src="https://user-images.githubusercontent.com/52058660/163762091-6ea326a6-2435-45b8-9e85-0b1f57e6b799.png"><br>
+- Cek misconfigurasi CORS, sebenarnya CORS malah melemahkan browser karena melonggarkan aturan dari Same-origin policy sehingga apabila terjadi misconfigurasi CORS, attacker dapat memanfaatkan celah tersebut untuk melancarkan serangan CSRF.
+
+# Attack Vector
+## Force Browsing with GET
+## POST Request
 
 
-## POC
+# POC
 POC berikut bisa disesuaikan dengan parameter yang pada form html target. Script js berfungsi untuk meng-submit otomatis form tanpa menekan button. 
   ```
   <form method="$method" action="$url">
@@ -34,18 +38,14 @@ POC berikut bisa disesuaikan dengan parameter yang pada form html target. Script
   ```
 
 
-## CORS MISCONFIGURATION
-Sebenarnya CORS malah melemahkan browser karena melonggarkan aturan dari Same-origin policy sehingga apabila terjadi misconfigurasi CORS, attacker dapat memanfaatkan celah tersebut untuk melancarkan serangan CSRF.
-
-
-## PREVENTION
-### CSRF Token
+# PREVENTION
+## CSRF Token
 - CSRF token should be generated on the server-side
 - CSRF token should not be transmitted using cookies
 - CSRF token should be unique per session, secret, and unpredictable
 - CSRF token should no be leaked in the server logs or in the URL
 
-### Double submit Cookie
+## Double submit Cookie
 ```
 POST /email/change HTTP/1.1
 Host: vulnerable-website.com
@@ -56,18 +56,18 @@ Cookie: session=1DQGdzYbOJQzLP7460tfyiv3do7MjyPw; csrf=R8ov2YBfTYmzFyjit8o2hKBuo
 csrf=R8ov2YBfTYmzFyjit8o2hKBuoIjXXVpa&email=wiener@normal-user.com 
 ```
 
-### Samesite Cookie
+## Samesite Cookie
 - bisa dibypass dengan modifikasi GET
 ```
 Set-Cookie: JSESSIONID=xxxxx; SameSite=Strict
 Set-Cookie: JSESSIONID=xxxxx; SameSite=Lax
 ```
 
-## CSRF V.S. Clickjacking
+# CSRF V.S. Clickjacking
 - CSRF memalsukan request
 - clickjacking memalsukan halaman http
 
-## RESOURCE
+# RESOURCE
 1. [OWASP - Cross Site Request Forgery (CSRF)](https://owasp.org/www-community/attacks/csrf)
 2. [OWASP - Reviewing Code for Cross-Site Request Forgery Issues Overview](https://owasp.org/www-project-code-review-guide/reviewing-code-for-csrf-issues)
 3. [OWASP Web Security Testing Guide - Testing for Cross Site Request Forgery](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/05-Testing_for_Cross_Site_Request_Forgery.md)
@@ -78,13 +78,13 @@ Set-Cookie: JSESSIONID=xxxxx; SameSite=Lax
 8. [BugBountyHunter - CSRF](https://www.bugbountyhunter.com/vulnerability/?type=csrf)
 
 
-## WRITE-UP
+# WRITE-UP
 1. [CSRF at Kaskus.co.id](https://medium.com/@daffailhamr/csrf-at-kaskus-co-id-f8e31864807f)
 2. [Refocusing in bug hunting, Bonus: An interestingly simple to test CSRF bypass](https://medium.com/bugbountywriteup/refocusing-in-bug-hunting-bonus-an-interestingly-simple-to-test-csrf-bypass-8595b3312147)
 3. [Got Nice catch by Google](https://parthdeshani.medium.com/got-nice-catch-by-google-5e6a8211371c)
 4. [JSON CSRF To FormData Attack](https://medium.com/@osamaavvan/json-csrf-to-formdata-attack-eb65272376a2)
 
-## LAB
+# LAB
 - [Portswigger Academy - Cross-site request forgery (CSRF)](https://portswigger.net/web-security/csrf)
 - [OWASP Juice Shop - Broken Access Control](https://owasp.org/www-project-juice-shop)
 - [OWASP Security Knowledge Framework - CSRF](https://owasp-skf.gitbook.io/asvs-write-ups/kbid-5-csrf)

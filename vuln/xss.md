@@ -8,7 +8,9 @@ XSS bertujuan untuk mencuri cookie sehingga attacker bisa melakukan session hija
 ## Impact
 |Impact|Resource|
 |---|---|
-|Cookie gathering: script injection -> stealing -> recording and logging|[Exploiting cross-site scripting to steal cookies](https://portswigger.net/web-security/cross-site-scripting/exploiting/lab-stealing-cookies)
+|Cookie gathering: script injection -> stealing -> recording and logging|[Exploiting cross-site scripting to steal cookies](https://portswigger.net/web-security/cross-site-scripting/exploiting/lab-stealing-cookies)|
+|Capture password through password auto-fill|[Exploiting cross-site scripting to capture passwords](https://portswigger.net/web-security/cross-site-scripting/exploiting/lab-capturing-passwords)|
+|Chain with CSRF|[Exploiting XSS to perform CSRF](https://portswigger.net/web-security/cross-site-scripting/exploiting/lab-perform-csrf)|
 - Defacement
   - Non-persistent or Virtual, jika tidak mengubah existing content
   - Persistent, jika mengubah existing content
@@ -16,8 +18,6 @@ XSS bertujuan untuk mencuri cookie sehingga attacker bisa melakukan session hija
 - Keylogger, with Metasploit(http_javascript_keylogger) and BeEG event logger
 - Network attackp: ip detection -> subnet detection -> ping sweeping -> port scanning
 - Self-XSS, menkombinasikan dengan social engineering
-- Password autofill
-- Chain with CSRF
 
 
 ## Tools

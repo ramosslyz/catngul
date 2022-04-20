@@ -22,7 +22,15 @@ Cross Site Request Forgery adalah serangan yang memaksa pengguna agar backend me
 <iframe src=”data:text/html;base64,form_code_here”>
 ```
 - Kadang developer juga hanya memastika bahwa referer header mengandung domain mereka, kita bisa mengakalinya dengan menambahkan sebuah direktori dengan domain target pada evil server kita, contoh: `https://www.yoursite.com/https://www.theirsite.com/` atau `https://www.theirsite.computer/`.[(7)](#resource)
--
+### Predictable anti-CSRF Token
+### Unverified anti-CSRF token
+- Verfification at server side
+### Secret Cookie
+
+## Bypass
+Ketika kita berhasil mengeksploitasi XSS, segala defense mechanisms terhadap CSRF menjadi useless.
+### Using XSS
+### Using Bruteforce
 
 ## POC
 POC berikut bisa disesuaikan dengan parameter yang pada form html target. Script js berfungsi untuk meng-submit otomatis form tanpa menekan button. 

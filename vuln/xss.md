@@ -6,7 +6,9 @@ XSS bertujuan untuk mencuri cookie sehingga attacker bisa melakukan session hija
 - **Universal XSS**, XSS pada extention atau plugin browser
 
 ## Impact
-- Cookie gathering: script injection -> stealing -> recording and logging
+|Impact|Resource|
+|---|---|
+|Cookie gathering: script injection -> stealing -> recording and logging|[Exploiting cross-site scripting to steal cookies](https://portswigger.net/web-security/cross-site-scripting/exploiting/lab-stealing-cookies)
 - Defacement
   - Non-persistent or Virtual, jika tidak mengubah existing content
   - Persistent, jika mengubah existing content
@@ -21,6 +23,7 @@ XSS bertujuan untuk mencuri cookie sehingga attacker bisa melakukan session hija
 ## Tools
   - [XSS Hunter](https://xsshunter.com/)
   - [BeEF](https://github.com/beefproject/beef)
+  - [Interactsh](https://github.com/projectdiscovery/interactsh)
 
 
 ## Payload 

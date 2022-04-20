@@ -47,4 +47,5 @@ Dewasa ini, alert() sudah di disable oleh kebanyakan browser, namun banyak paylo
   - [Script to take advantage of CVE-2012-0053](https://gist.github.com/pilate/1955a1c28324d4724b7b)
   - [filterbypass](https://github.com/masatokinugawa/filterbypass/wiki/Browser's-XSS-Filter-Bypass-Cheat-Sheet)
   - [alert() is dead, long live print()](https://portswigger.net/research/alert-is-dead-long-live-print)
+  - [Do NOT use alert(1) in XSS](https://liveoverflow.com/do-not-use-alert-1-in-xss/)
 

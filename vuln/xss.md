@@ -1,5 +1,4 @@
 # Cross Site Scripting
-XSS bertujuan untuk mencuri cookie sehingga attacker bisa melakukan session hijacking. XSS bisa efektif jika cookie tersebut tidak termasuk HttpOnly, jika ya perlu usaha lebih lanjut. Sangat bagus dikombinasikan dengan CSRF. XSS dikelompokkan menjadi:
 - **Reflected XSS**, tipe yang paling umum, contohnya seperti popup alert
 - **Persistent (store) XSS**, hampir mirip seperti reflected, tapi stored didalam aplikasi web
 - **DOM XSS**, XSS yang ada oada DOM environtment, two fundamental keyword -> sources and sinks
@@ -11,19 +10,17 @@ XSS bertujuan untuk mencuri cookie sehingga attacker bisa melakukan session hija
 |Cookie gathering: script injection -> stealing -> recording and logging|[Exploiting cross-site scripting to steal cookies](https://portswigger.net/web-security/cross-site-scripting/exploiting/lab-stealing-cookies)|
 |Capture password through password auto-fill|[Exploiting cross-site scripting to capture passwords](https://portswigger.net/web-security/cross-site-scripting/exploiting/lab-capturing-passwords)|
 |Chain with CSRF|[Exploiting XSS to perform CSRF](https://portswigger.net/web-security/cross-site-scripting/exploiting/lab-perform-csrf)|
-- Defacement
-  - Non-persistent or Virtual, jika tidak mengubah existing content
-  - Persistent, jika mengubah existing content
-- Phising: Clonning website -> Choosing a domain name (urlcrazy)
-- Keylogger, with Metasploit(http_javascript_keylogger) and BeEG event logger
-- Network attackp: ip detection -> subnet detection -> ping sweeping -> port scanning
-- Self-XSS, menkombinasikan dengan social engineering
+|Defacement<br>- Non-persistent or Virtual, jika tidak mengubah existing content<br>- Persistent, jika mengubah existing content||
+|Phising: Clonning website -> Choosing a domain name (urlcrazy)||
+|Keylogger, with Metasploit(http_javascript_keylogger) and BeEG event logger||
+|Network attackp: ip detection -> subnet detection -> ping sweeping -> port scanning||
+|Self-XSS, menkombinasikan dengan social engineering||
 
 
 ## Tools
-  - [XSS Hunter](https://xsshunter.com/)
-  - [BeEF](https://github.com/beefproject/beef)
-  - [Interactsh](https://github.com/projectdiscovery/interactsh)
+  - [XSS Hunter](https://xsshunter.com/) - ???
+  - [Interactsh](https://github.com/projectdiscovery/interactsh) - Burp collaborator alternative
+  - [BeEF](https://github.com/beefproject/beef) - ???
 
 
 ## Payload 
@@ -36,6 +33,21 @@ Dewasa ini, alert() sudah di disable oleh kebanyakan browser, namun banyak paylo
 ## How to find them ?
 ### Reflected XSS
 - Search form. cek apakah reflected
+
+### Stored XSS
+- Comment posting
+
+### Based on context
+#### XSS betwen HTML tags
+|Tips|Resource|
+|---|---|
+|Membutuhkan some HTML tag untuk mentrigger script javascript, seperti `<script>alert(document.domain)</script>` atau `<img src=1 onerror=alert(1)>`. Analisa semua entry point yang mereflected-kan input|[Reflected XSS into HTML context with nothing encoded](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)|
+|Analisa Semua entry point yang men-stored-kan payload|[Stored XSS into HTML context with nothing encoded](https://portswigger.net/web-security/cross-site-scripting/stored/lab-html-context-nothing-encoded)|
+|Mencari tahu Tag HTML dan atribut apa yang tidak diblok oleh WAF. menggunakan intruder dan memanfaatkan payload dari portswigger|[Reflected XSS into HTML context with most tags and attributes blocked](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-html-context-with-most-tags-and-attributes-blocked)|
+#### XSS in HTML tags
+#### XSS in tags aribut
+#### XSS into javascript
+#### XSS in the context of the AngularJS 
 
 ## How to protect ?
 - HTTPOnly
@@ -51,4 +63,5 @@ Dewasa ini, alert() sudah di disable oleh kebanyakan browser, namun banyak paylo
   - [filterbypass](https://github.com/masatokinugawa/filterbypass/wiki/Browser's-XSS-Filter-Bypass-Cheat-Sheet)
   - [alert() is dead, long live print()](https://portswigger.net/research/alert-is-dead-long-live-print)
   - [Do NOT use alert(1) in XSS](https://liveoverflow.com/do-not-use-alert-1-in-xss/)
+  - [Cross-site scripting (XSS) cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
 

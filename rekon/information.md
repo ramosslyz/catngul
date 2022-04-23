@@ -16,14 +16,14 @@
 - [Censys](https://censys.io/)
 
 ## Web Technology
-- Whatruns
-- Buildwith
-- Wappalyzer
-- Netcraft
+- [Netcraft](https://www.netcraft.com/)
+- [Webtech](https://github.com/ShielderSec/webtech)
 - PageXray
 - Nmap -A
 - Whatweb
-- [Webtech](https://github.com/ShielderSec/webtech)
+- Whatruns
+- Buildwith
+- Wappalyzer
 - w3techs
 
 ## Sumber

@@ -54,6 +54,7 @@ Selalu mulai dengan payload yang paling simpel dan secara bertahap menuju ke pay
 2. Test filtering, input karakter yang seharusnya tidak diinputkan oleh user, seperti <>;'"=`\'/ . Cek reaksi aplikasi apakah difilter? apakah stored? apakah reflected ?
 3. Test inject tag html, mulai dari yang tidak berbahaya seperti `<b>`, `<h1>` dan `<i>` . Lanjutkan inject tag yang umumnya di block oleh waf seperti <script> dan alert(1). Bagaiamana response aplikasi ?
 4. Jika tag diatas di tolak, coba brute tag html, jika sudah menemukan tag yang diaccept aplikasi, lanjutkan brute event yang diaccept aplikasi.
+5. Coba gonta ganti huruf besar dan kecil pada payload  
 5. Test encoding payload
 
 ## How to protect ?

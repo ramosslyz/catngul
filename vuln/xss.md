@@ -52,10 +52,10 @@ Dewasa ini, alert() sudah di disable oleh kebanyakan browser, namun banyak paylo
 Selalu mulai dengan payload yang paling simpel dan secara bertahap menuju ke payload yang ribet
 1. Test inject normal, masukkan payload normal yang seharusnya user masukkan dengan aman. berfungsi untuk memperlajari cara kerja aplikasi
 2. Test filtering, input karakter yang seharusnya tidak diinputkan oleh user, seperti <>;'"=`\'/ . Cek reaksi aplikasi apakah difilter? apakah stored? apakah reflected ?
-3. Test inject tag html, mulai dari yang tidak berbahaya seperti `<b>`, `<h1>` dan `<i>` . Lanjutkan inject tag yang umumnya di block oleh waf seperti <script> dan alert(1). Bagaiamana response aplikasi ?
+3. Test inject tag html, mulai dari yang tidak berbahaya seperti `<b>`, `<h1>` dan `<i>` . Lanjutkan inject tag yang umumnya di block oleh waf seperti <script> dan alert(1). Bagaiamana response aplikasi? jika script di tolak coba ke `<svg><script>alert(1)..` atau `<svg><script>alert(1)</script></svg>`
 4. Jika tag diatas di tolak, coba brute tag html, jika sudah menemukan tag yang diaccept aplikasi, lanjutkan brute event yang diaccept aplikasi.
 5. Coba gonta ganti huruf besar dan kecil pada payload  
-5. Test encoding payload
+6. Test encoding payload, ke <b>HTML entity</b> atau <b>unicode</b>
 
 ## How to protect ?
 - HTTPOnly

@@ -73,4 +73,5 @@ Selalu mulai dengan payload yang paling simpel dan secara bertahap menuju ke pay
   - [Do NOT use alert(1) in XSS](https://liveoverflow.com/do-not-use-alert-1-in-xss/)
   - [Portswigger - Cross-site scripting (XSS) cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
   - [blog.p6.is - XSS CheatSheet](https://blog.p6.is/xss-cheatsheet/)
+  - [Brute XSS](https://brutelogic.com.br/blog/)
 

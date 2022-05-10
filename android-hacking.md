@@ -16,7 +16,6 @@
 - Cari string base64, biasanya diawali dengan base64.decode("<string>")
 - Proxy flutter app menggunakan proxydroid
 - Gunakan wireless debugging jika app block usb debugging
-- 
 
 ## Learn Frida
 - [Learning Frida](https://nibarius.github.io/learning-frida/)

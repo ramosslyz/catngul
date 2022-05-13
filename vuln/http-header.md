@@ -21,3 +21,8 @@ Untuk override sebuah request
     - Cari halaman yang mengandung 403 atau 401
     - buka halaman yang 200
     - masukkan value 403/401 pada header tsb
+    
+## X-Correlationid
+Biasa format token berdasarkan waktu.<br>
+![image](https://user-images.githubusercontent.com/52058660/168199367-4ddc9e64-f19e-4b6c-a0a9-1e759c83f856.png)<br>
+nilai token diatas berarti: 2022, bulai Mei, tanggal 13, jam 8, menit 26, detik 54, dan digit random dibelakang

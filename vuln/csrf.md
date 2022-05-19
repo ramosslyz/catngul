@@ -1,11 +1,15 @@
 # CSRF
-Cross Site Request Forgery adalah serangan yang memaksa pengguna agar backend mengeksekusi perintah yang tidak seharusnya dizinkan, menipu website dari request user yang terpercaya dan mengirim Request palsu dari authenticate user.
+Cross Site Request Forgery adalah serangan yang memaksa pengguna agar backend mengeksekusi perintah yang tidak seharusnya dizinkan, menipu website dari request user yang terpercaya dan mengirim Request palsu dari authenticate user. Terdapat 2 penyebab suatu aplikasi rentan akan CSRF, yaitu:
+- Tidak ada pertahanan anti-CSRF
+- Anti CSRF yang lemah (cookie only based solution, confirmation screen, using POST, dan weak referrer header)
 <img width=500 src="https://user-images.githubusercontent.com/52058660/121773442-33437280-cba6-11eb-8890-9f5d2f7900fa.png">
 
 
 ## HOW TO FIND THEM
-<img width=300 src="https://user-images.githubusercontent.com/52058660/163762523-bdfba747-86a4-42b8-9de9-76210bff8fdd.png"><img width=300 src="https://user-images.githubusercontent.com/52058660/163762613-d908beb2-4503-49fa-9804-176fc8cdcfe3.png"><br>
-<img width=500 src="https://user-images.githubusercontent.com/52058660/163762091-6ea326a6-2435-45b8-9e85-0b1f57e6b799.png"><br>
+- Cek Form yang tidak menirimkanan extra token ketika melakukan request, biasanya dilabeli dengan csrf_token, csrf, token dll
+- Misalkan saat mengganti password, tidak ada form confirmation untuk memasukkan password yang cuurent digunakan
+- Cari form yang menggnerate impact, seperti pembayaran, pengantian password, hapus file, dan menambahkan file
+- No CSRF token, 80% pasti ada bug
 - The easiest way to check whether an application is vulnerable is to see if each link and form contains an unpredictable token for each user. Without such an unpredictable token, attackers can forge malicious requests. Focus on the links and forms that invoke state-changing functions, since those are the most important CSRF targets.
 - Mengganti content-type non-form  (i.e. `application/json, application/x-url-encoded`, etc.) menjadi `form-multipart`[(2)](#write-up)
 - Periksa parameter state. State parameter is used in Oauth to prevent CSRF attacks[(3)](#write-up)

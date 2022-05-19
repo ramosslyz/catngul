@@ -64,13 +64,13 @@ CSRF.setRequestHeader("Content-type", "application/x-www-form-urlencoded");    C
 ```
 
 ## PREVENTION
-### CSRF Token
-- CSRF token should be generated on the server-side
-- CSRF token should not be transmitted using cookies
-- CSRF token should be unique per session, secret, and unpredictable
-- CSRF token should no be leaked in the server logs or in the URL
+- CSRF Token
+  - CSRF token should be generated on the server-side
+  - CSRF token should not be transmitted using cookies
+  - CSRF token should be unique per session, secret, and unpredictable
+  - CSRF token should no be leaked in the server logs or in the URL
 
-### Double submit Cookie
+- Double submit Cookie
 ```
 POST /email/change HTTP/1.1
 Host: vulnerable-website.com
@@ -80,17 +80,13 @@ Cookie: session=1DQGdzYbOJQzLP7460tfyiv3do7MjyPw; csrf=R8ov2YBfTYmzFyjit8o2hKBuo
 
 csrf=R8ov2YBfTYmzFyjit8o2hKBuoIjXXVpa&email=wiener@normal-user.com 
 ```
+- Samesite Cookie
+  - bisa dibypass dengan modifikasi GET
+  ```
+  Set-Cookie: JSESSIONID=xxxxx; SameSite=Strict
+  Set-Cookie: JSESSIONID=xxxxx; SameSite=Lax
+  ```
 
-### Samesite Cookie
-- bisa dibypass dengan modifikasi GET
-```
-Set-Cookie: JSESSIONID=xxxxx; SameSite=Strict
-Set-Cookie: JSESSIONID=xxxxx; SameSite=Lax
-```
-
-## CSRF V.S. Clickjacking
-- CSRF memalsukan request
-- clickjacking memalsukan halaman http
 
 ## RESOURCE
 1. [OWASP - Cross Site Request Forgery (CSRF)](https://owasp.org/www-community/attacks/csrf)

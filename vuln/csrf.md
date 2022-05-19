@@ -17,20 +17,17 @@ Cross Site Request Forgery adalah serangan yang memaksa pengguna agar backend me
   - Have you seen this parameter name used on other websites? Perhaps there isn’t even any protection! Test their most secure features (account functions usually as mentioned above) and work your way backwards.
 - Jika Session aplikasi bergantung pada `http cookie` dan `basic authentication`
 - Cek misconfigurasi CORS, sebenarnya CORS malah melemahkan browser karena melonggarkan aturan dari Same-origin policy sehingga apabila terjadi misconfigurasi CORS, attacker dapat memanfaatkan celah tersebut untuk melancarkan serangan CSRF.
-- Check referer header
+
+
+## Bypass
+- Ketika kita berhasil mengeksploitasi XSS, segala defense mechanisms terhadap CSRF menjadi useless.
+- Bypass referer header
   - Salah satu langkah preventif untuk menanggulangi CSRF adalah memastian referer header berisikan website yang valid. Tapi bagaimana jika fielder header tersebut dihilangkan? kadang kita bisa membypass nya dengan meta tag berikut.
   ```
   <meta name="referrer" content="no-referrer" />
   <iframe src=”data:text/html;base64,form_code_here”>
   ```
   - Kadang developer juga hanya memastika bahwa referer header mengandung domain mereka, kita bisa mengakalinya dengan menambahkan sebuah direktori dengan domain target pada evil server kita, contoh: `https://www.yoursite.com/https://www.theirsite.com/` atau `https://www.theirsite.computer/`.
-- Predictable anti-CSRF Token
-- Unverified anti-CSRF token
-- Verfification at server side
-- Secret Cookie
-
-## Bypass
-Ketika kita berhasil mengeksploitasi XSS, segala defense mechanisms terhadap CSRF menjadi useless.
 
 
 ## POC

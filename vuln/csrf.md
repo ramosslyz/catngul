@@ -146,6 +146,7 @@ Salah satu langkah preventif untuk menanggulangi CSRF adalah memastian referer h
 - [Portswigger Academy - Cross-site request forgery (CSRF)](https://portswigger.net/web-security/csrf)
 - [OWASP Juice Shop - Broken Access Control](https://owasp.org/www-project-juice-shop)
 - [OWASP Security Knowledge Framework - CSRF](https://owasp-skf.gitbook.io/asvs-write-ups/kbid-5-csrf)
+- [Setting the ‘Referer’ Header Using JavaScript](https://www.trustedsec.com/blog/setting-the-referer-header-using-javascript/)
 
 ## WRITE-UP
 |Write-ups|Analisa|

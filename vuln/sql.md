@@ -6,6 +6,7 @@
 - Pada injection login, coba test inject for username dahulu, kalau tidak bisa coba inject kedua username dan password
 - Kalau value parameter yang injection kan adalah string maka mengunnakan 1='1 atau '1'='1'
 - Blind berbeda dengan OOB
+- Comment /*string*/ disebut juga obfusacator, pada MySQL 5.5.30 or higher, sintak berikut `SELECT 1 /*!50530 + 1*/` akan dieksekusi sebagai 2 bukan 1.
 
 ## langkah-langkah
 1. Identifikasi DB apa yang digunakan, salah satu caranya adalah dengan generate error sehaingga server menampilka informasi teknologi. Walaupun server tidak mereturkan error, tapi server selau mereturn databse yang digunakan ketika kita menijectkan payload finding db version.
@@ -35,7 +36,7 @@
 |Database|Comment|
 |---|---|
 |Oracle|`--comment`|
-|MySQL|`-- comment` `#comment` `/*comment*/` ;%00 (nullbyte)|
+|MySQL|`-- comment` `#comment` `/*comment*/`(also obfuscator) `;%00`(nullbyte)|
 |PostgreSQL|`--comment` `/*comment*/`|
 |Microsoft|`--comment` `/*comment*/`|
 

@@ -9,11 +9,11 @@
 
 ## langkah-langkah
 1. Identifikasi DB apa yang digunakan, salah satu caranya adalah dengan generate error sehaingga server menampilka informasi teknologi. Walaupun server tidak mereturkan error, tapi server selau mereturn databse yang digunakan ketika kita menijectkan payload finding db version.
-    |DB|Function (non-blind)|Function (blind)|
-    |---|---|---|
-    |MySQL|@@version<br>@@global.version<br>version()|'Concat' 'enation'<br>CONCAT('Concat','enation')|
-    |MS SQL| @@version|'some'+'enation'<br>CONCAT('Concat','enation')|
-    |Oracle|version FROM v$instance<br>banner FROM v$version WHERE banner LIKE 'oracle%'<br>banner FROM gv$version WHERE banner LIKE 'oracle%'|'Concat'\|\|'enation'<br>CONCAT('Concat','enation')|
+    |DB|Function (non-blind)|Function (blind)->string concatenation|Function (blind)->all function return an INTEGER NUMBER in the respective database while generate ERROR on all others|
+    |---|---|---|---|
+    |MySQL|@@version<br>@@global.version<br>version()|'Concat' 'enation'<br>CONCAT('Concat','enation')|CONNECTION_ID()<br>LAST_INSERT_ID()<br>ROW_COUNT()<br>...|
+    |MS SQL| @@version|'some'+'enation'<br>CONCAT('Concat','enation')|@@PACK_RECEIVED<br>@@ROW_COUNT<br>@@TRANCOUNT<br>...|
+    |Oracle|version FROM v$instance<br>banner FROM v$version WHERE banner LIKE 'oracle%'<br>banner FROM gv$version WHERE banner LIKE 'oracle%'|'Concat'\|\|'enation'<br>CONCAT('Concat','enation')|BITAND(0,1)<br>BIN_TO_NUMB(1)<br>TO_NUMBER(1231)<br>...
 2. Identify kapan dan dimana aplikasi akan berinteraksi dengan DB Server untuk mengakses data. Berikut kondisi umum aplikasi berinteraksi dengan DB server.
     - Authentication form, user dan password akan dicek pada database apakah ada atau tidak (kadang juga hash)
     - Search Engine, string yang disubmit oleh user digunakan untuk mengeksract semua data yang relevant pada database
@@ -35,7 +35,7 @@
 |Database|Comment|
 |---|---|
 |Oracle|`--comment`|
-|MySQL|`-- comment` `#comment` `/*comment*/`|
+|MySQL|`-- comment` `#comment` `/*comment*/` ;%00 (nullbyte)|
 |PostgreSQL|`--comment` `/*comment*/`|
 |Microsoft|`--comment` `/*comment*/`|
 

@@ -8,7 +8,7 @@
 - Blind berbeda dengan OOB
 
 ## langkah-langkah
-1. Identifikasi DB apa yang digunakan, salah satu caranya adalah dengan generate error sehaingga server menampilka informasi teknologi.
+1. Identifikasi DB apa yang digunakan, salah satu caranya adalah dengan generate error sehaingga server menampilka informasi teknologi. Walaupun server tidak mereturkan error, tapi server selau mereturn databse yang digunakan ketika kita menijectkan payload finding db version
 2. Identify kapan dan dimana aplikasi akan berinteraksi dengan DB Server untuk mengakses data. Berikut kondisi umum aplikasi berinteraksi dengan DB server.
     - Authentication form, user dan password akan dicek pada database apakah ada atau tidak (kadang juga hash)
     - Search Engine, string yang disubmit oleh user digunakan untuk mengeksract semua data yang relevant pada database

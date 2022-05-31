@@ -8,7 +8,12 @@
 - Blind berbeda dengan OOB
 
 ## langkah-langkah
-1. Identifikasi DB apa yang digunakan, salah satu caranya adalah dengan generate error sehaingga server menampilka informasi teknologi. Walaupun server tidak mereturkan error, tapi server selau mereturn databse yang digunakan ketika kita menijectkan payload finding db version
+1. Identifikasi DB apa yang digunakan, salah satu caranya adalah dengan generate error sehaingga server menampilka informasi teknologi. Walaupun server tidak mereturkan error, tapi server selau mereturn databse yang digunakan ketika kita menijectkan payload finding db version.
+    |DB|Function (non-blind)|Function (blind)|
+    |---|---|---|
+    |MySQL|@@version<br>@@global.version<br>version()|'Concat' 'enation'<br>CONCAT('Concat','enation')|
+    |MS SQL| @@version|'some'+'enation'<br>CONCAT('Concat','enation')|
+    |Oracle|version FROM v$instance<br>banner FROM v$version WHERE banner LIKE 'oracle%'<br>banner FROM gv$version WHERE banner LIKE 'oracle%'|'Concat'\|\|'enation'<br>CONCAT('Concat','enation')|
 2. Identify kapan dan dimana aplikasi akan berinteraksi dengan DB Server untuk mengakses data. Berikut kondisi umum aplikasi berinteraksi dengan DB server.
     - Authentication form, user dan password akan dicek pada database apakah ada atau tidak (kadang juga hash)
     - Search Engine, string yang disubmit oleh user digunakan untuk mengeksract semua data yang relevant pada database

@@ -1,5 +1,5 @@
 # Biometric
 
 ## Fingerprint
-- Menggunakan frida script
-  - 
+- [How Secure is your Android Keystore Authentication ?](https://labs.f-secure.com/blog/how-secure-is-your-android-keystore-authentication)
+

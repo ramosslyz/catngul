@@ -31,7 +31,7 @@
 - [Harcoded Credentials](https://github.com/acvn/b3lajar/blob/master/vuln/android-harcoded.md)
 - [CSRF (android)](https://github.com/acvn/b3lajar/blob/master/vuln/android-csrf.md)
 - [Information Disclosure](https://github.com/acvn/b3lajar/blob/master/vuln/info-android.md)
-- [Finger Print](https://github.com/acvn/b3lajar/blob/master/vuln/fingerprint.md)
+- [Biometric](https://github.com/acvn/b3lajar/blob/master/vuln/biometric.md)
 
 ## iOS
 - [iOS Webview](https://github.com/acvn/b3lajar/blob/master/vuln/webview-ios.md)

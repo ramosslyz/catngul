@@ -6,6 +6,8 @@
 |Referer|Url website asal|
 |Origin|Domain website yang sebelumnya|
 |X-forwarded-for||
+|Connection: close|Client meminta connection close setelah menerima response|
+
 
 
 ## Response Header

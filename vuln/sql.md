@@ -37,7 +37,7 @@
 |Database|Comment|
 |---|---|
 |Oracle|`--comment`|
-|MySQL|`-- comment` `#comment` `/*comment*/`(also obfuscator) `;%00`(nullbyte)|
+|MySQL|`-- comment` `-- -comment` `#comment` `/*comment*/`(also obfuscator) `;%00`(nullbyte)|
 |PostgreSQL|`--comment` `/*comment*/`|
 |Microsoft|`--comment` `/*comment*/`|
 

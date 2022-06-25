@@ -6,7 +6,7 @@
 Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-campur (inggris-indo).
 
 ## Table Of Contents
-1. [Koding](https://github.com/acvn/catngul/blob/master/code.md)
+1. [Coding](https://github.com/acvn/catngul/blob/master/code.md)
 2. [Reconnaissance](https://github.com/acvn/b3lajar/blob/master/rekon)
 3. [Vulnerability](https://github.com/acvn/b3lajar/blob/master/vuln)
 4. [Laboratory](https://github.com/acvn/b3lajar/blob/master/lab)

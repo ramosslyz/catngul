@@ -8,3 +8,7 @@ Fitur sequencer berfungsi untuk menganalisa kerandoman dari sebuah token atau pa
 ## Logger++
 Berfungsi untuk menyimpan request dan response yang pernah dilakukan pada burpsuite. Resource:
 - [Complete Logger++ burp suite Extension Guide | logger++ filter](https://www.youtube.com/watch?v=Cqlgcjt6vgI)
+
+## Autorize
+Untuk mengechek authorization
+- [Autorize](https://github.com/portswigger/autorize)

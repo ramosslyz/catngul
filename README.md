@@ -16,6 +16,7 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-c
 8. [iOS Hacking Methodology](https://github.com/acvn/b3lajar/blob/master/ioshack.md)
 9. [API Hacking Methodology](https://github.com/acvn/catngul/blob/master/apihack.md)
 10. [Burpsuite](https://github.com/acvn/catngul/blob/master/burp.md)
+11. [Zeroday](https://github.com/aldisat/catngul/blob/master/zeroday.md)
    
 ## Ask Me!
 acvn on [Twitter](https://twitter.com/aldi__satria) or [Instagram](https://www.instagram.com/aldi___satria/)

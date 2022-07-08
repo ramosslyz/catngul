@@ -75,3 +75,7 @@ Selalu mulai dengan payload yang paling simpel dan secara bertahap menuju ke pay
   - [blog.p6.is - XSS CheatSheet](https://blog.p6.is/xss-cheatsheet/)
   - [Brute XSS](https://brutelogic.com.br/blog/)
 
+  ## Write-up
+  |Title|Explanation|
+  |---|---|
+  |[XSS Blind Stored at 2 Assets TikTok](https://aidilarf.medium.com/xss-blind-stored-at-2-assets-tiktok-f32829f11e58)|Stored XSS, konsistent|

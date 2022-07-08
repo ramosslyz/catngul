@@ -78,4 +78,4 @@ Selalu mulai dengan payload yang paling simpel dan secara bertahap menuju ke pay
   ## Write-up
   |Title|Explanation|
   |---|---|
-  |[XSS Blind Stored at 2 Assets TikTok](https://aidilarf.medium.com/xss-blind-stored-at-2-assets-tiktok-f32829f11e58)|Stored XSS, konsistent -> ‘><img src=x onerror=print(1)>|
+  |[XSS Blind Stored at 2 Assets TikTok](https://aidilarf.medium.com/xss-blind-stored-at-2-assets-tiktok-f32829f11e58)|Stored XSS, konsistent -> ‘><svg/onload onerror=print(1)>|

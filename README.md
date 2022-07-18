@@ -20,4 +20,4 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-c
 12. [Exploit](https://github.com/aldisat/catngul/blob/master/exploit.md)
    
 ## Ask Me!
-acvn on [Twitter](https://twitter.com/aldi__satria) or [Instagram](https://www.instagram.com/aldi___satria/)
+Aldi on [Twitter](https://twitter.com/aldi__satria) or [Instagram](https://www.instagram.com/aldi___satria/)

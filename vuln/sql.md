@@ -22,7 +22,10 @@
 
 ## Celah Injection
 - Header
-    - User-agent 
+    - User-agent
+      ```
+      sqlmap -u 'http://google.com' -p user-agent --user-agent=elseagent --technique=B --banner
+      ```
 - Parameter GET
 - Parameter POST
 

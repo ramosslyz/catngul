@@ -15,7 +15,7 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-c
 7. [Web Hacking Methodology](https://github.com/acvn/b3lajar/blob/master/webhack.md)
 8. [iOS Hacking Methodology](https://github.com/acvn/b3lajar/blob/master/ioshack.md)
 9. [API Hacking Methodology](https://github.com/acvn/catngul/blob/master/apihack.md)
-10 [Wifi Hacking](https://github.com/acvn/catngul/blob/master/wifihack.md)
+10. [Wifi Hacking](https://github.com/acvn/catngul/blob/master/wifihack.md)
 11. [Burpsuite](https://github.com/acvn/catngul/blob/master/burp.md)
 12. [Zeroday](https://github.com/aldisat/catngul/blob/master/zeroday.md)
 13. [Exploit](https://github.com/aldisat/catngul/blob/master/exploit.md)

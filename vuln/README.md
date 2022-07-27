@@ -36,3 +36,6 @@
 
 ## iOS
 - [iOS Webview](https://github.com/acvn/b3lajar/blob/master/vuln/webview-ios.md)
+
+## Network
+- [Network Segmentation](https://github.com/acvn/b3lajar/blob/master/vuln/netseg.md)

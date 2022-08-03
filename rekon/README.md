@@ -23,6 +23,7 @@ Reconnaissance adalah langkah paling pertama hacking. Maksimalkan rekon!
 19. [Out of Band](https://github.com/acvn/catngul/blob/master/rekon/oob.md)
 20. [HTTP Header](https://github.com/acvn/catngul/blob/master/rekon/header.md)
 21. [Network Trafic](https://github.com/acvn/catngul/blob/master/rekon/networktrafic.md)
+22. [SSL](https://github.com/acvn/catngul/blob/master/rekon/ssl.md)
 
 ## Evasion
 1. [Base64 Encoding](https://github.com/acvn/catngul/blob/master/rekon/base64evasion.md)

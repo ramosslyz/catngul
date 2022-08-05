@@ -46,3 +46,6 @@
 - [Port 5432](https://github.com/acvn/b3lajar/blob/master/vuln/port5432.md)
 - [Reply Attack](https://github.com/acvn/b3lajar/blob/master/vuln/reply.md)
 
+## API
+- [API injection](https://github.com/acvn/b3lajar/blob/master/vuln/apiinjection.md)
+

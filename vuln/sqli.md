@@ -8,6 +8,7 @@
 - Blind berbeda dengan OOB
 - Comment /*string*/ disebut juga obfusacator, pada MySQL 5.5.30 or higher, sintak berikut `SELECT 1 /*!50530 + 1*/` akan dieksekusi sebagai 2 bukan 1.
 - OOB Channel -> DNS, email, Database connection
+- logical true, hanya bisa menggunakan untuk true saja.
 
 ## langkah-langkah
 1. Identifikasi DB apa yang digunakan, salah satu caranya adalah dengan generate error sehaingga server menampilka informasi teknologi. Walaupun server tidak mereturkan error, tapi server selau mereturn databse yang digunakan ketika kita menijectkan payload finding db version.

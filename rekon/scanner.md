@@ -6,3 +6,4 @@
    - [VIrus Total](https://www.virustotal.com)
    - Nessus
    - Nuclei
+   - [scan4all](https://github.com/hktalent/scan4all)

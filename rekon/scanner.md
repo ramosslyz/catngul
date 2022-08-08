@@ -7,3 +7,4 @@
    - Nessus
    - Nuclei
    - [scan4all](https://github.com/hktalent/scan4all)
+   - [EthicalCheck - Free and instant API penetration Testing](https://www.ethicalcheck.dev/)

@@ -12,4 +12,5 @@ Meskipun informasi jenis dan tipe server bukan merupakan sebuah vulnerability, i
 ## Rekomendasi
 - Menghilangkan informasi server pada header
 - Menggunakan reverse proxy server
+- Menerapkan error handling
 - Memastikan server up-to-date

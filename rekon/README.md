@@ -25,6 +25,9 @@ Reconnaissance adalah langkah paling pertama hacking. Maksimalkan rekon!
 21. [Network Trafic](https://github.com/acvn/catngul/blob/master/rekon/networktrafic.md)
 22. [SSL](https://github.com/acvn/catngul/blob/master/rekon/ssl.md)
 
+## Fingerprinting
+1. [Web Server](https://github.com/acvn/catngul/blob/master/rekon/webserver.md)
+
 ## Evasion
 1. [Base64 Encoding](https://github.com/acvn/catngul/blob/master/rekon/base64evasion.md)
 2. [URI obfuscation](https://github.com/acvn/catngul/blob/master/rekon/uriobfs.md)

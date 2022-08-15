@@ -27,7 +27,7 @@ Reconnaissance adalah langkah paling pertama hacking. Maksimalkan rekon!
 
 ## Fingerprinting
 1. [Web Server](https://github.com/acvn/catngul/blob/master/rekon/webserver.md)
-2. [Improper Error Handling](ttps://github.com/acvn/catngul/blob/master/rekon/error.md)
+2. [Improper Error Handling](https://github.com/acvn/catngul/blob/master/rekon/error.md)
 
 ## Evasion
 1. [Base64 Encoding](https://github.com/acvn/catngul/blob/master/rekon/base64evasion.md)

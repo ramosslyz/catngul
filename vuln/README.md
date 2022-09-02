@@ -32,6 +32,7 @@
 - [Information Disclosure](https://github.com/acvn/b3lajar/blob/master/vuln/info-android.md)
 - [Biometric](https://github.com/acvn/b3lajar/blob/master/vuln/biometric.md)
 - [Deeplink](https://github.com/acvn/b3lajar/blob/master/vuln/deeplink.md)
+- [android:exported="true](https://github.com/acvn/b3lajar/blob/master/vuln/exportedtrue.md)
 
 ## iOS
 - [iOS Webview](https://github.com/acvn/b3lajar/blob/master/vuln/webview-ios.md)

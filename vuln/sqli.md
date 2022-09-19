@@ -11,6 +11,8 @@
 - logical true, hanya bisa menggunakan untuk true saja.
 - union select 'asd' , bisa merefleksikan 'asd' pada HTTP response
 - Error tidak selalu menjadikan patokan bah itu celah sqli, kadang celah tersebut tidak menghasilkan error tetapi ketika kita union 'asd' malah terfeleksikan 'asd' di response body 
+- Cari parameter yang menjadi penetu perubahan data pada response
+- Cara parameter yang reflected ke response
 
 ## langkah-langkah
 1. Identifikasi DB apa yang digunakan, salah satu caranya adalah dengan generate error sehaingga server menampilka informasi teknologi. Walaupun server tidak mereturkan error, tapi server selau mereturn databse yang digunakan ketika kita menijectkan payload finding db version.

@@ -12,3 +12,6 @@ Berfungsi untuk menyimpan request dan response yang pernah dilakukan pada burpsu
 ## Autorize
 Untuk mengechek authorization
 - [Autorize](https://github.com/portswigger/autorize)
+
+## Reflection
+Memfilter reflected payload

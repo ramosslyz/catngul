@@ -16,9 +16,10 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-c
 8. [iOS Hacking](https://github.com/acvn/b3lajar/blob/master/ioshack.md)
 9. [API Hacking](https://github.com/acvn/catngul/blob/master/apihack.md)
 10. [Wifi Hacking](https://github.com/acvn/catngul/blob/master/wifihack.md)
-11. [Burpsuite](https://github.com/acvn/catngul/blob/master/burp.md)
-12. [Zeroday](https://github.com/aldisat/catngul/blob/master/zeroday.md)
-13. [Exploit](https://github.com/aldisat/catngul/blob/master/exploit.md)
+11. [EDC Hacking](https://github.com/acvn/catngul/blob/master/edchack.md)
+12. [Burpsuite](https://github.com/acvn/catngul/blob/master/burp.md)
+13. [Zeroday](https://github.com/aldisat/catngul/blob/master/zeroday.md)
+14. [Exploit](https://github.com/aldisat/catngul/blob/master/exploit.md)
    
 ## Ask Me!
 Aldi on [Twitter](https://twitter.com/aldi__satria) or [Instagram](https://www.instagram.com/aldi___satria/)

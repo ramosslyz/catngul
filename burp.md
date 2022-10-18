@@ -15,3 +15,6 @@ Untuk mengechek authorization
 
 ## Reflection
 Memfilter reflected payload
+
+## Paraminer
+- [Find hidden input using Param Miner BurpSuite Extension](https://www.youtube.com/watch?v=IYk7-xvOMOo)

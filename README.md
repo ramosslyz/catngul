@@ -21,6 +21,7 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-c
 13. [Zeroday](https://github.com/aldisat/catngul/blob/master/zeroday.md)
 14. [Exploit](https://github.com/aldisat/catngul/blob/master/exploit.md)
 15. [Reporting](https://github.com/aldisat/catngul/blob/master/reporting.md)
+16. [Defence](https://github.com/aldisat/catngul/blob/master/defense.md)
    
 ## Ask Me!
 Aldi on [Twitter](https://twitter.com/aldi__satria) or [Instagram](https://www.instagram.com/aldi___satria/)

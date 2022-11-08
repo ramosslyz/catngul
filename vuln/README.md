@@ -26,7 +26,7 @@
 - [XML Bomb](https://github.com/acvn/b3lajar/blob/master/vuln/xmlbomb.md)
 - [XSS](https://github.com/acvn/b3lajar/blob/master/vuln/xss.md)
 - [Webshell](https://github.com/acvn/b3lajar/blob/master/vuln/webshell.md)
-- [Download dan File Transfer](https://github.com/acvn/b3lajar/blob/master/vuln/upload.md)
+- [Download dan File Transfer](https://github.com/acvn/b3lajar/blob/master/vuln/download.md)
 
 ## Android
 - [Firebase misconfiguration](https://github.com/acvn/b3lajar/blob/master/vuln/firebase.md)

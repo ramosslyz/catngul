@@ -13,7 +13,6 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-c
 5. [Cryptograph](https://github.com/acvn/b3lajar/blob/master/crypto.md)
 6. [Android Hacking](https://github.com/acvn/b3lajar/blob/master/android-hacking.md)
 7. [Flow](https://github.com/acvn/b3lajar/blob/master/Flow.md)
-9. [API Hacking](https://github.com/acvn/catngul/blob/master/apihack.md)
 10. [Wifi Hacking](https://github.com/acvn/catngul/blob/master/wifihack.md)
 11. [EDC Hacking](https://github.com/acvn/catngul/blob/master/edchack.md)
 12. [Burpsuite](https://github.com/acvn/catngul/blob/master/burp.md)

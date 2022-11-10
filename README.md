@@ -13,12 +13,11 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-c
 5. [Cryptograph](https://github.com/acvn/b3lajar/blob/master/crypto.md)
 6. [Android Hacking](https://github.com/acvn/b3lajar/blob/master/android-hacking.md)
 7. [Flow](https://github.com/acvn/b3lajar/blob/master/Flow.md)
-11. [EDC Hacking](https://github.com/acvn/catngul/blob/master/edchack.md)
-12. [Burpsuite](https://github.com/acvn/catngul/blob/master/burp.md)
-13. [Zeroday](https://github.com/aldisat/catngul/blob/master/zeroday.md)
-14. [Exploit](https://github.com/aldisat/catngul/blob/master/exploit.md)
-15. [Reporting](https://github.com/aldisat/catngul/blob/master/reporting.md)
-16. [Defence](https://github.com/aldisat/catngul/blob/master/defense.md)
+8. [Burpsuite](https://github.com/acvn/catngul/blob/master/burp.md)
+9. [Zeroday](https://github.com/aldisat/catngul/blob/master/zeroday.md)
+10. [Exploit](https://github.com/aldisat/catngul/blob/master/exploit.md)
+11. [Reporting](https://github.com/aldisat/catngul/blob/master/reporting.md)
+12. [Defence](https://github.com/aldisat/catngul/blob/master/defense.md)
    
 ## Ask Me!
 Aldi on [Twitter](https://twitter.com/aldi__satria) or [Instagram](https://www.instagram.com/aldi___satria/)

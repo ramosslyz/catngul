@@ -1,4 +1,6 @@
-# Web Hacking</br>
+# Flow Hacking
+
+## Web Hacking</br>
 |Step|Deskripsi|Steps|
 |---|---|---|
 |Pre engagement|menentukan target dan scop apa saja yang akan kita pentest (web server, mobile, IOT, dll)|<ul><li>Tipe penetration test yang dilakukan ? (Black/Gray/White)</li><li>Berapa lama waktu penetration test ?</li><li>Bagaimana kompleksitas dari aplikasi dan servis yang akan dipentest ?</li><li>Berapa jumlah target yang akan dipentest ? (IP address, domain dll)</ul>|

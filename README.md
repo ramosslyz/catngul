@@ -18,6 +18,7 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-c
 10. [Exploit](https://github.com/aldisat/catngul/blob/master/exploit.md)
 11. [Reporting](https://github.com/aldisat/catngul/blob/master/reporting.md)
 12. [Defence](https://github.com/aldisat/catngul/blob/master/defense.md)
+13. [Reverse]
    
 ## Ask Me!
 Aldi on [Twitter](https://twitter.com/aldi__satria) or [Instagram](https://www.instagram.com/aldi___satria/)

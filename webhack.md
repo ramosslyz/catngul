@@ -10,25 +10,6 @@
 |Reporting|membuat report berdasarkan temuan yang telah berhasil dan memberikan solusi bagaimana mengatasi temuan tersebut. Ingat solusi dan remediasi lebih diapresiasi dibandingkan skill yang anda gunakan!!!|<ul><li>Report</li><ul><li>Teknik yang digunakan</li><li>Vulnerability yang ditemukan</li><li>Eksploit yang digunakan</li><li>Impact dan resiko dari vulnerability yang ditemuka</li><li>Remedial tips dan rekomendasi dari masing-masing vulnerability</li></ul><li>Presentasi</li></ul>|
 
 
-
-
-
-## Tips N Trick
-- Widening the attack surface more valuable than exploiting the target
-- Solusi dan remediasi lebih dibutuhkan dibandingkan pamer skill hacking
-- Information gathering and Reconnaisance is a key
-- Cek consol (f12)
-- Selalui cek reflected setelah injeksi dimasukkan
-- Mapping authentication proses
-- Jangan dulu filter subdomain dengan httprobe / httpx, coba filter dengan nuclei
-- Ketika ada variable angka yang bungkus dalam string, coba inject kutip, analisa errornya
-- Alternative burp collaborator-> ngrok dan interactsh
-- grep “=” pada hasil gau waybackurl dan subfinder
-- Amati pola id, apakah bisa di prediksi ?
-- Selalu ekstra path pada source code, terutama js
-- Sebelum melakukan pentest sebaiknya anda mengetahui apakah aplikasi tersebut menggunakan WAF atau tidak dan jika ya, WAF apa yang digunakan (lakukan footprinting)
-- Cek versi teknologi yang digunakan, cari CVE nya
-
 ## Resource
 - [INE-Penetration Testing Student](https://my.ine.com/CyberSecurity/learning-paths/a223968e-3a74-45ed-884d-2d16760b8bbd/penetration-testing-student)
 - [A Starters Guide to Pentesting with OWASP](https://www.youtube.com/watch?v=AO_sqXb-gKE)

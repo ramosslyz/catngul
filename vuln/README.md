@@ -26,6 +26,7 @@
 - [XML Bomb](https://github.com/acvn/b3lajar/blob/master/vuln/xmlbomb.md)
 - [XSS](https://github.com/acvn/b3lajar/blob/master/vuln/xss.md)
 - [Webshell](https://github.com/acvn/b3lajar/blob/master/vuln/webshell.md)
+- [Wordpress](https://github.com/acvn/b3lajar/blob/master/vuln/wordpress.md)
 - [Download dan File Transfer](https://github.com/acvn/b3lajar/blob/master/vuln/download.md)
 
 ## Android

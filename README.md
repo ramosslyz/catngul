@@ -19,7 +19,7 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-c
 11. [Reporting](https://github.com/aldisat/catngul/blob/master/reporting.md)
 12. [Defence](https://github.com/aldisat/catngul/blob/master/defense.md)
 13. [Reverse](https://github.com/aldisat/catngul/blob/master/reverse.md)
-14. [Celullar Network Hacking](https://github.com/aldisat/catngul/blob/master/celullar.md)
+14. [Celullar Network Hacking](https://github.com/aldisat/catngul/blob/master/cellular.md)
    
 ## Ask Me!
 Aldi on [Twitter](https://twitter.com/aldi__satria) or [Instagram](https://www.instagram.com/aldi___satria/)

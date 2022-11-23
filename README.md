@@ -16,6 +16,7 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-c
 8. [Burpsuite](https://github.com/acvn/catngul/blob/master/burp.md)
 9. [Zeroday](https://github.com/aldisat/catngul/blob/master/zeroday.md)
 10. [Exploit](https://github.com/aldisat/catngul/blob/master/exploit.md)
+11. [Privilege Escalation](https://github.com/aldisat/catngul/blob/master/escalation.md)
 11. [Reporting](https://github.com/aldisat/catngul/blob/master/reporting.md)
 12. [Defence](https://github.com/aldisat/catngul/blob/master/defense.md)
 13. [Reverse](https://github.com/aldisat/catngul/blob/master/reverse.md)

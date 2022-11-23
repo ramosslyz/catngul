@@ -14,7 +14,7 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-c
 6. [Reporting](https://github.com/aldisat/catngul/blob/master/reporting.md)
 7. [Defence](https://github.com/aldisat/catngul/blob/master/defense.md)
 8. [Reverse](https://github.com/aldisat/catngul/blob/master/reverse.md)
-9. [Celullar Network Hacking](https://github.com/aldisat/catngul/blob/master/cellular.md)
+9. [Celullar](https://github.com/aldisat/catngul/blob/master/cellular.md)
 10. [Laboratory](https://github.com/acvn/b3lajar/blob/master/lab)
 11. [Cryptograph](https://github.com/acvn/b3lajar/blob/master/crypto.md)
 12. [Android Hacking](https://github.com/acvn/b3lajar/blob/master/android-hacking.md)

@@ -18,7 +18,7 @@ Assalamualaikum, jadi repo ini dibuat agar saya *tidak* lupa. bahasanya campur-c
 10. [Celullar](https://github.com/aldisat/catngul/blob/master/cellular.md)
 11. [Laboratory](https://github.com/acvn/b3lajar/blob/master/lab)
 12. [Cryptograph](https://github.com/acvn/b3lajar/blob/master/crypto.md)
-13. [Android Hacking](https://github.com/acvn/b3lajar/blob/master/android-hacking.md)
+13. [Android](https://github.com/acvn/b3lajar/blob/master/android-hacking.md)
 14. [Burpsuite](https://github.com/acvn/catngul/blob/master/burp.md)
 15. [Zeroday](https://github.com/aldisat/catngul/blob/master/zeroday.md)
    

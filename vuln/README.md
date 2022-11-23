@@ -28,7 +28,7 @@
 - [Webshell](https://github.com/acvn/b3lajar/blob/master/vuln/webshell.md)
 - [Wordpress](https://github.com/acvn/b3lajar/blob/master/vuln/wordpress.md)
 - [Download dan File Transfer](https://github.com/acvn/b3lajar/blob/master/vuln/download.md)
-- [Serialization](https://github.com/acvn/b3lajar/blob/master/vuln/serialization.md)
+- [Serialization/Deserealization](https://github.com/acvn/b3lajar/blob/master/vuln/serialization.md)
 
 ## Android
 - [Firebase misconfiguration](https://github.com/acvn/b3lajar/blob/master/vuln/firebase.md)

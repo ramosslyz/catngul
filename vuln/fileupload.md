@@ -2,6 +2,10 @@
 
 ## Apa itu ?
 
+## Payload
+|Tech|Payload|
+|---|---|
+|PHP|menggunakan unicode|
 
 ## Resource
 - [File Upload Vulnerability - Portswigger Academy](https://portswigger.net/web-security/file-upload)

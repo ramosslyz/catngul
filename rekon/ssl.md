@@ -1,4 +1,4 @@
 # SSL
 
 ## SSL
-- (sslscan)[https://github.com/rbsec/sslscan]
+- [sslscan](https://github.com/rbsec/sslscan)

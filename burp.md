@@ -18,3 +18,6 @@ Memfilter reflected payload
 
 ## Paraminer
 - [Find hidden input using Param Miner BurpSuite Extension](https://www.youtube.com/watch?v=IYk7-xvOMOo)
+
+## Software Vulnerability Scanner
+- [Find vulnerabilities using Software Vulnerability Scanner BurpSuite extension and Wappalyzer](https://www.youtube.com/watch?v=p-aCU_C1jKk)

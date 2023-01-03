@@ -46,6 +46,7 @@
 - [Network Segmentation](https://github.com/acvn/b3lajar/blob/master/vuln/netseg.md)
 - [Port 11211](https://github.com/acvn/b3lajar/blob/master/vuln/port11211.md)
 - [Port 161](https://github.com/acvn/b3lajar/blob/master/vuln/port161.md)
+- [Port 21](https://github.com/acvn/b3lajar/blob/master/vuln/port21.md)
 - [Port 22](https://github.com/acvn/b3lajar/blob/master/vuln/port22.md)
 - [Port 5060](https://github.com/acvn/b3lajar/blob/master/vuln/port5060.md)
 - [Port 5432](https://github.com/acvn/b3lajar/blob/master/vuln/port5432.md)

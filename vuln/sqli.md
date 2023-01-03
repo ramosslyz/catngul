@@ -97,3 +97,4 @@ http://192.168.2.3/news-and-events.php?id=-22 union select 1,group_concat(table_
 - [Finding an unseen SQL Injection by bypassing escape functions in mysqljs/mysql](https://flattsecurity.medium.com/finding-an-unseen-sql-injection-by-bypassing-escape-functions-in-mysqljs-mysql-90b27f6542b4)
 - [BigQuery SQL Injection Cheat Sheet](https://ozguralp.medium.com/bigquery-sql-injection-cheat-sheet-65ad70e11eac)
 - [Dumping a complete database using SQL injection [updated 2021]](https://resources.infosecinstitute.com/topic/dumping-a-database-using-sql-injection/)
+- [SQLMap - Operating System Takeover - Windows](https://amolnaik4.blogspot.com/2012/05/sqlmap-operating-system-takeover.html)

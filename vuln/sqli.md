@@ -89,6 +89,7 @@ http://192.168.2.3/news-and-events.php?id=-22 union select 1,group_concat(table_
 |[Making a Blind SQL Injection a Little Less Blind](https://medium.com/@tomnomnom/making-a-blind-sql-injection-a-little-less-blind-428dcb614ba8)|sqli pada json, jika inject ' -> error, coba netralisir dengan /*'*/|
 |[bypass sql injection #1109311](https://hackerone.com/reports/1224660)|`0'XOR(if(now()=sysdate(),sleep(15),0))XOR'Z`|
 |[FUZZING FOR HIDDEN PARAMS](https://medium.com/@calfcrusher/fuzzing-for-hidden-params-671724bf3fd7)|fuzzing hidden parameter menggunakan ffuf dan payload arjun<br>https://github.com/Bo0oM/ParamPamPam/blob/master/params.txt|
+| [Box 3: HTB - Vaccine](https://vict0rle.medium.com/box-3-htb-vaccine-393b2484e018)|unable to prompt for an interactive operating system shell via the back-end DBMS because stacked queries SQL injection is not supported|
 
 ## Resource
 - [Web Security Academy - SQL injection cheat sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)

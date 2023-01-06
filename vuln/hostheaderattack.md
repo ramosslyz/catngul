@@ -1,12 +1,5 @@
 # Host Header Attack
 
-## Resource
-- [Portswigger Academy - Host Header Attack](https://portswigger.net/web-security/host-header)
-- [Hashar Mujahid - HTTP-HOST HEADER ATTACKS](https://infosecwriteups.com/http-host-header-attacks-55ca4b7786c)
-
-## Tools
-- [Para Miner](https://portswigger.net/bappstore/17d2949a985c4b7ca092728dba871943)
-
 ## Pendahuluan
 host header adalah back-end website yang ingin dikunjungi oleh client. contoh:
 ```
@@ -68,7 +61,15 @@ Pada metode ini kita memanfaat reverse proxy atau load balancer yang ada pada we
     - X-Forwarded-Server
     - X-Http-Host-Override
     - Forwaded
-  
-  
+ 
+## Trik
+- Cari response 3xx
+- Cari header location
 
+## Tools
+- [Para Miner](https://portswigger.net/bappstore/17d2949a985c4b7ca092728dba871943) 
+ 
+## Resource
+- [Portswigger Academy - Host Header Attack](https://portswigger.net/web-security/host-header)
+- [Hashar Mujahid - HTTP-HOST HEADER ATTACKS](https://infosecwriteups.com/http-host-header-attacks-55ca4b7786c)
 

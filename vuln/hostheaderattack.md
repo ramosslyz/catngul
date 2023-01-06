@@ -2,6 +2,7 @@
 
 ## Resource
 - [Portswigger Academy - Host Header Attack](https://portswigger.net/web-security/host-header)
+- [Hashar Mujahid - HTTP-HOST HEADER ATTACKS](https://infosecwriteups.com/http-host-header-attacks-55ca4b7786c)
 
 ## Tools
 - [Para Miner](https://portswigger.net/bappstore/17d2949a985c4b7ca092728dba871943)

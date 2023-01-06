@@ -33,6 +33,7 @@ Dewasa ini, alert() sudah di disable oleh kebanyakan browser, namun banyak paylo
 ## How to find them ?
 ### Reflected XSS
 - Search form. cek apakah reflected
+- input comment --> 
 
 ### Stored XSS
 - Comment posting

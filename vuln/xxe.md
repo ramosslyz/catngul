@@ -13,7 +13,7 @@
   - Online Map Editors using KML
 - XML tag injection
   ```
-  ' '' < > &
+  ' " < > &
   ```
  
   

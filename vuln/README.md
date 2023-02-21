@@ -23,6 +23,7 @@
 - [SQL Injection](https://github.com/acvn/catngul/blob/master/vuln/sqli.md)
 - [User-agent injection](https://github.com/acvn/catngul/blob/master/vuln/useragent.md)
 - [XXE](https://github.com/acvn/b3lajar/blob/master/vuln/xxe.md)
+- [XEE](https://github.com/acvn/b3lajar/blob/master/vuln/xee.md)
 - [XML Bomb](https://github.com/acvn/b3lajar/blob/master/vuln/xmlbomb.md)
 - [XSS](https://github.com/acvn/b3lajar/blob/master/vuln/xss.md)
 - [Webshell](https://github.com/acvn/b3lajar/blob/master/vuln/webshell.md)

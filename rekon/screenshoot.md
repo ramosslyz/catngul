@@ -1,4 +1,4 @@
 ## Screenshot
-- [Eyeofwitness](https://github.com/FortyNorthSecurity/EyeWitness)
-- Aquatone
-- [Gowitness](https://github.com/sensepost/gowitness)
+- [eyeofwitness](https://github.com/FortyNorthSecurity/EyeWitness)
+- aquatone
+- [gowitness](https://github.com/sensepost/gowitness)

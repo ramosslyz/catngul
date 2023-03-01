@@ -54,4 +54,5 @@
 
 ## API
 - [API injection](https://github.com/acvn/b3lajar/blob/master/vuln/apiinjection.md)
+- [None](https://github.com/acvn/b3lajar/blob/master/vuln/none.md)
 

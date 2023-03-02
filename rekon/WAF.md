@@ -12,7 +12,7 @@
 ## Bypass
 - Cloud flare
   - [loudPeler](https://github.com/zidansec/CloudPeler) - see the real IP of websites that have been protected by CloudFlare
-  - [CharuDutt - How I was Able To bypass CloudFlare WAF](https://dutt786.medium.com/how-i-was-able-to-bypass-cloudflare-waf-3b30700f6c7a)
+  - [How I was Able To bypass CloudFlare WAF](https://dutt786.medium.com/how-i-was-able-to-bypass-cloudflare-waf-3b30700f6c7a)
 
 ## Tools
 - [wafw00f](https://github.com/EnableSecurity/wafw00f)

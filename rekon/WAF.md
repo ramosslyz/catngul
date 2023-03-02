@@ -19,3 +19,4 @@
 - [wafw00f](https://github.com/EnableSecurity/wafw00f)
 - [http-waf-fingerprint](https://nmap.org/nsedoc/scripts/http-waf-fingerprint.html)
 - [imperva-detect](https://github.com/vmfae-iscteiulpt/imperva-detect/blob/master/imperva-detect.sh)
+- [The Pycoach](https://www.youtube.com/watch?v=LDlD5k8S0oQ) - ChatGPT Helped Solve My Web Automation Headache

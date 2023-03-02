@@ -14,9 +14,9 @@
   - [loudPeler](https://github.com/zidansec/CloudPeler) - see the real IP of websites that have been protected by CloudFlare
   - [CharuDutt](https://dutt786.medium.com/how-i-was-able-to-bypass-cloudflare-waf-3b30700f6c7a) - How I was Able To bypass CloudFlare WAF
   - [Rahul Singh](https://www.youtube.com/watch?v=pRX3AdxGcGg) - How to bypass cloudflare & other reverse proxy solutions
+  - [The Pycoach](https://www.youtube.com/watch?v=LDlD5k8S0oQ) - ChatGPT Helped Solve My Web Automation Headache
 
 ## Tools
 - [wafw00f](https://github.com/EnableSecurity/wafw00f)
 - [http-waf-fingerprint](https://nmap.org/nsedoc/scripts/http-waf-fingerprint.html)
 - [imperva-detect](https://github.com/vmfae-iscteiulpt/imperva-detect/blob/master/imperva-detect.sh)
-- [The Pycoach](https://www.youtube.com/watch?v=LDlD5k8S0oQ) - ChatGPT Helped Solve My Web Automation Headache

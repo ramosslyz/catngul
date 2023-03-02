@@ -15,6 +15,7 @@
   - [CharuDutt](https://dutt786.medium.com/how-i-was-able-to-bypass-cloudflare-waf-3b30700f6c7a) - How I was Able To bypass CloudFlare WAF
   - [Rahul Singh](https://www.youtube.com/watch?v=pRX3AdxGcGg) - How to bypass cloudflare & other reverse proxy solutions
   - [The Pycoach](https://www.youtube.com/watch?v=LDlD5k8S0oQ) - ChatGPT Helped Solve My Web Automation Headache
+  - [HailBytes](https://www.youtube.com/watch?v=LVWEVynYjsY) - Bypass Firewall and get the Real IP Address of a Website 
 
 ## Tools
 - [wafw00f](https://github.com/EnableSecurity/wafw00f)

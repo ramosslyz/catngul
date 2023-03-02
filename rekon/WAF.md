@@ -13,6 +13,7 @@
 - Cloud flare
   - [loudPeler](https://github.com/zidansec/CloudPeler) - see the real IP of websites that have been protected by CloudFlare
   - [CharuDutt](https://dutt786.medium.com/how-i-was-able-to-bypass-cloudflare-waf-3b30700f6c7a) - How I was Able To bypass CloudFlare WAF
+  - [Rahul Singh](https://www.youtube.com/watch?v=pRX3AdxGcGg) - How to bypass cloudflare & other reverse proxy solutions
 
 ## Tools
 - [wafw00f](https://github.com/EnableSecurity/wafw00f)

@@ -7,6 +7,7 @@
   - [Gitleaks](https://github.com/zricethezav/gitleaks) 
   - [github-search](https://github.com/gwen001/github-search) 
   - [Gdorklinks.sh](https://gist.github.com/jhaddix/1fb7ab2409ab579178d2a79959909b33)
+  - [TruffleHog](https://github.com/trufflesecurity/trufflehog)
 - Bacaan
   - [Top GitHub Dorks and Tools Used to Scan GitHub Repositories for Sensitive Data](https://securitytrails.com/blog/github-dorks)
   - [GitHub Recon and Sensitive Data Exposure](https://www.youtube.com/watch?v=l0YsEk_59fQ)

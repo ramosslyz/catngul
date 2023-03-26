@@ -28,6 +28,10 @@
     ```
     nmap -sP 192.168.1.1-255
     ```
+  - General detection
+    ```
+    nmap -sC -sV [target address or network range] -oA nameofoutput
+    ```
 ### Dnmasscan
   ```
   dnsmasscan example.txt dns.log -p80,443 -oG masscan.log

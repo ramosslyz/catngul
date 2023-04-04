@@ -17,6 +17,11 @@
   - [The Pycoach](https://www.youtube.com/watch?v=LDlD5k8S0oQ) - ChatGPT Helped Solve My Web Automation Headache
   - [HailBytes](https://www.youtube.com/watch?v=LVWEVynYjsY) - Bypass Firewall and get the Real IP Address of a Website 
 
+## List WAF
+|WAF|clue|
+|---|---|
+|f5|Cookie: JSESSIONIDAPR=OsVLO1QrA2tK8MwI_HDbCWBq6XcXrqqPtNnaoGo4u34wt5OUmiIf!22651998;|
+
 ## Tools
 - [wafw00f](https://github.com/EnableSecurity/wafw00f)
 - [http-waf-fingerprint](https://nmap.org/nsedoc/scripts/http-waf-fingerprint.html)

@@ -26,3 +26,4 @@
 - [wafw00f](https://github.com/EnableSecurity/wafw00f)
 - [http-waf-fingerprint](https://nmap.org/nsedoc/scripts/http-waf-fingerprint.html)
 - [imperva-detect](https://github.com/vmfae-iscteiulpt/imperva-detect/blob/master/imperva-detect.sh)
+- [WAF bypass News](https://waf-bypass.com/)

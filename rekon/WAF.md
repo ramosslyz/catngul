@@ -20,7 +20,7 @@
 ## List WAF
 |WAF|clue|
 |---|---|
-|f5|Cookie: JSESSIONIDAPR=OsVLO1QrA2tK8MwI_HDbCWBq6XcXrqqPtNnaoGo4u34wt5OUmiIf!22651998;|
+|F5|Cookie: JSESSIONIDAPR=OsVLO1QrA2tK8MwI_HDbCWBq6XcXrqqPtNnaoGo4u34wt5OUmiIf!22651998;|
 
 ## Tools
 - [wafw00f](https://github.com/EnableSecurity/wafw00f)

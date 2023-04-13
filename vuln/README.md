@@ -16,6 +16,7 @@
 - [Information disclosure](https://github.com/acvn/b3lajar/blob/master/vuln/info.md)
 - [NoSQL Injection](https://github.com/acvn/b3lajar/blob/master/vuln/nosqli.md)
 - [Open Redirect](https://github.com/acvn/b3lajar/blob/master/vuln/open-redirect.md)
+- [OAuth](https://github.com/acvn/b3lajar/blob/master/vuln/oauth.md)
 - [Parameter pollution](https://github.com/acvn/b3lajar/blob/master/vuln/pollution.md)
 - [RCE](https://github.com/acvn/b3lajar/blob/master/vuln/rce.md)
 - [Subdomain Takeover](https://github.com/acvn/b3lajar/blob/master/vuln/subdomaintakeover.md)

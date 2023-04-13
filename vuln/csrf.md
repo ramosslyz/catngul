@@ -156,5 +156,6 @@ Salah satu langkah preventif untuk menanggulangi CSRF adalah memastian referer h
 |[Refocusing in bug hunting, Bonus: An interestingly simple to test CSRF bypass](https://medium.com/bugbountywriteup/refocusing-in-bug-hunting-bonus-an-interestingly-simple-to-test-csrf-bypass-8595b3312147)|Mengganti content-type non-form  (i.e. `application/json, application/x-url-encoded`, etc.) menjadi `form-multipart`|
 |[Got Nice catch by Google](https://parthdeshani.medium.com/got-nice-catch-by-google-5e6a8211371c)|Periksa parameter state. State parameter is used in Oauth to prevent CSRF attacks|
 [JSON CSRF To FormData Attack](https://medium.com/@osamaavvan/json-csrf-to-formdata-attack-eb65272376a2)
+|[How I could have taken over any Pinterest account](https://infosecflash.com/2019/01/05/how-i-could-have-taken-over-any-pinterest-account/)|remove X-CSRFToken header then change POST to GET|
 
 

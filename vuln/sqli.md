@@ -13,8 +13,8 @@
 - Error tidak selalu menjadikan patokan bah itu celah sqli, kadang celah tersebut tidak menghasilkan error tetapi ketika kita union 'asd' malah terfeleksikan 'asd' di response body
 
 ## langkah-langkah
-1. Identifikasi DB apa yang digunakan, salah satu caranya adalah dengan generate error sehaingga server menampilka informasi teknologi. Walaupun server tidak mereturkan error, tapi server selau mereturn databse yang digunakan ketika kita menijectkan payload finding db version.
-2. Identify kapan dan dimana aplikasi akan berinteraksi dengan DB Server untuk mengakses data. Berikut kondisi umum aplikasi berinteraksi dengan DB server.
+1. Identifikasi DB yang digunakan, generate error atau show @@database
+2. Identify kapan dan dimana aplikasi akan berinteraksi dengan DB Server untuk mengakses data. Kondisi umum interaksi app dengan DB:
     - Authentication form, user dan password akan dicek pada database apakah ada atau tidak (kadang juga hash)
     - Search Engine, string yang disubmit oleh user digunakan untuk mengeksract semua data yang relevant pada database
     - E-commerce site, semua produk e-commerce stored di DB

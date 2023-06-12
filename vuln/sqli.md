@@ -46,23 +46,17 @@
 |Microsoft|`--comment` `/*comment*/`|
 
 ## Generate Error
-  ```
-  <spasi_kosong>
-  '
-  ')
-  '))
-  " / ") / "))
-  `
-  `)
-  `))
-  ```
-  
-|DB|Function (non-blind)|Function (blind)->string concatenation|Function (blind)->all function return an INTEGER NUMBER in the respective database while generate ERROR on all others|
-|---|---|---|---|
-|MySQL|@@version<br>@@global.version<br>version()|'Concat' 'enation'<br>CONCAT('Concat','enation')|CONNECTION_ID()<br>LAST_INSERT_ID()<br>ROW_COUNT()<br>...|
-|MS SQL| @@version|'some'+'enation'<br>CONCAT('Concat','enation')|@@PACK_RECEIVED<br>@@ROW_COUNT<br>@@TRANCOUNT<br>...|
-|Oracle|version FROM v$instance<br>banner FROM v$version WHERE banner LIKE 'oracle%'<br>banner FROM gv$version WHERE banner LIKE 'oracle%'|'Concat'\|\|'enation'<br>CONCAT('Concat','enation')|BITAND(0,1)<br>BIN_TO_NUMB(1)<br>TO_NUMBER(1231)<br>...|
-    
+```
+<spasi_kosong>
+'
+')
+'))
+" / ") / "))
+`
+`)
+`))
+```
+
 ## Writeups
 |Title|Description|
 |---|---|

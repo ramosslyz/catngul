@@ -1,7 +1,6 @@
 # SQL Injection
 
 ## Tips
-- Tidak semua payload biasa dijalankan di address-bar browser, kadang harus menggunakan burpsuite (repeater)
 - Blind SQL injection generate error 500
 - Pada injection login, coba test inject for username dahulu, kalau tidak bisa coba inject kedua username dan password
 - Kalau value parameter yang injection kan adalah string maka mengunnakan 1='1 atau '1'='1'

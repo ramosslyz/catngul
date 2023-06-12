@@ -12,6 +12,7 @@
 - Pada injection login, coba test inject for username dahulu, kalau tidak bisa coba inject kedua username dan password
 - Error tidak selalu menjadikan patokan bah itu celah sqli, kadang celah tersebut tidak menghasilkan error tetapi ketika kita union 'asd' malah terfeleksikan 'asd' di response body
 - Comment
+
 |Database|Comment|
 |---|---|
 |Oracle|`--comment`|

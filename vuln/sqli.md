@@ -10,7 +10,6 @@
 - Cari parameter yang menjadi penetu perubahan data pada response
 - Kalau value parameter yang injection kan adalah string maka mengunnakan 1='1 atau '1'='1'
 - Pada injection login, coba test inject for username dahulu, kalau tidak bisa coba inject kedua username dan password
-- Comment /*string*/ disebut juga obfusacator, pada MySQL 5.5.30 or higher, sintak berikut `SELECT 1 /*!50530 + 1*/` akan dieksekusi sebagai 2 bukan 1.
 - Error tidak selalu menjadikan patokan bah itu celah sqli, kadang celah tersebut tidak menghasilkan error tetapi ketika kita union 'asd' malah terfeleksikan 'asd' di response body
 
 ## langkah-langkah

@@ -1,17 +1,17 @@
 # SQL Injection
 
 ## Tips
-- Blind SQL injection generate error 500
-- Pada injection login, coba test inject for username dahulu, kalau tidak bisa coba inject kedua username dan password
-- Kalau value parameter yang injection kan adalah string maka mengunnakan 1='1 atau '1'='1'
 - Blind berbeda dengan OOB
-- Comment /*string*/ disebut juga obfusacator, pada MySQL 5.5.30 or higher, sintak berikut `SELECT 1 /*!50530 + 1*/` akan dieksekusi sebagai 2 bukan 1.
+- Blind SQL injection generate error 500
+- Cari parameter yang reflected ke response
 - OOB Channel -> DNS, email, Database connection
 - logical true, hanya bisa menggunakan untuk true saja.
-- union select 'asd' , bisa merefleksikan 'asd' pada HTTP response
-- Error tidak selalu menjadikan patokan bah itu celah sqli, kadang celah tersebut tidak menghasilkan error tetapi ketika kita union 'asd' malah terfeleksikan 'asd' di response body 
+- union select 'asd' , bisa merefleksikan 'asd' pada HTTP response 
 - Cari parameter yang menjadi penetu perubahan data pada response
-- Cara parameter yang reflected ke response
+- Kalau value parameter yang injection kan adalah string maka mengunnakan 1='1 atau '1'='1'
+- Pada injection login, coba test inject for username dahulu, kalau tidak bisa coba inject kedua username dan password
+- Comment /*string*/ disebut juga obfusacator, pada MySQL 5.5.30 or higher, sintak berikut `SELECT 1 /*!50530 + 1*/` akan dieksekusi sebagai 2 bukan 1.
+- Error tidak selalu menjadikan patokan bah itu celah sqli, kadang celah tersebut tidak menghasilkan error tetapi ketika kita union 'asd' malah terfeleksikan 'asd' di response body
 
 ## langkah-langkah
 1. Identifikasi DB apa yang digunakan, salah satu caranya adalah dengan generate error sehaingga server menampilka informasi teknologi. Walaupun server tidak mereturkan error, tapi server selau mereturn databse yang digunakan ketika kita menijectkan payload finding db version.

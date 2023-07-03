@@ -21,7 +21,6 @@
 - [RCE](https://github.com/acvn/b3lajar/blob/master/vuln/rce.md)
 - [Subdomain Takeover](https://github.com/acvn/b3lajar/blob/master/vuln/subdomaintakeover.md)
 - [SSRF](https://github.com/acvn/b3lajar/blob/master/vuln/ssrf.md)
-- [SQL Injection](https://github.com/acvn/catngul/blob/master/vuln/sqli.md)
 - [User-agent injection](https://github.com/acvn/catngul/blob/master/vuln/useragent.md)
 - [XXE](https://github.com/acvn/b3lajar/blob/master/vuln/xxe.md)
 - [XEE](https://github.com/acvn/b3lajar/blob/master/vuln/xee.md)
